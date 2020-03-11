@@ -14,14 +14,16 @@
   
   
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-
+ 
   <!-- Custom styles for this template-->
+  <link href="{{ asset('css/all.min.css') }}" rel="stylesheet">
   <link href="{{ asset('css/sb-admin-2.min.css') }}" rel="stylesheet">
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-  <link href="{{ asset('css/all.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('css/dataTables.boostrap4.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/override.css') }}" rel="stylesheet">
+  
+  <link href="{{ asset('css/dataTables.bootstrap4.min.css') }}" rel="stylesheet">
  
-
+  
 
 </head>
 
@@ -90,7 +92,7 @@
       </li>
       <!-- Nav Item - Subscription Item -->
       <li class="nav-item">
-        <a class="nav-link" href="{{ url('test') }}">
+        <a class="nav-link" href="{{ url('subscribers') }}">
           <i class="fas fa-fw fa-user-friends"></i>
           <span>Naročniki</span></a>
       </li>
@@ -316,6 +318,12 @@
   <!-- Custom scripts for all pages-->
 
   <script src="{{ asset('js/sb-admin-2.min.js') }}" defer></script>
+
+  <script src="{{ asset('js/jquery.dataTables.min.js') }}" defer></script>
+  <script src="{{ asset('js/dataTables.bootstrap4.min.js') }}" defer></script>
+  <script src="{{ asset('js/datatables-demo.js') }}" defer></script>
+
+  
 
 </body>
 

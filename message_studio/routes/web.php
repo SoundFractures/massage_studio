@@ -24,4 +24,4 @@ Auth::routes([
   ]);
 
 Route::get('/', 'RouteController@home');
-Route::get('/test', 'RouteController@test');
+Route::get('/subscribers', 'RouteController@subscribers');

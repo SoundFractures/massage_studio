@@ -16,9 +16,9 @@ class RouteController extends Controller
         return view('ControlPanel.index');
     }
 
-    public function test()
+    public function subscribers()
     {
-        return view('ControlPanel.Views.test');
+        return view('ControlPanel.Views.subscribers');
     }
     
 }
