@@ -28,6 +28,11 @@ class DatabaseSeeder extends Seeder
         factory(App\Question::class,10)->create();
         factory(App\Subscription::class,10)->create();
 
+        DB::table('users')->insert([
+            'name' => 'Admin',
+            'email' => 'Admin@gmail.com',
+            'password' => bcrypt('admin123'),
+        ]);
 
     }
 }
