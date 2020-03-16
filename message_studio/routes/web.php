@@ -25,3 +25,4 @@ Auth::routes([
 
 Route::get('/', 'RouteController@home');
 Route::get('/subscribers', 'RouteController@subscribers');
+//test commmit for new pc
