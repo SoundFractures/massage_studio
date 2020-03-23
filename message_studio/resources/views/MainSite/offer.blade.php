@@ -73,8 +73,8 @@
                                 <li><a href="{{ route('RouteController.about')}}">O meni</a></li>
                                
 							   
-							    <li class="has-dropdown">
-                                    <a class="active" href="{{ route('RouteController.offer')}}">Ponudba</a>
+							    <li class="has-dropdown active">
+                                    <a href="{{ route('RouteController.offer')}}">Ponudba</a>
                                     <ul class="dropdown">
                                         <li><a href="#">Klasična masaža</a></li>
                                         <li><a href="#">Športna masaža</a></li>
