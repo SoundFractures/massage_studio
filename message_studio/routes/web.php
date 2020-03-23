@@ -28,7 +28,11 @@ Auth::routes([
 Route::get("/", function(){
   return View::make("MainSite.index");
 });
-Route::get('/omeni', 'RouteController@omeni')->name('RouteController.omeni');;
+
+Route::get("/omeni", function(){
+  return View::make("MainSite.omeni");
+});
+//Route::get('/omeni', 'RouteController@omeni')->name('RouteController.omeni');;
 Route::get('/ponudba', 'RouteController@ponudba')->name('RouteController.ponudba');
 Route::get('/cenik', 'RouteController@cenik')->name('RouteController.cenik');
 Route::get('/galerija', 'RouteController@galerija')->name('RouteController.galerija');

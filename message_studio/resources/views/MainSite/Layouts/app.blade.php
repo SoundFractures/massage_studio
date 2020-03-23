@@ -71,7 +71,7 @@
 				<div class="col-xs-10 menu-1 text-right">
 					<ul>
 						<li id=""><a href="{{URL::to('/')}}">Domov</a></li>
-						<li id="omeni"><a href="{{ route('RouteController.omeni')}}">O meni</a></li>
+						<li id="omeni"><a href="{{URL::to('/omeni')}}">O meni</a></li>
 						<li id="ponudba" class="has-dropdown">
 							<a href="{{ route('RouteController.ponudba')}}">Ponudba</a>
 							<ul class="dropdown">
