@@ -10,27 +10,27 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
-    <script type="text/javascript" src="{{ asset('js/app.js') }}" defer></script>
+    <script type="text/javascript" src="js/app.js" defer></script>
 
     <!-- jQuery -->
     <script src="js/jquery.min.js"></script>
     
     <!-- jQuery Easing -->
-    <script type="text/javascript" src="{{ asset('js/jquery.easing.1.3.js') }}"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
     
     <!-- Bootstrap -->
     <!--<script src="js/bootstrap.min.js"></script>-->
     
     <!-- Waypoints -->
-    <script type="text/javascript" src="{{ asset('js/jquery.waypoints.min.js') }}"></script>
+    <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
 	
 	<!-- Main -->
-    <script type="text/javascript" src="{{ asset('js/main.js') }}"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 
 
 
     <!-- Modernizr JS -->
-    <script src="{{ asset('js/modernizr-2.6.2.min.js') }}" defer></script>
+    <script src="js/modernizr-2.6.2.min.js" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -41,14 +41,14 @@
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="{{ asset('css/animate.css') }}">
+	<link rel="stylesheet" href="css/animate.css">
     
     <!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="{{ asset('css/icomoon.css') }}">
+	<link rel="stylesheet" href="css/icomoon.css">
 
 	
 	<!-- FOR IE9 below -->
@@ -56,7 +56,7 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-    @yield('additional')
+ 
 </head>
 <body>
 
@@ -156,36 +156,31 @@
         @yield('content')
     
 
-    
-    <footer id="fh5co-footer" role="contentinfo">
-        <div class="container">
-            <div class="row row-pb-md">              
-                <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-1">
-                    <h3>Delovni čas</h3>
-                    <p>Po dogovoru</p>
+            
+            <footer id="fh5co-footer" role="contentinfo">
+                <div class="container">
+                    <div class="row row-pb-md">              
+                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-1">
+                            <h3>Delovni čas</h3>
+                            <p>Po dogovoru</p>
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-2">
+                            <h3>Kontakt</h3>
+                            <p>Bistriška cesta 60a <br> 2319 Poljčane <br> 040 853 650 <br> pallasmasaznisalon@gmail.com</p>
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
+                            <h3>Novo v blogu</h3>
+                            <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+                            <p><a href="#">Več objav</a></p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-2">
-                    <h3>Kontakt</h3>
-                    <p>Bistriška cesta 60a <br> 2319 Poljčane <br> 040 853 650 <br> pallasmasaznisalon@gmail.com</p>
-                </div>
-                <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
-                    <h3>Novo v blogu</h3>
-                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-                    <p><a href="#">Več objav</a></p>
-                </div>
-            </div>
+            </footer>
+
+
+
         </div>
-    </footer>
-
-
-    <script>
-        var path = window.location.pathname.substring(1);
-        var element = document.getElementById(path);
-        element.classList.add("active");
-    </script>
-    
-</div>
-</body>
+    </body>
 </html>
 
 
