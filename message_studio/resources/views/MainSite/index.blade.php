@@ -42,8 +42,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="{{ asset('css/animate.css') }}">
@@ -124,7 +124,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-                            <a href="#"><img src="{{ asset('images/work-1.jpg') }}" alt="" class="img-responsive">
+                            <a href="#"><img src="images/work-1.jpg" alt="" class="img-responsive">
                                 <h3>Pallas</h3>
                                 <span>Notranjost</span>
                             </a>
