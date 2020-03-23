@@ -13,24 +13,24 @@ class RouteController extends Controller
         return view('MainSite.index');
     }
 
-    public function omeni()
+    public function about()
     {
-        return view('MainSite.omeni');
+        return view('MainSite.about');
     }
 
-    public function ponudba()
+    public function offer()
     {
-        return view('MainSite.ponudba');
+        return view('MainSite.offer');
     }
 
-    public function cenik()
+    public function pricelist()
     {
-        return view('MainSite.cenik');
+        return view('MainSite.pricelist');
     }
 
-    public function galerija()
+    public function gallery()
     {
-        return view('MainSite.galerija');
+        return view('MainSite.gallery');
     }
 
     public function blog()
@@ -38,9 +38,9 @@ class RouteController extends Controller
         return view('MainSite.blog');
     }
     
-    public function povprasevanje()
+    public function contact()
     {
-        return view('MainSite.povprasevanje');
+        return view('MainSite.contact');
     }
 
     

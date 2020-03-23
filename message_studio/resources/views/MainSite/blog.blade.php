@@ -68,10 +68,10 @@
                         </div>
                         <div class="col-xs-10 menu-1 text-right">
                             <ul>
-                                <li id=""><a href="{{URL::to('/')}}">Domov</a></li>
-                                <li id="omeni"><a href="{{URL::to('/omeni')}}">O meni</a></li>
-                                <li id="ponudba" class="has-dropdown">
-                                    <a href="{{ route('RouteController.ponudba')}}">Ponudba</a>
+                                <li><a href="{{ route('RouteController.home')}}">Domov</a></li>
+                                <li><a href="{{ route('RouteController.about')}}">O meni</a></li>
+                                <li class="has-dropdown">
+                                    <a href="{{ route('RouteController.offer')}}">Ponudba</a>
                                     <ul class="dropdown">
                                         <li><a href="#">Klasična masaža</a></li>
                                         <li><a href="#">Športna masaža</a></li>
@@ -81,10 +81,10 @@
                                     </ul>
                                 </li>
                             
-                                <li id="cenik"><a href="{{ route('RouteController.cenik')}}">Cenik</a></li>
-                                <li id="galerija"><a href="{{ route('RouteController.galerija')}}">Galerija</a></li>
-                                <li id="blog"><a href="{{ route('RouteController.blog')}}">Blog</a></li>
-                                <li id="povprasevanje"><a href="{{ route('RouteController.povprasevanje')}}">Povpraševanje</a></li>
+                                <li><a href="{{ route('RouteController.pricelist')}}">Cenik</a></li>
+                                <li><a href="{{ route('RouteController.gallery')}}">Galerija</a></li>
+                                <li  class="active"><a href="{{ route('RouteController.blog')}}">Blog</a></li>
+                                <li><a href="{{ route('RouteController.contact')}}">Kontakt</a></li>
                             </ul>
                         </div>
                     </div>
