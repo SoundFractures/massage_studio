@@ -1,23 +1,25 @@
 
     @extends('MainSite.layouts.app')
  
-
+        
+	
+    
         @section('cover')
         <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/headerpic.jpg);">
             <div class="overlay">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-10 col-md-offset-1 text-center">
-                        <div class="display-t">
-                            <div class="display-tc animate-box" data-animate-effect="fadeIn">
-                                <h1>Dobrodošli v Pallas</h1>
-                                <h2>Masažni salon, kjer lahko napolnite svoje moči.</h2>
-                                
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1 text-center">
+                            <div class="display-t">
+                                <div class="display-tc animate-box" data-animate-effect="fadeIn">
+                                    <h1>Dobrodošli v Pallas</h1>
+                                    <h2>Masažni salon, kjer lahko napolnite svoje moči.</h2>
+                                    
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
         </header>
         @endsection
@@ -70,7 +72,7 @@
                                 <div class="blog-text">
                                     <h3><a href=""#>45 Minimal Workspace Rooms for Web Savvys</a></h3>
                                     <span class="posted_on">Nov. 15th</span>
-                                    <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
+                                 
                                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                                     <a href="#" class="btn btn-primary">Read More</a>
                                 </div> 
@@ -82,7 +84,7 @@
                                 <div class="blog-text">
                                     <h3><a href=""#>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
                                     <span class="posted_on">Nov. 15th</span>
-                                    <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
+                   
                                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                                     <a href="#" class="btn btn-primary">Read More</a>
                                 </div> 
@@ -94,7 +96,7 @@
                                 <div class="blog-text">
                                     <h3><a href=""#>45 Minimal Workspace Rooms for Web Savvys</a></h3>
                                     <span class="posted_on">Nov. 15th</span>
-                                    <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
+                                    
                                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                                     <a href="#" class="btn btn-primary">Read More</a>
                                 </div> 

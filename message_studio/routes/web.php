@@ -23,6 +23,7 @@ Auth::routes([
     'verify' => false, // Email Verification Routes...
   ]);
 
+  
 Route::get('/', 'RouteController@home')->name('RouteController.home');
 Route::get('/omeni', 'RouteController@omeni')->name('RouteController.omeni');
 Route::get('/ponudba', 'RouteController@ponudba')->name('RouteController.ponudba');

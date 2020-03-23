@@ -1,6 +1,11 @@
 
-    @extends('MainSite.layouts.app')
+	@extends('MainSite.layouts.app')
  
+
+	@section('additional')
+	<script type="text/javascript" src="{{ asset('js/maps.js') }}"></script>
+    
+	@endsection
 
  @section('cover')
  <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/headerpic.jpg);">
@@ -38,7 +43,8 @@
 							<li class="email"><a href="mailto:info@yoursite.com">pallasmasaznisalon@gmail.com</a></li>
 						</ul>
 					</div>
-
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d688.9560167473284!2d15.577807788135557!3d46.313331425008684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476586b105f64299%3A0x67692620d44dea98!2sBistri%C5%A1ka%20cesta%2060%2C%202319%20Polj%C4%8Dane!5e0!3m2!1ssl!2ssi!4v1584984988712!5m2!1ssl!2ssi" width="450" height="320" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  
 				</div>
 				<div class="col-md-6 animate-box">
 					<h3>Povpraševanje</h3>
@@ -86,3 +92,5 @@
 	</div>
 
  @endsection
+
+ 

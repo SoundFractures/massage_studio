@@ -27,6 +27,8 @@
 	<!-- Main -->
     <script type="text/javascript" src="{{ asset('js/main.js') }}"></script>
 
+
+
     <!-- Modernizr JS -->
     <script src="{{ asset('js/modernizr-2.6.2.min.js') }}" defer></script>
 
@@ -53,20 +55,24 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+
+    @yield('additional')
 </head>
 <body>
 
-	<nav class="fh5co-nav" role="navigation">
+    <div id="page">
+
+    <nav class="fh5co-nav" role="navigation">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-2">
 					<div id="fh5co-logo"><a href="index.html">Pallas</a></div>
 				</div>
-				<div class="col-xs-10 text-right menu-1">
+				<div class="col-xs-10 menu-1 text-right">
 					<ul>
-						<li class="active"><a href="{{ route('RouteController.home')}}">Domov</a></li>
-						<li><a href="{{ route('RouteController.omeni')}}">O meni</a></li>
-						<li class="has-dropdown">
+						<li id=""><a href="{{ route('RouteController.home')}}">Domov</a></li>
+						<li id="omeni"><a href="{{ route('RouteController.omeni')}}">O meni</a></li>
+						<li id="ponudba" class="has-dropdown">
 							<a href="{{ route('RouteController.ponudba')}}">Ponudba</a>
 							<ul class="dropdown">
 								<li><a href="#">Klasična masaža</a></li>
@@ -77,15 +83,17 @@
 							</ul>
 						</li>
 					
-						<li><a href="{{ route('RouteController.cenik')}}">Cenik</a></li>
-						<li><a href="{{ route('RouteController.galerija')}}">Galerija</a></li>
-						<li><a href="{{ route('RouteController.blog')}}">Blog</a></li>
-						<li><a href="{{ route('RouteController.povprasevanje')}}">Povpraševanje</a></li>
+						<li id="cenik"><a href="{{ route('RouteController.cenik')}}">Cenik</a></li>
+						<li id="galerija"><a href="{{ route('RouteController.galerija')}}">Galerija</a></li>
+						<li id="blog"><a href="{{ route('RouteController.blog')}}">Blog</a></li>
+						<li id="povprasevanje"><a href="{{ route('RouteController.povprasevanje')}}">Povpraševanje</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</nav>
+
+        
 
     @yield('cover')
 	
@@ -150,28 +158,34 @@
 
     
     <footer id="fh5co-footer" role="contentinfo">
-                <div class="container">
-                    <div class="row row-pb-md">
-                                
-                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-1">
-                            <h3>Delovni čas</h3>
-                            <p>Po dogovoru</p>
-                        </div>
-                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-2">
-                            <h3>Kontakt</h3>
-                            <p>Bistriška cesta 60a <br> 2319 Poljčane <br> 040 853 650 <br> pallasmasaznisalon@gmail.com</p>
-                        </div>
-                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
-                            <h3>Novo v blogu</h3>
-                            <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-                            <p><a href="#">Več objav</a></p>
-                        </div>
-                    </div>
-
-
+        <div class="container">
+            <div class="row row-pb-md">              
+                <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-1">
+                    <h3>Delovni čas</h3>
+                    <p>Po dogovoru</p>
                 </div>
-            </footer>
-        
-  
+                <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-2">
+                    <h3>Kontakt</h3>
+                    <p>Bistriška cesta 60a <br> 2319 Poljčane <br> 040 853 650 <br> pallasmasaznisalon@gmail.com</p>
+                </div>
+                <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
+                    <h3>Novo v blogu</h3>
+                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+                    <p><a href="#">Več objav</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        var path = window.location.pathname.substring(1);
+        var element = document.getElementById(path);
+        element.classList.add("active");
+    </script>
+    
+</div>
 </body>
 </html>
+
+
