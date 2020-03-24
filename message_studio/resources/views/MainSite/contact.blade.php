@@ -119,9 +119,9 @@
 							<div class="fh5co-contact-info">
 								<h3>Kontakt</h3>
 								<ul>
-									<li><img class="img-icon" src="images/icons/location.png" alt="">Bistriška cesta 60a, 2319 Poljčane</li>
-									<li><img class="img-icon" src="images/icons/phone.png" alt="telefon">040 853 650 </li>
-									<li><img class="img-icon" src="images/icons/mail.png" alt="e-naslov">pallasmasaznisalon@gmail.com</li>
+									<li><img class="img-icon" src="images/icons/resized_location.png" alt="">Bistriška cesta 60a, 2319 Poljčane</li>
+									<li><img class="img-icon" src="images/icons/resized_phone.png" alt="telefon">040 853 650 </li>
+									<li><img class="img-icon" src="images/icons/resized_mail.png" alt="e-naslov">pallasmasaznisalon@gmail.com</li>
 								</ul>
 							</div>
 							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d688.9560167473284!2d15.577807788135557!3d46.313331425008684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476586b105f64299%3A0x67692620d44dea98!2sBistri%C5%A1ka%20cesta%2060%2C%202319%20Polj%C4%8Dane!5e0!3m2!1ssl!2ssi!4v1584984988712!5m2!1ssl!2ssi" width="450" height="320" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
@@ -177,7 +177,7 @@
                     <div class="row row-pb-md">              
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-1">
                             <div class="col-xs-2 logo">
-                                <a href="{{ route('RouteController.home')}}"><img class="img-responsive-footer" src="images/logo_beli.png" alt=""></a>
+                                <a href="{{ route('RouteController.home')}}"><img class="img-responsive-footer" src="images/resized_logo_beli.png" alt=""></a>
                             </div>
                             <h3 class="footer-text">Delovni čas</h3>
                             <p>Po dogovoru</p>

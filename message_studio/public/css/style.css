@@ -68,10 +68,7 @@
     max-height:100%;
   }
 
-  .img-responsive-footer{
-    max-width:60%;
-    max-height:60%;
-  }
+
 
   .about {
     margin-left: 70px;
@@ -1624,7 +1621,5 @@
   }
 
   .img-icon{
-    max-width: 5%;
-    max-height: 5%;
     margin-right: 10px;
   }
