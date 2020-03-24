@@ -26,7 +26,7 @@
 		
 		<!-- Main -->
 		<script type="text/javascript" src="js/main.js"></script>
-
+		<script type="text/javascript" src="js/pricelist.js"></script>
 
 
 		<!-- Modernizr JS -->
@@ -63,10 +63,10 @@
 		<div id="page">
 			<nav class="fh5co-nav" role="navigation">
 				<div class="container">
-					<div class="row">
-						<div class="col-xs-2">
-							<div id="fh5co-logo"><a href="index.html">Pallas</a></div>
-						</div>
+					<div class="row navbar">
+						<div class="col-xs-2 logo">
+                            <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="images/logo_pisava.png" alt=""></a>
+                        </div>
 						<div class="col-xs-10 menu-1 text-right">
 							<ul>
 								<li><a href="{{ route('RouteController.home')}}">Domov</a></li>
@@ -93,7 +93,7 @@
 			</nav>
 
 			
-			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/headerpic.jpg);">
+			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/blog2.jpg);">
 				<div class="overlay">
 					<div class="container">
 						<div class="row">
@@ -110,88 +110,79 @@
 			</header>
 
 
-			<div id="fh5co-project">
-				<div class="container">
+	
+			<div class="container">
 					<div class="row">
-						<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-							<a href="#"><img src="images/work-1.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-								<h3>Sea</h3>
-								<span>Web Design</span>
-							</a>
+			
+						<div class="col-1">
+			
 						</div>
-						<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-							<a href="#"><img src="images/work-2.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-								<h3>Nature</h3>
-								<span>Application</span>
-							</a>
+						<div class="col-10 pricelist ">
+
+					
+						
+							<div class="offer">
+								<h2>Klasična masaža</h2>
+								<p class="price">Delna (hrbet, noge, roke), 30 min  .............................................................................................................................................. 15€</p>
+								<p class="price">Celo telo, 60 min  ........................................................................................................................................................................ 30€</p>
+							</div>
+
+							
+							<div class="offer">
+								<h2>Športna masaža</h2>
+								<p class="price">Delna (hrbet, noge, roke), 30 min  .............................................................................................................................................. 20€</p>
+								<p class="price">Celo telo, 60 min  ........................................................................................................................................................................ 35€</p>
+							</div>
 						</div>
-						<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-							<a href="#"><img src="images/work-3.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-								<h3>Green Island</h3>
-								<span>Branding</span>
-							</a>
-						</div>
-						<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-							<a href="#"><img src="images/work-4.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-								<h3>Workspace</h3>
-								<span>Web Design</span>
-							</a>
-						</div>
-						<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-							<a href="#"><img src="images/work-5.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-								<h3>Nature</h3>
-								<span>Application</span>
-							</a>
-						</div>
-						<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-							<a href="#"><img src="images/work-6.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-								<h3>Green Island</h3>
-								<span>Branding</span>
-							</a>
-						</div>
-						<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-							<a href="#"><img src="images/work-1.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-								<h3>Sea</h3>
-								<span>Web Design</span>
-							</a>
-						</div>
-						<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-							<a href="#"><img src="images/work-2.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-								<h3>Nature</h3>
-								<span>Application</span>
-							</a>
-						</div>
-						<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-							<a href="#"><img src="images/work-3.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-								<h3>Green Island</h3>
-								<span>Branding</span>
-							</a>
+						<div class="col-1">
+					
 						</div>
 					</div>
-				</div>
 			</div>
+	
 
 
 		
-			<footer id="fh5co-footer" role="contentinfo">
-				<div class="container">
-					<div class="row row-pb-md">              
-						<div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-1">
-							<h3>Delovni čas</h3>
-							<p>Po dogovoru</p>
-						</div>
-						<div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-2">
-							<h3>Kontakt</h3>
-							<p>Bistriška cesta 60a <br> 2319 Poljčane <br> 040 853 650 <br> pallasmasaznisalon@gmail.com</p>
-						</div>
-						<div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
-							<h3>Novo v blogu</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-							<p><a href="#">Več objav</a></p>
-						</div>
-					</div>
-				</div>
-			</footer>
+			
+            <footer id="fh5co-footer" role="contentinfo">
+                <div class="container">
+                    <div class="row row-pb-md">              
+                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-1">
+                            <div class="col-xs-2 logo">
+                                <a href="{{ route('RouteController.home')}}"><img class="img-responsive-footer" src="images/logo_beli.png" alt=""></a>
+                            </div>
+                            <h3 class="footer-text">Delovni čas</h3>
+                            <p>Po dogovoru</p>
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-2">
+                            <h3>Kontakt</h3>
+                            <p>Bistriška cesta 60a <br> 2319 Poljčane <br> 040 853 650 <br> pallasmasaznisalon@gmail.com</p>
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
+                            <h3>Zadnje v blogu</h3>
+                       
+                       
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
+                        <h3>Naročite se na E-novice</h3>
+                        
+								<div class="row form-group">
+									<div class="col-md-12">
+										<!-- <label for="email">Email*</label> -->
+										<input type="text" id="email" class="form-control mail-footer" placeholder="E-naslov*">
+									</div>
+								</div>
+                                <div class="form-group">
+									<input type="submit" value="Naroči se" class="btn btn-primary submit-footer">
+								</div>
+                    
+                        </div>
+                    </div>
+                    <hr class="hr-footer">
+                    
+                </div>
+               
+            </footer>
 
 
 

@@ -62,9 +62,9 @@
 
             <nav class="fh5co-nav" role="navigation">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-xs-2">
-                            <div id="fh5co-logo"><a href="index.html">Pallas</a></div>
+                    <div class="row navbar">
+                        <div class="col-xs-2 logo">
+                            <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="images/logo_pisava.png" alt=""></a>
                         </div>
                         <div class="col-xs-10 menu-1 text-right">
                             <ul>
@@ -91,29 +91,113 @@
                 </div>
             </nav>
     
-            
-            <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/headerpic.jpg);">
-                <div class="overlay">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-10 col-md-offset-1 text-center">
-                            <div class="display-t">
-                                <div class="display-tc animate-box" data-animate-effect="fadeIn">
-                                    <h1>Galerija</h1>
+        
+            <div class="gallery">
+                
+                    <!--
+                    <span class="left"><</span>
+                    <span class="right">></span>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-10 col-md-offset-1 text-center">
+                                    <div class="display-t">
+                                        <div class="display-tc animate-box" data-animate-effect="fadeIn">
+                                         
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                </div>
-            </header>
+                    -->
+                    <ul class="slides">
+                        <input type="radio" name="radio-btn" id="img-1" checked />
+                        <li class="slide-container">
+                            <div class="slide">
+                                <img src="images/blog1.jpg" />
+                            </div>
+                            <div class="nav">
+                                <label for="img-6" class="prev">&#x2039;</label>
+                                <label for="img-2" class="next">&#x203a;</label>
+                            </div>
+                        </li>
+
+                        <input type="radio" name="radio-btn" id="img-2" />
+                        <li class="slide-container">
+                            <div class="slide">
+                            <img src="images/blog2.jpg" />
+                            </div>
+                            <div class="nav">
+                                <label for="img-1" class="prev">&#x2039;</label>
+                                <label for="img-3" class="next">&#x203a;</label>
+                            </div>
+                        </li>
+
+                        <input type="radio" name="radio-btn" id="img-3" />
+                        <li class="slide-container">
+                            <div class="slide">
+                            <img src="images/blog3.jpg" />
+                            </div>
+                            <div class="nav">
+                                <label for="img-2" class="prev">&#x2039;</label>
+                                <label for="img-4" class="next">&#x203a;</label>
+                            </div>
+                        </li>
+
+                        <input type="radio" name="radio-btn" id="img-4" />
+                        <li class="slide-container">
+                            <div class="slide">
+                            <img src="images/blog4.jpg" />
+                            </div>
+                            <div class="nav">
+                                <label for="img-3" class="prev">&#x2039;</label>
+                                <label for="img-5" class="next">&#x203a;</label>
+                            </div>
+                        </li>
+
+                        <input type="radio" name="radio-btn" id="img-5" />
+                        <li class="slide-container">
+                            <div class="slide">
+                            <img src="images/blog5.jpg" />
+                            </div>
+                            <div class="nav">
+                                <label for="img-4" class="prev">&#x2039;</label>
+                                <label for="img-6" class="next">&#x203a;</label>
+                            </div>
+                        </li>
+
+                        <input type="radio" name="radio-btn" id="img-6" />
+                        <li class="slide-container">
+                            <div class="slide">
+                            <img src="images/blog6.jpg" />
+                            </div>
+                            <div class="nav">
+                                <label for="img-5" class="prev">&#x2039;</label>
+                                <label for="img-1" class="next">&#x203a;</label>
+                            </div>
+                        </li>
+
+                        <li class="nav-dots">
+                        <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                        <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                        <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                        <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+                        <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+                        <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+                        </li>
+                    </ul>
+             
+            </div>
 
         
+
             <footer id="fh5co-footer" role="contentinfo">
                 <div class="container">
                     <div class="row row-pb-md">              
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-1">
-                            <h3>Delovni čas</h3>
+                            <div class="col-xs-2 logo">
+                                <a href="{{ route('RouteController.home')}}"><img class="img-responsive-footer" src="images/logo_beli.png" alt=""></a>
+                            </div>
+                            <h3 class="footer-text">Delovni čas</h3>
                             <p>Po dogovoru</p>
                         </div>
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-2">
@@ -121,12 +205,29 @@
                             <p>Bistriška cesta 60a <br> 2319 Poljčane <br> 040 853 650 <br> pallasmasaznisalon@gmail.com</p>
                         </div>
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
-                            <h3>Novo v blogu</h3>
-                            <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-                            <p><a href="#">Več objav</a></p>
+                            <h3>Zadnje v blogu</h3>
+                       
+                       
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
+                        <h3>Naročite se na E-novice</h3>
+                        
+								<div class="row form-group">
+									<div class="col-md-12">
+										<!-- <label for="email">Email*</label> -->
+										<input type="text" id="email" class="form-control mail-footer" placeholder="E-naslov*">
+									</div>
+								</div>
+                                <div class="form-group">
+									<input type="submit" value="Naroči se" class="btn btn-primary submit-footer">
+								</div>
+                    
                         </div>
                     </div>
+                    <hr class="hr-footer">
+                    
                 </div>
+               
             </footer>
         
         </div>

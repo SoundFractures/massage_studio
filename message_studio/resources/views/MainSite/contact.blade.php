@@ -62,9 +62,9 @@
 
             <nav class="fh5co-nav" role="navigation">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-xs-2">
-                            <div id="fh5co-logo"><a href="index.html">Pallas</a></div>
+                    <div class="row navbar">
+						<div class="col-xs-2 logo">
+                            <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="images/logo_pisava.png" alt=""></a>
                         </div>
                         <div class="col-xs-10 menu-1 text-right">
                             <ul>
@@ -92,7 +92,7 @@
             </nav>
 
 						
-			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/headerpic.jpg);">
+			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/kontakt1.jpg);">
 				<div class="overlay">
 				<div class="container">
 					<div class="row">
@@ -119,9 +119,9 @@
 							<div class="fh5co-contact-info">
 								<h3>Kontakt</h3>
 								<ul>
-									<li class="address">Bistriška cesta 60a <br> 2319 Poljčane</li>
-									<li class="phone"><a href="tel://1234567920">040 853 650 </a></li>
-									<li class="email"><a href="mailto:info@yoursite.com">pallasmasaznisalon@gmail.com</a></li>
+									<li><img class="img-icon" src="images/icons/location.png" alt="">Bistriška cesta 60a, 2319 Poljčane</li>
+									<li><img class="img-icon" src="images/icons/phone.png" alt="telefon">040 853 650 </li>
+									<li><img class="img-icon" src="images/icons/mail.png" alt="e-naslov">pallasmasaznisalon@gmail.com</li>
 								</ul>
 							</div>
 							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d688.9560167473284!2d15.577807788135557!3d46.313331425008684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476586b105f64299%3A0x67692620d44dea98!2sBistri%C5%A1ka%20cesta%2060%2C%202319%20Polj%C4%8Dane!5e0!3m2!1ssl!2ssi!4v1584984988712!5m2!1ssl!2ssi" width="450" height="320" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
@@ -172,25 +172,45 @@
 				</div>
 			</div>
 
-			<footer id="fh5co-footer" role="contentinfo">
-				<div class="container">
-					<div class="row row-pb-md">              
-						<div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-1">
-							<h3>Delovni čas</h3>
-							<p>Po dogovoru</p>
-						</div>
-						<div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-2">
-							<h3>Kontakt</h3>
-							<p>Bistriška cesta 60a <br> 2319 Poljčane <br> 040 853 650 <br> pallasmasaznisalon@gmail.com</p>
-						</div>
-						<div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
-							<h3>Novo v blogu</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-							<p><a href="#">Več objav</a></p>
-						</div>
-					</div>
-				</div>
-   			</footer>
+            <footer id="fh5co-footer" role="contentinfo">
+                <div class="container">
+                    <div class="row row-pb-md">              
+                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-1">
+                            <div class="col-xs-2 logo">
+                                <a href="{{ route('RouteController.home')}}"><img class="img-responsive-footer" src="images/logo_beli.png" alt=""></a>
+                            </div>
+                            <h3 class="footer-text">Delovni čas</h3>
+                            <p>Po dogovoru</p>
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-2">
+                            <h3>Kontakt</h3>
+                            <p>Bistriška cesta 60a <br> 2319 Poljčane <br> 040 853 650 <br> pallasmasaznisalon@gmail.com</p>
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
+                            <h3>Zadnje v blogu</h3>
+                       
+                       
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
+                        <h3>Naročite se na E-novice</h3>
+                        
+								<div class="row form-group">
+									<div class="col-md-12">
+										<!-- <label for="email">Email*</label> -->
+										<input type="text" id="email" class="form-control mail-footer" placeholder="E-naslov*">
+									</div>
+								</div>
+                                <div class="form-group">
+									<input type="submit" value="Naroči se" class="btn btn-primary submit-footer">
+								</div>
+                    
+                        </div>
+                    </div>
+                    <hr class="hr-footer">
+                    
+                </div>
+               
+            </footer>
 
 
 

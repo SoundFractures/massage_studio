@@ -63,9 +63,9 @@
 
             <nav class="fh5co-nav" role="navigation">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-xs-2">
-                            <div id="fh5co-logo"><a href="index.html">Pallas</a></div>
+                    <div class="row navbar">
+                        <div class="col-xs-2 logo">
+                            <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="images/logo_pisava.png" alt=""></a>
                         </div>
                         <div class="col-xs-10 menu-1 text-right">
                             <ul>
@@ -100,9 +100,7 @@
                             <div class="col-md-10 col-md-offset-1 text-center">
                                 <div class="display-t">
                                     <div class="display-tc animate-box" data-animate-effect="fadeIn">
-                                        <h1>Dobrodošli v Pallas</h1>
-                                        <h2>Masažni salon, kjer lahko napolnite svoje moči.</h2>
-                                        
+                                        <h1>Dobrodošli v Pallas</h1>                                     
                                     </div>
                                 </div>
                             </div>
@@ -117,7 +115,7 @@
                     <div class="row animate-box">
                         <div class="col-md-8 col-md-offset-4 text-center fh5co-heading">
                             <h2>Masažni salon Pallas</h2>
-                            <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+                            <p>Salon Pallas se lahko pohvali z odličnimi terapevtskimi masažami, s katerimi izboljša oziroma olajša stanje Vašega psihofizičnega zdravja in Vam tako omogoči kvalitetnejše in polnejše življenje.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -197,7 +195,10 @@
                 <div class="container">
                     <div class="row row-pb-md">              
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-1">
-                            <h3>Delovni čas</h3>
+                            <div class="col-xs-2 logo">
+                                <a href="{{ route('RouteController.home')}}"><img class="img-responsive-footer" src="images/logo_beli.png" alt=""></a>
+                            </div>
+                            <h3 class="footer-text">Delovni čas</h3>
                             <p>Po dogovoru</p>
                         </div>
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-2">
@@ -205,12 +206,29 @@
                             <p>Bistriška cesta 60a <br> 2319 Poljčane <br> 040 853 650 <br> pallasmasaznisalon@gmail.com</p>
                         </div>
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
-                            <h3>Novo v blogu</h3>
-                            <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-                            <p><a href="#">Več objav</a></p>
+                            <h3>Zadnje v blogu</h3>
+                       
+                       
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
+                        <h3>Naročite se na E-novice</h3>
+                        
+								<div class="row form-group">
+									<div class="col-md-12">
+										<!-- <label for="email">Email*</label> -->
+										<input type="text" id="email" class="form-control mail-footer" placeholder="E-naslov*">
+									</div>
+								</div>
+                                <div class="form-group">
+									<input type="submit" value="Naroči se" class="btn btn-primary submit-footer">
+								</div>
+                    
                         </div>
                     </div>
+                    <hr class="hr-footer">
+                    
                 </div>
+               
             </footer>
         
         </div>
