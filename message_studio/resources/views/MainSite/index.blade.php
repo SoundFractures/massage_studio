@@ -93,7 +93,7 @@
             </nav>
         
         
-            <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/headerpic.jpg);">
+            <header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/resized_headerpic.jpg);">
                 <div class="overlay">
                     <div class="container">
                         <div class="row">

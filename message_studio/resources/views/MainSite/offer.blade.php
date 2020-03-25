@@ -94,7 +94,7 @@
 				</div>
 			</nav>
 		
-			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/klasicna2.jpg);">
+			<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/klasicna2.jpg);">
 				<div class="overlay">
 					<div class="container">
 						<div class="row">
@@ -112,68 +112,79 @@
 				</div>
 			</header>
 		
-
-			<div id="fh5co-services" class="fh5co-bg-section">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-4 col-sm-4">
-							<div class="feature-center animate-box" data-animate-effect="fadeIn">
-								<span class="icon">
-									<i class="icon-eye"></i>
-								</span>
-								<h3>Retina Ready</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<div class="feature-center animate-box" data-animate-effect="fadeIn">
-								<span class="icon">
-									<i class="icon-command"></i>
-								</span>
-								<h3>Fully Responsive</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<div class="feature-center animate-box" data-animate-effect="fadeIn">
-								<span class="icon">
-									<i class="icon-mouse"></i>
-								</span>
-								<h3>Web Starter</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<div class="feature-center animate-box" data-animate-effect="fadeIn">
-								<span class="icon">
-									<i class="icon-publish"></i>
-								</span>
-								<h3>Retina Ready</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<div class="feature-center animate-box" data-animate-effect="fadeIn">
-								<span class="icon">
-									<i class="icon-shield"></i>
-								</span>
-								<h3>Fully Responsive</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<div class="feature-center animate-box" data-animate-effect="fadeIn">
-								<span class="icon">
-									<i class="icon-suitcase"></i>
-								</span>
-								<h3>Web Starter</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-							</div>
-						</div>
-					</div>
-				</div>
+		
+            <div id="fh5co-project">
+                <div class="container">
+                    <div class="row animate-box">
+                        <div class="col-md-8 col-md-offset-4 text-center fh5co-heading-offer">
+                            <h2>Masažni salon Pallas</h2>
+                            <p>Salon Pallas se lahko pohvali z odličnimi terapevtskimi masažami, s katerimi izboljša oziroma olajša stanje Vašega psihofizičnega zdravja in Vam tako omogoči kvalitetnejše in polnejše življenje.</p>
+                        </div>
+                    </div>
+                </div>  
 			</div>
+
+
+			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/klasicna.jpg);"></header>
+
+			<div id="fh5co-project">
+                <div class="container">
+                    <div class="row animate-box">
+                        <div class="col-md-8 col-md-offset-4 text-center fh5co-heading-offer">
+                            <h2>KLASIČNA MASAŽA</h2>
+                            <p>Masaža je naravna, učinkovita metoda za lajšanje raznih zdravstvenih težav, z njo ohranjamo zdravje
+								in predvsem skrbimo za boljše počutje. Maser z masažnimi tehnikami ne prodira samo v kožo,
+								vendar z dobro masažo prodre globje v mišice in kosti. Masaža lahko spodbuja ali miri odvisno od
+								hitrosti in globine masiranja.
+							</p>
+                        </div>
+                    </div>
+                </div>  
+			</div>
+
+
+			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/sportna_klasicna.jpg);"></header>
+
+			<div id="fh5co-project">
+                <div class="container">
+                    <div class="row animate-box">
+                        <div class="col-md-8 col-md-offset-4 text-center fh5co-heading-offer">
+						<h2>ŠPORTNA MASAŽA</h2>
+							<p>Je masaža, pri kateri se maser osredotoča na posamezne skupine mišic, aktivne v posameznem
+								športu. Masaža je močna do zelo močna. Pri športnih aktivnostih v mišicah nastaja mišična kislina, ki
+								povzroča, da se mišica utrdi in se posledično ne krči več. Pomeni, da je mišica utrujena in to občutite
+								kot bolečino. Zato je ta masaža namenjena hitrejšemu pretoku krvi ter pospešuje obnovo mišic.
+							</p>
+						
+                        </div>
+                    </div>
+                </div>  
+			</div>
+
+
 			
+			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/imm.jpg);"></header>
+
+			<div id="fh5co-project">
+                <div class="container">
+                    <div class="row animate-box">
+                        <div class="col-md-8 col-md-offset-4 text-center fh5co-heading-offer">
+						<h2>REFLEKSNA MASAŽA</h2>
+										<p>Je najstarejša metoda zdravljenja. Pri tej masaži maser na področju stopal in gležnjev masira
+refleksne cone, ki so povezane z našim akustičnim sistemom v telesu. To pomeni, da maser stimulira
+refleksne cone na stopalih in s tem povzroči odziv v organih. Organi se tako prekrvavijo, sprosti se
+tok življenjske energije in posledično se določeno stanje izboljša.
+										</p>
+						
+                        </div>
+                    </div>
+                </div>  
+			</div>
+
+
+				
+
+	
 			
             <footer id="fh5co-footer" role="contentinfo">
                 <div class="container">

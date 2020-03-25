@@ -189,7 +189,6 @@
             </div>
 
         
-
             <footer id="fh5co-footer" role="contentinfo">
                 <div class="container">
                     <div class="row row-pb-md">              
@@ -214,7 +213,7 @@
                         
 								<div class="row form-group">
 									<div class="col-md-12">
-										<!-- <label for="email">Email*</label> -->
+										
 										<input type="text" id="email" class="form-control mail-footer" placeholder="E-naslov*">
 									</div>
 								</div>
