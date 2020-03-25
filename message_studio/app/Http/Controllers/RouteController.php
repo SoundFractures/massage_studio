@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class RouteController extends Controller
 {
 
-    //Navigation
+    
     public function home()
     {
         return view('MainSite.index');
@@ -44,17 +44,6 @@ class RouteController extends Controller
     }
 
     
-
-    public function admin()
-    {
-        return view('ControlPanel.index');
-    }
-
     
-
-    public function subscribers()
-    {
-        return view('ControlPanel.Views.subscribers');
-    }
     
 }

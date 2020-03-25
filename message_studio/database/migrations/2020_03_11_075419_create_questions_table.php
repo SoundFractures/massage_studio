@@ -16,6 +16,8 @@ class CreateQuestionsTable extends Migration
         Schema::create('questions', function (Blueprint $table) {
             $table->bigInteger('id')->autoIncrement();
             $table->string('name');
+            $table->boolean('answered')->default(false);
+            $table->boolean('seen')->default(false);
             $table->string('email');
             $table->longText('body');
             $table->timestamps();

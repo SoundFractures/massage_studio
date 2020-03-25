@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>SB Admin 2 - Dashboard</title>
+  <title>Pallas - Nadzorna Plošča</title>
 
   
   
@@ -67,9 +67,9 @@
         </a>
         <div id="collapseBlog" class="collapse" aria-labelledby="headingBlog" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <a class="collapse-item " href="buttons.html"><i class="fas fa-fw fa-plus"></i>
+            <a class="collapse-item " href="{{ url('blogs/create') }}"><i class="fas fa-fw fa-plus"></i>
                 <span class="right-align">Ustvari</span></a>
-            <a class="collapse-item " href="buttons.html"><i class="fas fa-fw fa-list-alt"></i>
+            <a class="collapse-item " href="{{ url('blogs') }}"><i class="fas fa-fw fa-list-alt"></i>
                 <span class="right-align">Pregled</span></a>
           </div>
         </div>
@@ -77,18 +77,9 @@
 
       <!-- Nav Item - Povprasevanja Collapse Menu -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePovprasevanja" aria-expanded="true" aria-controls="collapsePovprasevanja">
-          <i class="fas fa-fw fa-envelope"></i>
-          <span>Povpraševanja</span>
-        </a>
-        <div id="collapsePovprasevanja" class="collapse" aria-labelledby="headingPovprasevanja" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <a class="collapse-item " href="buttons.html"><i class="fas fa-fw fa-plus"></i>
-                <span class="right-align">Ustvari</span></a>
-            <a class="collapse-item " href="buttons.html"><i class="fas fa-fw fa-list-alt"></i>
-                <span class="right-align">Pregled</span></a>
-          </div>
-        </div>
+        <a class="nav-link" href="{{ url('questions') }}">
+          <i class="fas fa-fw fa-user-friends"></i>
+          <span>Povpraševanja</span></a>
       </li>
       <!-- Nav Item - Subscription Item -->
       <li class="nav-item">
@@ -106,7 +97,7 @@
 
       <!-- Nav Item - Settings -->
       <li class="nav-item">
-        <a class="nav-link" href="charts.html">
+        <a class="nav-link" href="{{ url('settings') }}">
           <i class="fas fa-fw fa-user-cog"></i>
           <span>Nastavitve</span></a>
       </li>
