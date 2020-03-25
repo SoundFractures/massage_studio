@@ -94,7 +94,7 @@
 				</div>
 			</nav>
 		
-			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/sportna.jpg);">
+			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/klasicna2.jpg);">
 				<div class="overlay">
 					<div class="container">
 						<div class="row">

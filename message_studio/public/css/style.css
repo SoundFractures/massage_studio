@@ -1430,6 +1430,11 @@
   .row-pb-md {
     padding-bottom: 1em !important;
   }
+
+  .row-pb-md-footer {
+    margin-bottom: 1px;
+  }
+  
   
   .row-pb-sm {
     padding-bottom: 2em !important;
@@ -1544,7 +1549,7 @@
       text-align: center;
       line-height: 380px;
       font-family: "Varela Round", sans-serif;
-      background-color: rgba(255, 255, 255, .3);
+
       text-shadow: 0px 0px 15px rgb(119, 119, 119);
   }
   
@@ -1622,4 +1627,12 @@
 
   .img-icon{
     margin-right: 10px;
+  }
+  
+  .copyright{
+    padding-right: 50px;
+  } 
+  .p-footer{
+    font-size: 15px;
+    margin-left: 100px;
   }

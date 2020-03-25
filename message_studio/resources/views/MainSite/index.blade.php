@@ -226,7 +226,20 @@
                         </div>
                     </div>
                     <hr class="hr-footer">
-
+                    <div class="row row-pb-md-footer">              
+                        <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-1">
+                            
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-2">
+                   
+                        </div>
+                    
+                        <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-3">
+                            <p class="p-footer">2020 Pallas©. Vse pravice pridržane</p>
+                        </div>
+                    </div>
+                               
+                    
                 </div>
                
             </footer>
