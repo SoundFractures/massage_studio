@@ -73,7 +73,7 @@
 								<li><a href="{{ route('RouteController.home')}}">Domov</a></li>
                                 <li class="active"><a href="{{ route('RouteController.about')}}">O meni</a></li>
                                 <li class="has-dropdown">
-                                    <a href="{{ route('RouteController.offer')}}">Ponudba</a>
+                                    <a href="{{ route('RouteController.offer')}}">Ponudbaa</a>
                                     <ul class="dropdown">
                                         <li><a href="#">Klasična masaža</a></li>
                                         <li><a href="#">Športna masaža</a></li>
