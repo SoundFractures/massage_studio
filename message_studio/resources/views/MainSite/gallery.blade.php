@@ -64,7 +64,7 @@
                 <div class="container">
                     <div class="row navbar">
                         <div class="col-xs-2 logo">
-                            <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="images/logo_pisava.png" alt=""></a>
+                            <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="images/logos/logo_pisava.png" alt=""></a>
                         </div>
                         <div class="col-xs-10 menu-1 text-right">
                             <ul>
@@ -91,102 +91,33 @@
                 </div>
             </nav>
     
-        
-            <div class="gallery">
-                
-                    <!--
-                    <span class="left"><</span>
-                    <span class="right">></span>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-10 col-md-offset-1 text-center">
-                                    <div class="display-t">
-                                        <div class="display-tc animate-box" data-animate-effect="fadeIn">
-                                         
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    -->
-                    <ul class="slides">
-                        <input type="radio" name="radio-btn" id="img-1" checked />
-                        <li class="slide-container">
-                            <div class="slide">
-                                <img src="images/blog1.jpg" />
-                            </div>
-                            <div class="nav">
-                                <label for="img-6" class="prev">&#x2039;</label>
-                                <label for="img-2" class="next">&#x203a;</label>
-                            </div>
-                        </li>
-
-                        <input type="radio" name="radio-btn" id="img-2" />
-                        <li class="slide-container">
-                            <div class="slide">
-                            <img src="images/blog2.jpg" />
-                            </div>
-                            <div class="nav">
-                                <label for="img-1" class="prev">&#x2039;</label>
-                                <label for="img-3" class="next">&#x203a;</label>
-                            </div>
-                        </li>
-
-                        <input type="radio" name="radio-btn" id="img-3" />
-                        <li class="slide-container">
-                            <div class="slide">
-                            <img src="images/blog3.jpg" />
-                            </div>
-                            <div class="nav">
-                                <label for="img-2" class="prev">&#x2039;</label>
-                                <label for="img-4" class="next">&#x203a;</label>
-                            </div>
-                        </li>
-
-                        <input type="radio" name="radio-btn" id="img-4" />
-                        <li class="slide-container">
-                            <div class="slide">
-                            <img src="images/blog4.jpg" />
-                            </div>
-                            <div class="nav">
-                                <label for="img-3" class="prev">&#x2039;</label>
-                                <label for="img-5" class="next">&#x203a;</label>
-                            </div>
-                        </li>
-
-                        <input type="radio" name="radio-btn" id="img-5" />
-                        <li class="slide-container">
-                            <div class="slide">
-                            <img src="images/blog5.jpg" />
-                            </div>
-                            <div class="nav">
-                                <label for="img-4" class="prev">&#x2039;</label>
-                                <label for="img-6" class="next">&#x203a;</label>
-                            </div>
-                        </li>
-
-                        <input type="radio" name="radio-btn" id="img-6" />
-                        <li class="slide-container">
-                            <div class="slide">
-                            <img src="images/blog6.jpg" />
-                            </div>
-                            <div class="nav">
-                                <label for="img-5" class="prev">&#x2039;</label>
-                                <label for="img-1" class="next">&#x203a;</label>
-                            </div>
-                        </li>
-
-                        <li class="nav-dots">
-                        <label for="img-1" class="nav-dot" id="img-dot-1"></label>
-                        <label for="img-2" class="nav-dot" id="img-dot-2"></label>
-                        <label for="img-3" class="nav-dot" id="img-dot-3"></label>
-                        <label for="img-4" class="nav-dot" id="img-dot-4"></label>
-                        <label for="img-5" class="nav-dot" id="img-dot-5"></label>
-                        <label for="img-6" class="nav-dot" id="img-dot-6"></label>
-                        </li>
-                    </ul>
-             
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img class="d-block w-100" src="images/blog1.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-100" src="images/imm.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-100" src="images/imm.jpg" alt="Third slide">
+                </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            </div>
+                       
 
         
             <footer id="fh5co-footer" role="contentinfo">
@@ -194,7 +125,7 @@
                     <div class="row row-pb-md">              
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-1">
                             <div class="col-xs-2 logo">
-                                <a href="{{ route('RouteController.home')}}"><img class="img-responsive-footer" src="images/resized_logo_beli.png" alt=""></a>
+                                <a href="{{ route('RouteController.home')}}"><img class="img-responsive-footer" src="images/logo/resized_logo_beli.png" alt=""></a>
                             </div>
                             <h3 class="footer-text">Delovni čas</h3>
                             <p>Po dogovoru</p>

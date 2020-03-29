@@ -64,7 +64,7 @@
                 <div class="container">
                     <div class="row navbar">
 						<div class="col-xs-2 logo">
-                            <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="images/logo_pisava.png" alt=""></a>
+                            <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="images/logos/logo_pisava.png" alt=""></a>
                         </div>
                         <div class="col-xs-10 menu-1 text-right">
                             <ul>

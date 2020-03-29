@@ -26,7 +26,7 @@
 		
 		<!-- Main -->
 		<script type="text/javascript" src="js/main.js"></script>
-
+		<script type="text/javascript" src="js/test.js"></script>
 
 
 		<!-- Modernizr JS -->
@@ -59,13 +59,14 @@
 	
 	</head>
 	<body>
+		
 		<div id="page">
 				
 			<nav class="fh5co-nav" role="navigation">
 				<div class="container">
 					<div class="row navbar">
 						<div class="col-xs-2 logo">
-                            <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="images/logo_pisava.png" alt=""></a>
+                            <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="images/logos/logo_pisava.png" alt=""></a>
                         </div>
 						<div class="col-xs-10 menu-1 text-right">
 							<ul>
@@ -111,26 +112,99 @@
 					</div>
 				</div>
 			</header>
-		
-		
+
             <div id="fh5co-project">
                 <div class="container">
                     <div class="row animate-box">
-                        <div class="col-md-8 col-md-offset-4 text-center fh5co-heading-offer">
+                        <div class="col-md-10 col-md-offset-2 text-center fh5co-heading-offer">
                             <h2>Masažni salon Pallas</h2>
-                            <p>Salon Pallas se lahko pohvali z odličnimi terapevtskimi masažami, s katerimi izboljša oziroma olajša stanje Vašega psihofizičnega zdravja in Vam tako omogoči kvalitetnejše in polnejše življenje.</p>
+                            <h3>Salon Pallas se lahko pohvali z odličnimi terapevtskimi masažami, s katerimi izboljša oziroma olajša stanje Vašega psihofizičnega zdravja in Vam tako omogoči kvalitetnejše in polnejše življenje. Pri nas lahko izbirate izmed več različnih vrst masaž:</h3>
                         </div>
                     </div>
                 </div>  
 			</div>
 
+			
+			<nav id="spyscroll">
+				<a href="#one">Klasična masaža</a>
+				<a href="#two">Športna masaža</a>
+				<a href="#three">Refleksna masaža</a>
+			</nav>
 
 			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/klasicna.jpg);"></header>
+			
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-2 text-center fh5co-heading-offer">
+						<section id="one">
+							<div id="fh5co-project-offer">					
+								<img class="img-responsive-offer" src="images/icons/resized_ikone1.png" alt="">
+									<h2>KLASIČNA MASAŽA</h2>
+									<h4>Masaža je naravna, učinkovita metoda za lajšanje raznih zdravstvenih težav, z njo ohranjamo zdravje
+										in predvsem skrbimo za boljše počutje. Maser z masažnimi tehnikami ne prodira samo v kožo,
+										vendar z dobro masažo prodre globje v mišice in kosti. Masaža lahko spodbuja ali miri odvisno od
+										hitrosti in globine masiranja.
+									</h4>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>  
+
+			
+
+	
+			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/sportna_klasicna.jpg);"></header>
+
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-2 text-center fh5co-heading-offer">
+						<section id="two">
+							<div id="fh5co-project-offer">
+								<img class="img-responsive-offer" src="images/icons/resized_ikone4.png" alt="">
+								<h2>ŠPORTNA MASAŽA</h2>
+								<h4>Je masaža, pri kateri se maser osredotoča na posamezne skupine mišic, aktivne v posameznem
+										športu. Masaža je močna do zelo močna. Pri športnih aktivnostih v mišicah nastaja mišična kislina, ki
+										povzroča, da se mišica utrdi in se posledično ne krči več. Pomeni, da je mišica utrujena in to občutite
+										kot bolečino. Zato je ta masaža namenjena hitrejšemu pretoku krvi ter pospešuje obnovo mišic.</h4>
+
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>  
+
+			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/imm.jpg);"></header>
+
+			<div class="container">	
+				<div class="row">
+					<div class="col-md-10 text-center fh5co-heading-offer">
+						<section id="three">
+							<div id="fh5co-project-offer">
+								<img class="img-responsive-offer" src="images/icons/resized_ikone8.png" alt="">
+								<h2>REFLEKSNA MASAŽA</h2>
+									<h4>Je najstarejša metoda zdravljenja. Pri tej masaži maser na področju stopal in gležnjev masira
+									refleksne cone, ki so povezane z našim akustičnim sistemom v telesu. To pomeni, da maser stimulira
+									refleksne cone na stopalih in s tem povzroči odziv v organih. Organi se tako prekrvavijo, sprosti se
+									tok življenjske energije in posledično se določeno stanje izboljša.
+								</h4>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+	 
+	
+			<!--
+			
 
 			<div id="fh5co-project">
                 <div class="container">
                     <div class="row animate-box">
                         <div class="col-md-8 col-md-offset-4 text-center fh5co-heading-offer">
+							<img class="img-responsive-footer" src="images/icons/resized_ikone1.png" alt="">
                             <h2>KLASIČNA MASAŽA</h2>
                             <p>Masaža je naravna, učinkovita metoda za lajšanje raznih zdravstvenih težav, z njo ohranjamo zdravje
 								in predvsem skrbimo za boljše počutje. Maser z masažnimi tehnikami ne prodira samo v kožo,
@@ -140,52 +214,15 @@
                         </div>
                     </div>
                 </div>  
-			</div>
+			</div> -->
 
 
-			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/sportna_klasicna.jpg);"></header>
-
-			<div id="fh5co-project">
-                <div class="container">
-                    <div class="row animate-box">
-                        <div class="col-md-8 col-md-offset-4 text-center fh5co-heading-offer">
-						<h2>ŠPORTNA MASAŽA</h2>
-							<p>Je masaža, pri kateri se maser osredotoča na posamezne skupine mišic, aktivne v posameznem
-								športu. Masaža je močna do zelo močna. Pri športnih aktivnostih v mišicah nastaja mišična kislina, ki
-								povzroča, da se mišica utrdi in se posledično ne krči več. Pomeni, da je mišica utrujena in to občutite
-								kot bolečino. Zato je ta masaža namenjena hitrejšemu pretoku krvi ter pospešuje obnovo mišic.
-							</p>
-						
-                        </div>
-                    </div>
-                </div>  
-			</div>
-
-
-			
-			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/imm.jpg);"></header>
-
-			<div id="fh5co-project">
-                <div class="container">
-                    <div class="row animate-box">
-                        <div class="col-md-8 col-md-offset-4 text-center fh5co-heading-offer">
-						<h2>REFLEKSNA MASAŽA</h2>
-										<p>Je najstarejša metoda zdravljenja. Pri tej masaži maser na področju stopal in gležnjev masira
-refleksne cone, ki so povezane z našim akustičnim sistemom v telesu. To pomeni, da maser stimulira
-refleksne cone na stopalih in s tem povzroči odziv v organih. Organi se tako prekrvavijo, sprosti se
-tok življenjske energije in posledično se določeno stanje izboljša.
-										</p>
-						
-                        </div>
-                    </div>
-                </div>  
-			</div>
 
 
 				
 
 	
-			
+
             <footer id="fh5co-footer" role="contentinfo">
                 <div class="container">
                     <div class="row row-pb-md">              
@@ -196,21 +233,23 @@ tok življenjske energije in posledično se določeno stanje izboljša.
                             <h3 class="footer-text">Delovni čas</h3>
                             <p>Po dogovoru</p>
                         </div>
+
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-2">
                             <h3>Kontakt</h3>
                             <p>Bistriška cesta 60a <br> 2319 Poljčane <br> 040 853 650 <br> pallasmasaznisalon@gmail.com</p>
                         </div>
+
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
                             <h3>Zadnje v blogu</h3>
-                       
-                       
+
                         </div>
+
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
                         <h3>Naročite se na E-novice</h3>
                         
 								<div class="row form-group">
 									<div class="col-md-12">
-										<!-- <label for="email">Email*</label> -->
+									
 										<input type="text" id="email" class="form-control mail-footer" placeholder="E-naslov*">
 									</div>
 								</div>
@@ -221,9 +260,7 @@ tok življenjske energije in posledično se določeno stanje izboljša.
                         </div>
                     </div>
                     <hr class="hr-footer">
-                    
                 </div>
-               
             </footer>
 
 

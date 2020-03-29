@@ -28,6 +28,8 @@
         <!-- Main -->
         <script type="text/javascript" src="js/main.js"></script>
 
+
+          <!-- <script type="text/javascript" src="js/test.js"></script>-->
         <!-- Modernizr JS -->
         <script src="js/modernizr-2.6.2.min.js" defer></script>
 
@@ -65,7 +67,7 @@
                 <div class="container">
                     <div class="row navbar">
                         <div class="col-xs-2 logo">
-                            <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="images/logo_pisava.png" alt=""></a>
+                            <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="images/logos/logo_pisava.png" alt=""></a>
                         </div>
                         <div class="col-xs-10 menu-1 text-right">
                             <ul>
@@ -114,7 +116,7 @@
                 <div class="container">
                     <div class="row animate-box">
                         <div class="col-md-8 col-md-offset-4 text-center fh5co-heading">
-                            <h2>Masažni salon Pallas</h2>
+                            <h2 class="h2-animate">Masažni salon Pallas</h2>
                             <p>Salon Pallas se lahko pohvali z odličnimi terapevtskimi masažami, s katerimi izboljša oziroma olajša stanje Vašega psihofizičnega zdravja in Vam tako omogoči kvalitetnejše in polnejše življenje.</p>
                         </div>
                     </div>
@@ -198,15 +200,15 @@
                             <div class="col-xs-2 logo">
                                 <a href="{{ route('RouteController.home')}}"><img class="img-responsive-footer" src="images/resized_logo_beli.png" alt=""></a>
                             </div>
-                            <h3 class="footer-text">Delovni čas</h3>
-                            <p>Po dogovoru</p>
+                        
                         </div>
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-2">
                             <h3>Kontakt</h3>
                             <p>Bistriška cesta 60a <br> 2319 Poljčane <br> 040 853 650 <br> pallasmasaznisalon@gmail.com</p>
                         </div>
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
-                            <h3>Zadnje v blogu</h3>
+                        <h3 class="footer-text">Delovni čas</h3>
+                            <p>Po dogovoru</p>
                        
                        
                         </div>
