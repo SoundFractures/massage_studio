@@ -1735,7 +1735,6 @@
   }
 
   /*to be implmented*/
-  nav a:hover,
   section#one:hover ~ nav a[href="#one"],
   section#two:hover ~ nav a[href="#two"],
   section#three:hover ~ nav a[href="#three"]

@@ -200,34 +200,32 @@
                             <div class="col-xs-2 logo">
                                 <a href="{{ route('RouteController.home')}}"><img class="img-responsive-footer" src="images/resized_logo_beli.png" alt=""></a>
                             </div>
-                        
-                        </div>
+						</div>
+						
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-2">
                             <h3>Kontakt</h3>
                             <p>Bistriška cesta 60a <br> 2319 Poljčane <br> 040 853 650 <br> pallasmasaznisalon@gmail.com</p>
-                        </div>
+						</div>
+						
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
-                        <h3 class="footer-text">Delovni čas</h3>
+                        	<h3 class="footer-text">Delovni čas</h3>
                             <p>Po dogovoru</p>
-                       
-                       
-                        </div>
+						</div>
+						
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
-                        <h3>Naročite se na E-novice</h3>
-                        
+                        	<h3>Naročite se na E-novice</h3>                        
 								<div class="row form-group">
 									<div class="col-md-12">
-										<!-- <label for="email">Email*</label> -->
 										<input type="text" id="email" class="form-control mail-footer" placeholder="E-naslov*">
 									</div>
 								</div>
                                 <div class="form-group">
 									<input type="submit" value="Naroči se" class="btn btn-primary submit-footer">
 								</div>
-                    
                         </div>
                     </div>
-                    <hr class="hr-footer">
+					<hr class="hr-footer">
+					
                     <div class="row row-pb-md-footer">              
                         <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-1">
                             
@@ -239,11 +237,8 @@
                         <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-3">
                             <p class="p-footer">2020 Pallas©. Vse pravice pridržane</p>
                         </div>
-                    </div>
-                               
-                    
+                    </div>           
                 </div>
-               
             </footer>
         
         </div>
