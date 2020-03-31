@@ -117,21 +117,22 @@
                 <div class="container">
                     <div class="row animate-box">
                         <div class="col-md-10 col-md-offset-2 text-center fh5co-heading-offer">
-                            <h2>Masažni salon Pallas</h2>
-                            <h3>Salon Pallas se lahko pohvali z odličnimi terapevtskimi masažami, s katerimi izboljša oziroma olajša stanje Vašega psihofizičnega zdravja in Vam tako omogoči kvalitetnejše in polnejše življenje. Pri nas lahko izbirate izmed več različnih vrst masaž:</h3>
+                            <h1>Masažni salon Pallas</h1>
+                            <p>Salon Pallas se lahko pohvali z odličnimi terapevtskimi masažami, s katerimi izboljša oziroma olajša stanje vašega psihofizičnega zdravja in vam tako omogoči kvalitetnejše in polnejše življenje. <br/> Pri nas lahko izbirate izmed več različnih vrst masaž:</p>
                         </div>
                     </div>
                 </div>  
 			</div>
 
-			
 			<nav id="spyscroll">
 				<a href="#one">Klasična masaža</a>
 				<a href="#two">Športna masaža</a>
-				<a href="#three">Refleksna masaža</a>
+				<a href="#three">Refleksna masaža stopal</a>
+				<a href="#four">Masaža obraza</a>
+				<a href="#five">Access Bars terapija</a>
 			</nav>
 
-			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/klasicna.jpg);"></header>
+			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/klasicna2.jpg);"></header>
 			
 
 			<div class="container">
@@ -139,7 +140,7 @@
 					<div class="col-md-10 col-md-offset-2 text-center fh5co-heading-offer">
 						<section id="one">
 							<div id="fh5co-project-offer">					
-								<img class="img-responsive-offer" src="images/icons/resized_ikone1.png" alt="">
+								<img class="img-responsive-offer" src="images/icons/icon_class.png" alt="">
 									<h2>KLASIČNA MASAŽA</h2>
 									<h4>Masaža je naravna, učinkovita metoda za lajšanje raznih zdravstvenih težav, z njo ohranjamo zdravje
 										in predvsem skrbimo za boljše počutje. Maser z masažnimi tehnikami ne prodira samo v kožo,
@@ -163,7 +164,7 @@
 					<div class="col-md-10 col-md-offset-2 text-center fh5co-heading-offer">
 						<section id="two">
 							<div id="fh5co-project-offer">
-								<img class="img-responsive-offer" src="images/icons/resized_ikone4.png" alt="">
+								<img class="img-responsive-offer" src="images/icons/icon_sport.png" alt="">
 								<h2>ŠPORTNA MASAŽA</h2>
 								<h4>Je masaža, pri kateri se maser osredotoča na posamezne skupine mišic, aktivne v posameznem
 										športu. Masaža je močna do zelo močna. Pri športnih aktivnostih v mišicah nastaja mišična kislina, ki
@@ -176,20 +177,60 @@
 				</div>
 			</div>  
 
-			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/imm.jpg);"></header>
+			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/refleksivna.jpg);"></header>
 
 			<div class="container">	
 				<div class="row">
 					<div class="col-md-10 text-center fh5co-heading-offer">
 						<section id="three">
 							<div id="fh5co-project-offer">
-								<img class="img-responsive-offer" src="images/icons/resized_ikone8.png" alt="">
-								<h2>REFLEKSNA MASAŽA</h2>
+								<img class="img-responsive-offer" src="images/icons/icon_ref.png" alt="">
+								<h2>REFLEKSNA MASAŽA STOPAL</h2>
 									<h4>Je najstarejša metoda zdravljenja. Pri tej masaži maser na področju stopal in gležnjev masira
 									refleksne cone, ki so povezane z našim akustičnim sistemom v telesu. To pomeni, da maser stimulira
 									refleksne cone na stopalih in s tem povzroči odziv v organih. Organi se tako prekrvavijo, sprosti se
 									tok življenjske energije in posledično se določeno stanje izboljša.
 								</h4>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+
+
+			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/head-650878_1920.jpg);"></header>
+
+			<div class="container">	
+				<div class="row">
+					<div class="col-md-10 text-center fh5co-heading-offer">
+						<section id="four">
+							<div id="fh5co-project-offer">
+								<img class="img-responsive-offer" src="images/icons/icon_face.png" alt="">
+								<h2>MASAŽA OBRAZA</h2>
+									<h4>Masaža obraza ima veliko pozitivnih učinkov na vašo kožo in psihično počutje. Je prijeten, sproščejoč
+										občutek, zaradi katerega se počutite sveže in pomirjeno.</h4>
+									<h4>Masaža pomaga pri: napetostih, izboljša tonus kože, zmanjša zabuhlost in izboljša cirkulacijo
+									</h4>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+
+
+			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/acces_bars.jpg);"></header>
+
+			<div class="container">	
+				<div class="row">
+					<div class="col-md-10 text-center fh5co-heading-offer">
+						<section id="five">
+							<div id="fh5co-project-offer">
+								<img class="img-responsive-offer" src="images/icons/icon_bars.png" alt="">
+								<h2>ACCESS BARS TERAPIJA</h2>
+									<h4>Masaža obraza ima veliko pozitivnih učinkov na vašo kožo in psihično počutje. Je prijeten, sproščejoč
+										občutek, zaradi katerega se počutite sveže in pomirjeno.</h4>
+										<h4>Masaža pomaga pri: napetostih, izboljša tonus kože, zmanjša zabuhlost in izboljša cirkulacijo
+										</h4>
 							</div>
 						</section>
 					</div>
@@ -261,9 +302,7 @@
                         <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-1">
                             
                         </div>
-                        <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-2">
-                   
-                        </div>
+                        
                     
                         <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-3">
                             <p class="p-footer">2020 Pallas©. Vse pravice pridržane</p>

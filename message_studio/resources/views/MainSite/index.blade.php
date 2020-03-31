@@ -122,19 +122,19 @@
                     </div>
                     <div class="row">
                         <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-                            <a href="#"><img src="images/work-1.jpg" alt="" class="img-responsive">
+                            <a href="{{ route('RouteController.gallery')}}"><img src="images/salon.jpg" alt="" class="img-responsive">
                                 <h3>Pallas</h3>
-                                <span>Notranjost</span>
+                                <span>Galerija</span>
                             </a>
                         </div>
                         <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-                            <a href="#"><img src="images/work-2.jpg" alt="" class="img-responsive">
+                            <a href="{{ route('RouteController.about')}}"><img src="images/aboutme.jpg" alt="" class="img-responsive">
                                 <h3>O meni</h3>
                                 <span>Predstavitev</span>
                             </a>
                         </div>
                         <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-                            <a href="#"><img src="images/work-3.jpg" alt="" class="img-responsive">
+                            <a href="{{ route('RouteController.offer')}}"><img src="images/services.jpg" alt="" class="img-responsive">
                                 <h3>Ponudba</h3>
                                 <span>Opis storitev</span>
                             </a>
@@ -160,7 +160,7 @@
                                     <span class="posted_on">Nov. 15th</span>
                                 
                                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                    <a href="#" class="btn btn-primary">Read More</a>
+                                    <a href="#" class="btn btn-primary">Preberi več...</a>
                                 </div> 
                             </div>
                         </div>
@@ -172,7 +172,7 @@
                                     <span class="posted_on">Nov. 15th</span>
                 
                                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                    <a href="#" class="btn btn-primary">Read More</a>
+                                    <a href="#" class="btn btn-primary">Preberi več...</a>
                                 </div> 
                             </div>
                         </div>
@@ -184,7 +184,7 @@
                                     <span class="posted_on">Nov. 15th</span>
                                     
                                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                    <a href="#" class="btn btn-primary">Read More</a>
+                                    <a href="#" class="btn btn-primary">Preberi več...</a>
                                 </div> 
                             </div>
                         </div>
@@ -230,11 +230,9 @@
                         <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-1">
                             
                         </div>
-                        <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-2">
-                   
-                        </div>
+                        
                     
-                        <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-3">
+                        <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-1">
                             <p class="p-footer">2020 Pallas©. Vse pravice pridržane</p>
                         </div>
                     </div>           

@@ -73,7 +73,7 @@
 								<li><a href="{{ route('RouteController.home')}}">Domov</a></li>
                                 <li class="active"><a href="{{ route('RouteController.about')}}">O meni</a></li>
                                 <li class="has-dropdown">
-                                    <a href="{{ route('RouteController.offer')}}">Ponudbaa</a>
+                                    <a href="{{ route('RouteController.offer')}}">Ponudba</a>
                                     <ul class="dropdown">
                                         <li><a href="#">Klasična masaža</a></li>
                                         <li><a href="#">Športna masaža</a></li>
@@ -116,25 +116,20 @@
 					<div class="about-content">
 						<div class="row animate-box">
 								
-							<div class="col-md-7">
+							<div class="col-md-8 col-md-offset-4 text-center fh5co-heading">
 							<h1>Ksenija Lovrenčič</h1>
+							<p class="o_meni">Terapevtska maserka</p>
+							<img class="img-responsive" src="images/ksenija_krog.png" alt="about"><br/>
 									<div class="desc">
-										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quo est quis mollitia ratione magni assumenda repellat atque modi temporibus tempore ex. Dolore facilis ex sunt ea praesentium expedita numquam?</p> 
-										<p>Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci rem dolorem nesciunt perferendis quae amet deserunt eum labore quidem minima.</p>
-									</div>
-									<div class="desc">
-										<h3>Mission &amp; Vission</h3>
-										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quo est quis mollitia ratione magni assumenda repellat atque modi temporibus tempore ex. Dolore facilis ex sunt ea praesentium expedita numquam?</p> 
-										<p>Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci rem dolorem nesciunt perferendis quae amet deserunt eum labore quidem minima.</p>
+										<p class="o_meni">Sem terapevtska maserka, vedno nasmejana in pozitivno usmerjena. Zanima me vse, kar je povezano
+											 s telesom in zdravim načinom življenja, zato že kar nekaj let sama izdelujem domačo kozmetiko, za
+											 lastno porabo. Prepričana sem, da lahko sami veliko pripomoremo k izboljšanju zdravja in kvalitete
+											 našega življenja.</p> 
+										<p class="o_meni">Masaža je velik del mojega življenja. Morda se kot mlajša punca tega nisem zavedala, vendar je življenje poskrbelo, da me usmeri na tisto pot, ki je prava zame. Svoje znanje rada nadgrajujem in izpopolnjujem. V veliko zadovoljstvo mi je, da s svojim znanjem in izkušnjami pomagam ljudem, zaradi vsakodnevnih naporov, obremenitev in stresa, ter vam tako pomagam ponovno vzpostaviti energetsko ravnovesje in izboljšati fizično stanje telesa.</p>
+										<p class="quotes">“Zdravje je največje darilo, zadovoljstvo je največje bogastvo, zvestoba najboljši odnos.” - Buddha</p>
 									</div>
 							</div>
 							
-							<div class="col-md-4 about">
-								<img class="img-responsive" src="images/ksenija.jpg" alt="about"></br>
-								<h3>Ksenija Lovrenčič</h3>
-								<p>terapevtski maser</br>pallasmasaznisalon@gmail.com</br>040 853 650</p>
-							</div>
-
 							
 						</div>
 					</div>
@@ -181,9 +176,7 @@
                         <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-1">
                             
                         </div>
-                        <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-2">
-                   
-                        </div>
+                        
                     
                         <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-3">
                             <p class="p-footer">2020 Pallas©. Vse pravice pridržane</p>

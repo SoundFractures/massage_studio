@@ -117,7 +117,7 @@
 						<div class="col-md-5 col-md-push-1 animate-box">
 							
 							<div class="fh5co-contact-info">
-								<h3>Kontakt</h3>
+								<h2>Kontakt</h2>
 								<ul>
 									<li><img class="img-icon" src="images/icons/resized_location.png" alt="">Bistriška cesta 60a, 2319 Poljčane</li>
 									<li><img class="img-icon" src="images/icons/resized_phone.png" alt="telefon">040 853 650 </li>
@@ -128,7 +128,7 @@
 		
 						</div>
 						<div class="col-md-6 animate-box">
-							<h3>Povpraševanje</h3>
+							<h2>Povpraševanje</h2>
 							<form action="#">
 								<div class="row form-group">
 									<div class="col-md-6">
@@ -150,9 +150,19 @@
 
 								<div class="row form-group">
 									<div class="col-md-12">
-										<!-- <label for="subject">Zadeva* dropdown</label> -->
-										<input type="text" id="subject" class="form-control" placeholder="Zadeva* dropdown">
-									</div>
+										<!-- <label for="subject">Zadeva*</label> -->
+										<select id="subject" class="form-control" placeholder="Zadeva*">
+                                            <option value="klasicna">Klasična masaža</option>
+                                            <option value="sportna">Športna masaža</option>
+                                            <option value="refleksna">Refleksna masaža stopal</option>
+                                            <option value="obraz">Masaža obraza</option>
+                                            <option value="accessbars">Access Bars Terapija</option>
+                                            <option value="accessbars">Drugo</option>
+                                          </select>
+                                    </div>
+                                    
+                                       
+
 								</div>
 
 								<div class="row form-group">
@@ -162,7 +172,7 @@
 									</div>
 								</div>
 								<div class="form-group">
-									<input type="submit" value="Send Message" class="btn btn-primary">
+									<input type="submit" value="Pošlji" class="btn btn-primary">
 								</div>
 
 							</form>		
@@ -209,9 +219,7 @@
                         <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-1">
                             
                         </div>
-                        <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-2">
-                   
-                        </div>
+                        
                     
                         <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-3">
                             <p class="p-footer">2020 Pallas©. Vse pravice pridržane</p>

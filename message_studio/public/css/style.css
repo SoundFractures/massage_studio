@@ -61,8 +61,29 @@
   }
   
   p {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     font-family: "Open Sans";
+  }
+
+  .desno {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: "Open Sans";
+    text-align: right;
+  }
+
+.o_meni {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-family: "Open Sans";
+}
+
+  .quotes {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-family: "Open Sans";
+    font-style: italic;
   }
   
   .img-responsive {
@@ -83,21 +104,33 @@
 
   }
   
+ 
   
-  h1, h2 {
+  h1, h2, h3 {
     color: #F7931E;
     font-family: "CantantaOne-regular";
     font-weight: 400;
     margin: 0 0 20px 0;
   }
+
+
+  h2 {
+    padding-bottom: 1em;
+    padding-top: 1em;
+  }
   
-  h3, h4, h5, h6, figure {
+  h4, h5, h6, figure {
     color: black;
     font-family: "CantantaOne-regular";
     font-weight: 400;
     margin: 0 0 20px 0;
   }
   
+iframe {
+  padding-top: 2em;
+}
+
+
   .naslovor {
     color: #F7931E;
     font-family: "CantantaOne-regular";
@@ -479,18 +512,32 @@
   .fh5co-bg-section {
     background: #FFF4E4;
   }
-  
-  #fh5co-services,
+
+ 
   #fh5co-started,
   #fh5co-testimonial,
-  #fh5co-blog,
-  #fh5co-project,
-  #fh5co-about,
-  #fh5co-contact,
   #fh5co-footer {
   
     padding-top: 2em;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
+    clear: both;
+  }
+
+  #fh5co-services,
+  #fh5co-contact,
+  #fh5co-about,
+  #fh5co-blog {
+  
+    padding-top: 5em;
+    padding-bottom: 5em;
+    clear: both;
+  }
+
+
+  #fh5co-project  {
+  
+    padding-top: 2em;
+    padding-bottom: 5em;
     clear: both;
   }
 
@@ -842,13 +889,13 @@
   }
   
   .fh5co-heading {
-    margin-bottom: 8em;
-    margin-top: 8em;
+    margin-bottom: 6em;
+    margin-top: 4em;
   }
 
   .fh5co-heading-offer {
-    margin-bottom: 8em;
-    margin-top: 4em;
+    margin-bottom: 2em;
+    margin-top: 2em;
     position: relative
   }
 
@@ -989,7 +1036,7 @@
 
   
   #fh5co-footer {
-    background: #F7931E;
+    background: #f5972a;
     bottom: 0;
 
   }
@@ -1691,6 +1738,9 @@
     height: 600px;
   }
 
+  .offer {
+    padding-top: 2em;
+  }
 
   section{
     position: relative;
@@ -1712,6 +1762,8 @@
     text-align: center;
     z-index: 1;
     background-color: rgba(256,256,256,0.5);
+    font-family: "Open Sans";
+    font-size: small;
   }
 
   #spyscroll a{
