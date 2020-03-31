@@ -114,7 +114,7 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-4">
                             <div class="fh5co-blog animate-box">
-                                <a href="#"><img class="img-responsive" src="images/blog_img1.jpg" alt=""></a>
+                                <a href="{{ route('RouteController.blog_open')}}"><img class="img-responsive" src="images/blog_img1.jpg" alt=""></a>
                                 <div class="blog-text">
                                     <h3><a href="">45 Minimal Workspace Rooms for Web Savvys</a></h3>
                                     <span class="posted_on">Nov. 15th</span>
@@ -126,7 +126,7 @@
                         </div>
                         <div class="col-lg-4 col-md-4">
                             <div class="fh5co-blog animate-box">
-                                <a href="#"><img class="img-responsive" src="images/blog_img5.jpg" alt=""></a>
+                                <a href="{{ route('RouteController.blog_open')}}"><img class="img-responsive" src="images/blog_img5.jpg" alt=""></a>
                                 <div class="blog-text">
                                     <h3><a href=""#>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
                                     <span class="posted_on">Nov. 15th</span>
@@ -138,7 +138,7 @@
                         </div>
                         <div class="col-lg-4 col-md-4">
                             <div class="fh5co-blog animate-box">
-                                <a href="#"><img class="img-responsive" src="images/blog_img3.jpg" alt=""></a>
+                                <a href="{{ route('RouteController.blog_open')}}"><img class="img-responsive" src="images/blog_img3.jpg" alt=""></a>
                                 <div class="blog-text">
                                     <h3><a href=""#>45 Minimal Workspace Rooms for Web Savvys</a></h3>
                                     <span class="posted_on">Nov. 15th</span>
@@ -150,7 +150,7 @@
                         </div>
                         <div class="col-lg-4 col-md-4">
                             <div class="fh5co-blog animate-box">
-                                <a href="#"><img class="img-responsive" src="images/blog_img4.jpg" alt=""></a>
+                                <a href="{{ route('RouteController.blog_open')}}"><img class="img-responsive" src="images/blog_img4.jpg" alt=""></a>
                                 <div class="blog-text">
                                     <h3><a href=""#>45 Minimal Workspace Rooms for Web Savvys</a></h3>
                                     <span class="posted_on">Nov. 15th</span>
@@ -162,7 +162,7 @@
                         </div>
                         <div class="col-lg-4 col-md-4">
                             <div class="fh5co-blog animate-box">
-                                <a href="#"><img class="img-responsive" src="images/blog_img2.jpg" alt=""></a>
+                                <a href="{{ route('RouteController.blog_open')}}"><img class="img-responsive" src="images/blog_img2.jpg" alt=""></a>
                                 <div class="blog-text">
                                     <h3><a href=""#>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
                                     <span class="posted_on">Nov. 15th</span>
@@ -174,7 +174,7 @@
                         </div>
                         <div class="col-lg-4 col-md-4">
                             <div class="fh5co-blog animate-box">
-                                <a href="#"><img class="img-responsive" src="images/blog_img6.jpg" alt=""></a>
+                                <a href="{{ route('RouteController.blog_open')}}"><img class="img-responsive" src="images/blog_img6.jpg" alt=""></a>
                                 <div class="blog-text">
                                     <h3><a href=""#>45 Minimal Workspace Rooms for Web Savvys</a></h3>
                                     <span class="posted_on">Nov. 15th</span>

@@ -43,6 +43,11 @@ class RouteController extends Controller
         return view('MainSite.contact');
     }
 
+    public function blog_open()
+    {
+        return view('MainSite.blog_open');
+    }
+
     
     
     
