@@ -18,7 +18,7 @@
     color: #000000;
     background: #fff;
     height: 100%;
-
+    overflow: visible;
   }
   
   #page {
@@ -1552,6 +1552,9 @@ iframe {
   .price{
     margin-bottom: 5px;
   }
+  .price:hover{
+    color: #F7931E;
+  }
 
   .offer-img{
 
@@ -1803,3 +1806,8 @@ iframe {
     background-color: yellow;
     color: red;
   }
+
+
+
+
+
