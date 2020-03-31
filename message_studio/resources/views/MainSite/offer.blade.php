@@ -66,7 +66,7 @@
 				<div class="container">
 					<div class="row navbar">
 						<div class="col-xs-2 logo">
-                            <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="images/logos/logo_pisava.png" alt=""></a>
+                            <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="images/logos/lotus_mini_logoo.png" alt=""></a>
                         </div>
 						<div class="col-xs-10 menu-1 text-right">
 							<ul>
@@ -118,7 +118,7 @@
                     <div class="row animate-box">
                         <div class="col-md-10 col-md-offset-2 text-center fh5co-heading-offer">
                             <h1>Masažni salon Pallas</h1>
-                            <p>Salon Pallas se lahko pohvali z odličnimi terapevtskimi masažami, s katerimi izboljša oziroma olajša stanje vašega psihofizičnega zdravja in vam tako omogoči kvalitetnejše in polnejše življenje. <br/> Pri nas lahko izbirate izmed več različnih vrst masaž:</p>
+                            <h4>Salon Pallas se lahko pohvali z odličnimi terapevtskimi masažami, s katerimi izboljša oziroma olajša stanje vašega psihofizičnega zdravja in vam tako omogoči kvalitetnejše in polnejše življenje. <br/> Pri nas lahko izbirate izmed več različnih vrst masaž:</h4>
                         </div>
                     </div>
                 </div>  
@@ -132,7 +132,7 @@
 				<a href="#five">Access Bars terapija</a>
 			</nav>
 
-			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/klasicna2.jpg);"></header>
+			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/klasicna.jpg);"></header>
 			
 
 			<div class="container">
@@ -208,8 +208,7 @@
 								<img class="img-responsive-offer" src="images/icons/icon_face.png" alt="">
 								<h2>MASAŽA OBRAZA</h2>
 									<h4>Masaža obraza ima veliko pozitivnih učinkov na vašo kožo in psihično počutje. Je prijeten, sproščejoč
-										občutek, zaradi katerega se počutite sveže in pomirjeno.</h4>
-									<h4>Masaža pomaga pri: napetostih, izboljša tonus kože, zmanjša zabuhlost in izboljša cirkulacijo
+										občutek, zaradi katerega se počutite sveže in pomirjeno. Masaža pomaga pri: napetostih, izboljša tonus kože, zmanjša zabuhlost in izboljša cirkulacijo
 									</h4>
 							</div>
 						</section>
@@ -227,10 +226,7 @@
 							<div id="fh5co-project-offer">
 								<img class="img-responsive-offer" src="images/icons/icon_bars.png" alt="">
 								<h2>ACCESS BARS TERAPIJA</h2>
-									<h4>Masaža obraza ima veliko pozitivnih učinkov na vašo kožo in psihično počutje. Je prijeten, sproščejoč
-										občutek, zaradi katerega se počutite sveže in pomirjeno.</h4>
-										<h4>Masaža pomaga pri: napetostih, izboljša tonus kože, zmanjša zabuhlost in izboljša cirkulacijo
-										</h4>
+									<h4>Je nežna tehnika s katero lahko spremenite vse v svojem življenju in telesu. Z nežnim dotikanjem aktiviramo 32 točk na glavi. Posledično po 15 min telo preide v theta stanje, ki je stanje globoke relaksacije. To aktivira samozdravljenje telesa in odpira prostor zavedanja v vašem življenju.</h4>
 							</div>
 						</section>
 					</div>

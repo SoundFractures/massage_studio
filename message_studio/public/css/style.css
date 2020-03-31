@@ -77,6 +77,7 @@
   margin-bottom: 30px;
   margin-top: 30px;
   font-family: "Open Sans";
+  text-align: justify;
 }
 
   .quotes {
@@ -104,9 +105,13 @@
 
   }
   
- 
+ .price_massage {
+  color: #F7931E;
+  font-family: "CantantaOne-regular";
+  margin: 0 0 10px 0;
+ }
   
-  h1, h2, h3 {
+  h1, h2 {
     color: #F7931E;
     font-family: "CantantaOne-regular";
     font-weight: 400;
@@ -114,12 +119,12 @@
   }
 
 
-  h2 {
+  h1, h2 {
     padding-bottom: 1em;
-    padding-top: 1em;
+    padding-top: 0.5em;
   }
   
-  h4, h5, h6, figure {
+  h3, h4, h5, h6, figure {
     color: black;
     font-family: "CantantaOne-regular";
     font-weight: 400;
@@ -178,11 +183,15 @@ iframe {
     float: left;
 
   }
+
+
+
   .fh5co-nav .logo {
-    width: 18%;
+    width: 22%;
     float: left;
-   
+    padding-top: 1em;
   }
+
   .fh5co-nav #fh5co-logo {
     font-size: 26px;
     margin: 0;

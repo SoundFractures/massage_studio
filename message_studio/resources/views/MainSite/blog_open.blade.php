@@ -71,7 +71,7 @@
 						<div class="col-xs-10 menu-1 text-right">
 							<ul>
 								<li><a href="{{ route('RouteController.home')}}">Domov</a></li>
-                                <li class="active"><a href="{{ route('RouteController.about')}}">O meni</a></li>
+                                <li><a href="{{ route('RouteController.about')}}">O meni</a></li>
                                 <li class="has-dropdown">
                                     <a href="{{ route('RouteController.offer')}}">Ponudba</a>
                                     <ul class="dropdown">
@@ -85,7 +85,7 @@
                             
                                 <li><a href="{{ route('RouteController.pricelist')}}">Cenik</a></li>
                                 <li><a href="{{ route('RouteController.gallery')}}">Galerija</a></li>
-                                <li><a href="{{ route('RouteController.blog')}}">Blog</a></li>
+                                <li class="active"><a href="{{ route('RouteController.blog')}}">Blog</a></li>
                                 <li><a href="{{ route('RouteController.contact')}}">Kontakt</a></li>
 							</ul>
 						</div>
@@ -94,14 +94,14 @@
 			</nav>
 
 
-			<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/h1_about.jpg);">
+			<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/omeni3.jpg);">
 				<div class="overlay"></div>
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 text-center">
 							<div class="display-t">
 								<div class="display-tc animate-box" data-animate-effect="fadeIn">
-									<h1>O meni</h1>
+									
 									
 								</div>
 							</div>
@@ -115,20 +115,18 @@
 				<div class="container">
 					<div class="about-content">
 						<div class="row animate-box">
-								
+							<h1>Lorem ipsum dolor sit amet, con</h1>
+							<div class="col-md-4 col-md-offset-1 text-center fh5co-heading">
+								<img class="img-responsive" src="images/ksenija.jpg" alt="about">
+							</div>
+
 							<div class="col-md-8 col-md-offset-4 text-center fh5co-heading">
-							<h1>Ksenija Lovrenčič</h1>
-							<img class="img-responsive" src="images/ksenija_krog.png" alt="about"><br/>
 									<div class="desc">
-										<p class="o_meni">Sem terapevtska maserka, vedno nasmejana in pozitivno usmerjena. Zanima me vse, kar je povezano
-											 s telesom in zdravim načinom življenja, zato že kar nekaj let sama izdelujem domačo kozmetiko, za
-											 lastno porabo. Prepričana sem, da lahko sami veliko pripomoremo k izboljšanju zdravja in kvalitete
-											 našega življenja.</p> 
-										<p class="o_meni">Masaža je velik del mojega življenja. Morda se kot mlajša punca tega nisem zavedala, vendar je življenje poskrbelo, da me usmeri na tisto pot, ki je prava zame. Svoje znanje rada nadgrajujem in izpopolnjujem. V veliko zadovoljstvo mi je, da s svojim znanjem in izkušnjami pomagam ljudem, zaradi vsakodnevnih naporov, obremenitev in stresa, ter vam tako pomagam ponovno vzpostaviti energetsko ravnovesje in izboljšati fizično stanje telesa.</p>
-										<p class="quotes">“Zdravje je največje darilo, zadovoljstvo je največje bogastvo, zvestoba najboljši odnos.” - Buddha</p>
+										<p class="o_meni">Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in. </p> 
+										<p class="o_meni">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+										<p class="o_meni">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
 									</div>
 							</div>
-							
 							
 						</div>
 					</div>

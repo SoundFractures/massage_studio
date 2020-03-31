@@ -64,7 +64,7 @@
                 <div class="container">
                     <div class="row navbar">
                         <div class="col-xs-2 logo">
-                            <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="images/logos/logo_pisava.png" alt=""></a>
+                            <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="images/logos/lotus_mini_logoo.png" alt=""></a>
                         </div>
                         <div class="col-xs-10 menu-1 text-right">
                             <ul>
@@ -92,7 +92,7 @@
             </nav>
 
 
-            <header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/blog6.jpg);">
+            <header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/blog_h1.jpg);">
                 <div class="overlay">
                 <div class="container">
                     <div class="row">
@@ -114,9 +114,9 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-4">
                             <div class="fh5co-blog animate-box">
-                                <a href="#"><img class="img-responsive" src="images/blog1.jpg" alt=""></a>
+                                <a href="#"><img class="img-responsive" src="images/blog_img1.jpg" alt=""></a>
                                 <div class="blog-text">
-                                    <h3><a href=""#>45 Minimal Workspace Rooms for Web Savvys</a></h3>
+                                    <h3><a href="">45 Minimal Workspace Rooms for Web Savvys</a></h3>
                                     <span class="posted_on">Nov. 15th</span>
                                 
                                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -126,7 +126,7 @@
                         </div>
                         <div class="col-lg-4 col-md-4">
                             <div class="fh5co-blog animate-box">
-                                <a href="#"><img class="img-responsive" src="images/blog2.jpg" alt=""></a>
+                                <a href="#"><img class="img-responsive" src="images/blog_img5.jpg" alt=""></a>
                                 <div class="blog-text">
                                     <h3><a href=""#>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
                                     <span class="posted_on">Nov. 15th</span>
@@ -138,7 +138,7 @@
                         </div>
                         <div class="col-lg-4 col-md-4">
                             <div class="fh5co-blog animate-box">
-                                <a href="#"><img class="img-responsive" src="images/blog3.jpg" alt=""></a>
+                                <a href="#"><img class="img-responsive" src="images/blog_img3.jpg" alt=""></a>
                                 <div class="blog-text">
                                     <h3><a href=""#>45 Minimal Workspace Rooms for Web Savvys</a></h3>
                                     <span class="posted_on">Nov. 15th</span>
@@ -150,7 +150,7 @@
                         </div>
                         <div class="col-lg-4 col-md-4">
                             <div class="fh5co-blog animate-box">
-                                <a href="#"><img class="img-responsive" src="images/aboutme.jpg" alt=""></a>
+                                <a href="#"><img class="img-responsive" src="images/blog_img4.jpg" alt=""></a>
                                 <div class="blog-text">
                                     <h3><a href=""#>45 Minimal Workspace Rooms for Web Savvys</a></h3>
                                     <span class="posted_on">Nov. 15th</span>
@@ -162,7 +162,7 @@
                         </div>
                         <div class="col-lg-4 col-md-4">
                             <div class="fh5co-blog animate-box">
-                                <a href="#"><img class="img-responsive" src="images/work-6.jpg" alt=""></a>
+                                <a href="#"><img class="img-responsive" src="images/blog_img2.jpg" alt=""></a>
                                 <div class="blog-text">
                                     <h3><a href=""#>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
                                     <span class="posted_on">Nov. 15th</span>
@@ -174,7 +174,7 @@
                         </div>
                         <div class="col-lg-4 col-md-4">
                             <div class="fh5co-blog animate-box">
-                                <a href="#"><img class="img-responsive" src="images/work-5.jpg" alt=""></a>
+                                <a href="#"><img class="img-responsive" src="images/blog_img6.jpg" alt=""></a>
                                 <div class="blog-text">
                                     <h3><a href=""#>45 Minimal Workspace Rooms for Web Savvys</a></h3>
                                     <span class="posted_on">Nov. 15th</span>

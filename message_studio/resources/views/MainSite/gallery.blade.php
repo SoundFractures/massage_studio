@@ -64,7 +64,7 @@
                 <div class="container">
                     <div class="row navbar">
                         <div class="col-xs-2 logo">
-                            <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="images/logos/logo_pisava.png" alt=""></a>
+                            <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="images/logos/lotus_mini_logoo.png" alt=""></a>
                         </div>
                         <div class="col-xs-10 menu-1 text-right">
                             <ul>
@@ -147,7 +147,7 @@
                         <input type="radio" name="radio-btn" id="img-4" />
                         <li class="slide-container">
                             <div class="slide">
-                            <img src="images/blog4.jpg" />
+                            <img src="images/g1.jpg" />
                             </div>
                             <div class="nav">
                                 <label for="img-3" class="prev">&#x2039;</label>
@@ -158,7 +158,7 @@
                         <input type="radio" name="radio-btn" id="img-5" />
                         <li class="slide-container">
                             <div class="slide">
-                            <img src="images/blog5.jpg" />
+                            <img src="images/g2.jpg" />
                             </div>
                             <div class="nav">
                                 <label for="img-4" class="prev">&#x2039;</label>
@@ -169,7 +169,7 @@
                         <input type="radio" name="radio-btn" id="img-6" />
                         <li class="slide-container">
                             <div class="slide">
-                            <img src="images/blog6.jpg" />
+                            <img src="images/header_home1.jpg" />
                             </div>
                             <div class="nav">
                                 <label for="img-5" class="prev">&#x2039;</label>
