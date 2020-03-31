@@ -94,7 +94,7 @@
 			</nav>
 
 
-			<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/omeni3.jpg);">
+			<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/blog3.jpg);">
 				<div class="overlay"></div>
 				<div class="container">
 					<div class="row">
@@ -114,20 +114,24 @@
 			<div id="fh5co-about">
 				<div class="container">
 					<div class="about-content">
+						
 						<div class="row animate-box">
-							<h1>Lorem ipsum dolor sit amet, con</h1>
-							<div class="col-md-4 col-md-offset-1 text-center fh5co-heading">
+							<div class="col-md-2 col-md-offset-1 animate-box razmik">
 								<img class="img-responsive" src="images/ksenija.jpg" alt="about">
+								<h5>Ksenija Lovrenčič</h5>
+								<p class="manjse">Terapevtska maserka</p>
+								<p class="manjse">31. 3. 2019</p>
 							</div>
 
-							<div class="col-md-8 col-md-offset-4 text-center fh5co-heading">
+							<div class="col-md-9 col-md-offset-4 animate-box">
+								<h1>Lorem ipsum dolor sit amet, con</h1>
 									<div class="desc">
-										<p class="o_meni">Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in. </p> 
-										<p class="o_meni">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-										<p class="o_meni">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+										<p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in. </p> 
+										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
 									</div>
 							</div>
-							
+						
 						</div>
 					</div>
 				</div>
