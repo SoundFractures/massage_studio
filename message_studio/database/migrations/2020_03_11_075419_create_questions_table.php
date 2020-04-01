@@ -20,6 +20,7 @@ class CreateQuestionsTable extends Migration
             $table->boolean('seen')->default(false);
             $table->string('email');
             $table->longText('body');
+            $table->longText('answer');
             $table->timestamps();
         });
     }

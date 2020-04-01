@@ -16,13 +16,13 @@ use Illuminate\Support\Facades\Route;
 //Control Panel 
 Route::middleware(['auth',])->group(function () {
     Route::get('/admin', 'AdminController@admin');
-});
-Route::get('/blogs', 'BlogController@index');
-Route::get('/blogs/create', 'BlogController@create');
-Route::get('/questions', 'QuestionController@index');
+
+Route::resource('/blogs', 'BlogController');
+Route::resource('/questions', 'QuestionController');
+
 Route::get('/subscribers', 'AdminController@subscribers');
 Route::get('/settings', 'AdminController@settings');
-
+});
 
 
 
