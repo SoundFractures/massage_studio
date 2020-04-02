@@ -45,3 +45,11 @@ hr.hr-text::before {
       left: 50%;
       transform: translate(-50%, -50%);
 }
+a, u{
+    text-decoration: none !important;
+    color:inherit;
+}
+a:hover, u:hover{
+    text-decoration: none !important;
+    color:inherit;
+}

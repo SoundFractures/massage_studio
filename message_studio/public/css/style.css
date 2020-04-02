@@ -76,6 +76,7 @@
 .o_meni {
   margin-bottom: 30px;
   margin-top: 30px;
+  line-height: 1.6;
   font-family: "Open Sans";
   text-align: justify;
 }
@@ -567,7 +568,7 @@ iframe {
   #fh5co-testimonial,
   #fh5co-footer {
   
-    padding-top: 2em;
+    padding-top: 3em;
     padding-bottom: 2em;
     clear: both;
   }
@@ -950,8 +951,8 @@ iframe {
   }
   
   .fh5co-heading {
-    margin-bottom: 6em;
-    margin-top: 4em;
+    margin-bottom: 2em;
+    margin-top: 2em;
   }
 
   .fh5co-heading-offer {
@@ -1581,7 +1582,7 @@ iframe {
   .js .animate-box {
     opacity: 1;
     margin: 0 auto;
-
+    padding-top: 1em;
   }
   
   #fh5co-header-subscribe #email {

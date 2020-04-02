@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Question;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -14,13 +14,14 @@ class QuestionController extends Controller
      */
     public function index()
     {
-        $new = DB::table('questions')->orderBy('created_at')
+        
+        $new = DB::table('questions')->orderBy('created_at','desc')
         ->where([['seen', '=', 0],['answered','=',0]])
         ->get(); 
-        $answered = DB::table('questions')->orderBy('created_at')
+        $answered = DB::table('questions')->orderBy('updated_at','desc')
         ->where('answered', '=', 1)
         ->get();
-        $questions = DB::table('questions')->orderBy('created_at')
+        $questions = DB::table('questions')->orderBy('created_at','desc')
         ->where([['seen', '=', 1],['answered','=',0]])
         ->get();
         return view('ControlPanel.Views.Questions.index',['answered' => $answered, 'questions'=>$questions,'new' => $new]);
@@ -56,7 +57,8 @@ class QuestionController extends Controller
      */
     public function show($id)
     {
-        //
+        $question = Question::find($id);
+        return view("ControlPanel.Views.Questions.show")->with('question',$question);
     }
 
     /**
@@ -67,7 +69,8 @@ class QuestionController extends Controller
      */
     public function edit($id)
     {
-        //
+        $question = Question::find($id);
+        return view("ControlPanel.Views.Questions.edit")->with('question',$question);
     }
 
     /**
@@ -79,7 +82,14 @@ class QuestionController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        //Validate
+
+        $question = Question::find($id);
+        $question->answer= $request->answer;
+        $question->answered =1;
+        $question->save();
+
+        return redirect('/questions/'.$id);
     }
 
     /**
