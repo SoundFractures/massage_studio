@@ -59,7 +59,6 @@
     </head>
     <body>
         <div id="page">
-
             <nav class="fh5co-nav" role="navigation">
                 <div class="container">
                     <div class="row navbar">
@@ -93,148 +92,135 @@
 
             
         
-            <div class="gallery">
-                
-                    <!--
-                    <span class="left"><</span>
-                    <span class="right">></span>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-10 col-md-offset-1 text-center">
-                                    <div class="display-t">
-                                        <div class="display-tc animate-box" data-animate-effect="fadeIn">
-                                         
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    -->
-                    <ul class="slides">
-                        <input type="radio" name="radio-btn" id="img-1" checked />
-                        <li class="slide-container">
-                            <div class="slide">
-                                <img src="images/blog1.jpg" />
-                            </div>
-                            <div class="nav">
-                                <label for="img-6" class="prev">&#x2039;</label>
-                                <label for="img-2" class="next">&#x203a;</label>
-                            </div>
-                        </li>
-
-                        <input type="radio" name="radio-btn" id="img-2" />
-                        <li class="slide-container">
-                            <div class="slide">
-                            <img src="images/blog2.jpg" />
-                            </div>
-                            <div class="nav">
-                                <label for="img-1" class="prev">&#x2039;</label>
-                                <label for="img-3" class="next">&#x203a;</label>
-                            </div>
-                        </li>
-
-                        <input type="radio" name="radio-btn" id="img-3" />
-                        <li class="slide-container">
-                            <div class="slide">
-                            <img src="images/blog3.jpg" />
-                            </div>
-                            <div class="nav">
-                                <label for="img-2" class="prev">&#x2039;</label>
-                                <label for="img-4" class="next">&#x203a;</label>
-                            </div>
-                        </li>
-
-                        <input type="radio" name="radio-btn" id="img-4" />
-                        <li class="slide-container">
-                            <div class="slide">
-                            <img src="images/g1.jpg" />
-                            </div>
-                            <div class="nav">
-                                <label for="img-3" class="prev">&#x2039;</label>
-                                <label for="img-5" class="next">&#x203a;</label>
-                            </div>
-                        </li>
-
-                        <input type="radio" name="radio-btn" id="img-5" />
-                        <li class="slide-container">
-                            <div class="slide">
-                            <img src="images/g2.jpg" />
-                            </div>
-                            <div class="nav">
-                                <label for="img-4" class="prev">&#x2039;</label>
-                                <label for="img-6" class="next">&#x203a;</label>
-                            </div>
-                        </li>
-
-                        <input type="radio" name="radio-btn" id="img-6" />
-                        <li class="slide-container">
-                            <div class="slide">
-                            <img src="images/header_home1.jpg" />
-                            </div>
-                            <div class="nav">
-                                <label for="img-5" class="prev">&#x2039;</label>
-                                <label for="img-1" class="next">&#x203a;</label>
-                            </div>
-                        </li>
-
-                        <li class="nav-dots">
-                        <label for="img-1" class="nav-dot" id="img-dot-1"></label>
-                        <label for="img-2" class="nav-dot" id="img-dot-2"></label>
-                        <label for="img-3" class="nav-dot" id="img-dot-3"></label>
-                        <label for="img-4" class="nav-dot" id="img-dot-4"></label>
-                        <label for="img-5" class="nav-dot" id="img-dot-5"></label>
-                        <label for="img-6" class="nav-dot" id="img-dot-6"></label>
-                        </li>
-                    </ul>
-             
-            </div>
-
-     
-
-        
-            <footer id="fh5co-footer" role="contentinfo">
-                <div class="container">
-                    <div class="row row-pb-md">              
-                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-1">
-                            <div class="col-xs-2 logo">
-                                <a href="{{ route('RouteController.home')}}"><img class="img-responsive-footer" src="images/resized_logo_beli.png" alt=""></a>
-                            </div>
-						</div>
-						
-                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-2">
-                            <h3>Kontakt</h3>
-                            <p>Bistriška cesta 60a <br> 2319 Poljčane <br> 040 853 650 <br> pallasmasaznisalon@gmail.com</p>
-						</div>
-						
-                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
-                        	<h3 class="footer-text">Delovni čas</h3>
-                            <p>Po dogovoru</p>
-						</div>
-						
-                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
-                        	<h3>Naročite se na E-novice</h3>                        
-								<div class="row form-group">
-									<div class="col-md-12">
-										<input type="text" id="email" class="form-control mail-footer" placeholder="E-naslov*">
+            <header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/klasicna2.jpg);">
+				<div class="overlay">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-10 col-md-offset-1 text-center">
+								<div class="display-t">
+									<div class="display-tc animate-box" data-animate-effect="fadeIn">
+										<h1>Galerija</h1>
+										
+										
 									</div>
 								</div>
-                                <div class="form-group">
-									<input type="submit" value="Naroči se" class="btn btn-primary submit-footer">
-								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+            </header>
+            
+            <div id="fh5co-project">
+            <!-- Pride še mogoče kaki tekst sem? -->
+            </div>
+
+            <div class="gallery">
+                <div class="container-fluid p-md-0 ">
+                    <div class="row portfolios-area">
+                        <div class="mix col-lg-6 col-md-6 web">
+                            <a href="images/refleksivna.jpg" class="portfolio-item set-bg" style="background-image:url(images/refleksivna.jpg);">
+                                <div class="pi-inner">
+                                    <h2>Neki tekst</h2>
+                                </div>						
+                            </a>
+                        </div>
+                        <div class="mix col-lg-6 col-md-6 digital">
+                            <a href="images/sportna.jpg" class="portfolio-item set-bg " style="background-image:url(images/sportna.jpg);">
+                                <div class="pi-inner">
+                                    <h2>Neki tekst</h2>
+                                </div>						
+                            </a>
+                        </div>
+                        <div class="mix col-lg-4 col-md-6 web">
+                            <a href="images/blog_img1.jpg" class="portfolio-item set-bg" style="background-image:url(images/blog_img1.jpg);">
+                                <div class="pi-inner">
+                                    <h2>Neki tekst</h2>
+                                </div>						
+                            </a>
+                        </div>
+                        <div class="mix col-lg-4 col-md-6 digital">
+                            <a href="images/img-1.jpg" class="portfolio-item set-bg" style="background-image:url(images/img-1.jpg);">
+                                <div class="pi-inner">
+                                    <h2>Neki tekst</h2>
+                                </div>						
+                            </a>
+                        </div>
+                        <div class="mix col-lg-4 col-md-6 rened">
+                            <a href="images/head-650878_1920.jpg" class="portfolio-item set-bg" style="background-image:url(images/head-650878_1920.jpg);">
+                                <div class="pi-inner">
+                                    <h2>Neki tekst</h2>
+                                </div>						
+                            </a>
+                        </div>
+                        <div class="mix col-lg-12 col-md-6 brand">
+                            <a href="images/header_pic.jpg" class="portfolio-item set-bg" style="background-image:url(images/header_pic.jpg);">
+                                <div class="pi-inner">
+                                    <h2>Neki tekst</h2>
+                                </div>						
+                            </a>
+                        </div>
+                        <div class="mix col-lg-6 col-md-6 rened">
+                            <a href="images/imm.jpg" class="portfolio-item set-bg" style="background-image:url(images/imm.jpg);">
+                                <div class="pi-inner">
+                                    <h2>Neki tekst</h2>
+                                </div>						
+                            </a>
+                        </div>
+                        <div class="mix col-lg-6 col-md-6 brand">
+                            <a href="images/services.jpg" class="portfolio-item set-bg" style="background-image:url(images/services.jpg);">
+                                <div class="pi-inner">
+                                    <h2>Neki tekst</h2>
+                                </div>						
+                            </a>
                         </div>
                     </div>
-					<hr class="hr-footer">
-					
-                    <div class="row row-pb-md-footer">              
-                        <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-1">
+                </div>
+            </div>
+
+                <footer id="fh5co-footer" role="contentinfo">
+                    <div class="container">
+                        <div class="row row-pb-md">              
+                            <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-1">
+                                <div class="col-xs-2 logo">
+                                    <a href="{{ route('RouteController.home')}}"><img class="img-responsive-footer" src="images/resized_logo_beli.png" alt=""></a>
+                                </div>
+                            </div>
                             
+                            <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-2">
+                                <h3>Kontakt</h3>
+                                <p>Bistriška cesta 60a <br> 2319 Poljčane <br> 040 853 650 <br> pallasmasaznisalon@gmail.com</p>
+                            </div>
+                            
+                            <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
+                                <h3 class="footer-text">Delovni čas</h3>
+                                <p>Po dogovoru</p>
+                            </div>
+                            
+                            <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
+                                <h3>Naročite se na E-novice</h3>                        
+                                    <div class="row form-group">
+                                        <div class="col-md-12">
+                                            <input type="text" id="email" class="form-control mail-footer" placeholder="E-naslov*">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="submit" value="Naroči se" class="btn btn-primary submit-footer">
+                                    </div>
+                            </div>
                         </div>
+                        <hr class="hr-footer">
                         
-                    
-                        <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-3">
-                            <p class="p-footer">2020 Pallas©. Vse pravice pridržane</p>
-                        </div>
-                    </div>           
+                        <div class="row row-pb-md-footer">              
+                            <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-1">
+                                
+                            </div>
+                            
+                        
+                            <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-3">
+                                <p class="p-footer">2020 Pallas©. Vse pravice pridržane</p>
+                            </div>
+                        </div>           
+                    </div>
                 </div>
             </footer>
         

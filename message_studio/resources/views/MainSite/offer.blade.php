@@ -113,7 +113,7 @@
 				</div>
 			</header>
 
-            <div id="fh5co-project">
+            <div id="fh5co-project-offer">
                 <div class="container">
                     <div class="row animate-box">
                         <div class="col-md-10 col-md-offset-2 text-center fh5co-heading-offer">
@@ -125,22 +125,22 @@
 			</div>
 
 			<nav id="spyscroll">
-				<a href="#one">Klasična masaža</a>
-				<a href="#two">Športna masaža</a>
-				<a href="#three">Refleksna masaža stopal</a>
-				<a href="#four">Masaža obraza</a>
-				<a href="#five">Access Bars terapija</a>
+				<a href="#one" class="stickyBar">	 <img class="img-responsive-offer-icon" src="images/icons/small_icons/small_icon_sport.png" alt="">Klasična masaža</a>
+				<a href="#two" class="stickyBar">    <img class="img-responsive-offer-icon" src="images/icons/small_icons/small_ikone4.png" alt="">Športna masaža</a>
+				<a href="#three" class="stickyBar">  <img class="img-responsive-offer-icon" src="images/icons/small_icons/small_icon_ref.png" alt="">Refleksna masaža stopal</a>
+				<a href="#four" class="stickyBar"> 	 <img class="img-responsive-offer-icon" src="images/icons/small_icons/small_icon_face.png" alt="">Masaža obraza</a>
+				<a href="#five" class="stickyBar">   <img class="img-responsive-offer-icon" src="images/icons/small_icons/small_icon_bars.png" alt="">Access Bars terapija</a>
 			</nav>
 
-			<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/klasicna.jpg);"></header>
-			
-
+			<header id="fh5co-header" class="fh5co-cover-offer" role="banner" style="background-image:url(images/klasicna.jpg);"></header>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-10 col-md-offset-2 text-center fh5co-heading-offer">
+					
 						<section id="one">
+						
 							<div id="fh5co-project-offer">					
-								<img class="img-responsive-offer" src="images/icons/icon_class.png" alt="">
+							<img class="img-responsive-offer" src="images/icons/icon_class.png" alt="">
 									<h2>KLASIČNA MASAŽA</h2>
 									<h4>Masaža je naravna, učinkovita metoda za lajšanje raznih zdravstvenih težav, z njo ohranjamo zdravje
 										in predvsem skrbimo za boljše počutje. Maser z masažnimi tehnikami ne prodira samo v kožo,

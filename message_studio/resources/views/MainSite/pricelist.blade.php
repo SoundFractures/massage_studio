@@ -119,7 +119,9 @@
 						<div class="col-10 pricelist">
 			
 							<span class="d-inline d-sm-none">
+							<img class="img-responsive-pricelist" src="images/icons/icon_class.png" alt="">
 								<div class="offer ">
+							
 									<h3 class="price_massage">Klasična masaža</h3>
 									<p class="price">Delna (hrbet, noge, roke), 30 min  ...... 15€</p>
 									<p class="price">Celo telo, 60 min  ................................ 30€</p>
@@ -127,6 +129,7 @@
 							</span> 
 
 							<span class="d-none d-sm-inline d-md-none">
+							<img class="img-responsive-pricelist" src="images/icons/icon_class.png" alt="">
 								<div class="offer ">
 									<h3 class="price_massage">Klasična masaža</h3>
 									<p class="price">Delna (hrbet, noge, roke), 30 min  ................................... 15€</p>
@@ -135,6 +138,7 @@
 							</span> 
 
 							<span class="d-none d-md-inline d-lg-none">
+							<img class="img-responsive-pricelist" src="images/icons/icon_class.png" alt="">
 								<div class="offer">
 									<h3 class="price_massage">Klasična masaža</h3>
 									<p class="price">Delna (hrbet, noge, roke), 30 min  ........................................................... 15€</p>
@@ -143,6 +147,7 @@
 							</span> 
 
 							<span class="d-none d-lg-inline d-xl-none">
+							<img class="img-responsive-pricelist" src="images/icons/icon_class.png" alt="">
 								<div class="offer">
 									<h3 class="price_massage">Klasična masaža</h3>
 									<p class="price">Delna (hrbet, noge, roke), 30 min  ...................................................................................................... 15€</p>
@@ -151,7 +156,9 @@
 							</span> 
 
 							<span class="d-none d-xl-inline">
+								<img class="img-responsive-pricelist" src="images/icons/icon_class.png" alt="">
 								<div class="offer">
+							
 									<h3 class="price_massage">Klasična masaža</h3>
 									<p class="price">Delna (hrbet, noge, roke), 30 min  ........................................................................................................................................... 15€</p>
 									<p class="price">Celo telo, 60 min  ..................................................................................................................................................................... 30€</p>
@@ -162,49 +169,55 @@
 
 
 							<span class="d-inline d-sm-none">
-								<div class="offer ">
-									<h3 class="price_massage">Športna masaža</h3>
-									<p class="price">Delna (hrbet, noge, roke), 30 min  ...... 20€</p>
-									<p class="price">Celo telo, 60 min  ................................ 35€</p>
-								</div>
+								<img class="img-responsive-pricelist" src="images/icons/icon_sport.png" alt="">
+									<div class="offer ">
+										<h3 class="price_massage">Športna masaža</h3>
+										<p class="price">Delna (hrbet, noge, roke), 30 min  ...... 20€</p>
+										<p class="price">Celo telo, 60 min  ................................ 35€</p>
+									</div>
 							</span> 
 
 							<span class="d-none d-sm-inline d-md-none">
-								<div class="offer ">
-									<h3 class="price_massage">Športna masaža</h3>
-									<p class="price">Delna (hrbet, noge, roke), 30 min  ................................... 20€</p>
-									<p class="price">Celo telo, 60 min  ............................................................. 35€</p>
-								</div>
+								<img class="img-responsive-pricelist" src="images/icons/icon_sport.png" alt="">
+									<div class="offer ">
+										<h3 class="price_massage">Športna masaža</h3>
+										<p class="price">Delna (hrbet, noge, roke), 30 min  ................................... 20€</p>
+										<p class="price">Celo telo, 60 min  ............................................................. 35€</p>
+									</div>
 							</span> 
 
 							<span class="d-none d-md-inline d-lg-none">
-								<div class="offer">
-									<h3 class="price_massage">Športna masaža</h3>
-									<p class="price">Delna (hrbet, noge, roke), 30 min  ........................................................... 20€</p>
-									<p class="price">Celo telo, 60 min  ..................................................................................... 35€</p>
-								</div>
+								<img class="img-responsive-pricelist" src="images/icons/icon_sport.png" alt="">
+									<div class="offer">
+										<h3 class="price_massage">Športna masaža</h3>
+										<p class="price">Delna (hrbet, noge, roke), 30 min  ........................................................... 20€</p>
+										<p class="price">Celo telo, 60 min  ..................................................................................... 35€</p>
+									</div>
 							</span> 
 
 							<span class="d-none d-lg-inline d-xl-none">
-								<div class="offer">
-									<h3 class="price_massage">Športna masaža</h3>
-									<p class="price">Delna (hrbet, noge, roke), 30 min  ...................................................................................................... 20€</p>
-									<p class="price">Celo telo, 60 min  ................................................................................................................................ 35€</p>
-								</div>
+								<img class="img-responsive-pricelist" src="images/icons/icon_sport.png" alt="">
+									<div class="offer">
+										<h3 class="price_massage">Športna masaža</h3>
+										<p class="price">Delna (hrbet, noge, roke), 30 min  ...................................................................................................... 20€</p>
+										<p class="price">Celo telo, 60 min  ................................................................................................................................ 35€</p>
+									</div>
 							</span> 
 
 							<span class="d-none d-xl-inline">
-								<div class="offer">
-									<h3 class="price_massage">Športna masaža</h3>
-									<p class="price">Delna (hrbet, noge, roke), 30 min  ........................................................................................................................................... 20€</p>
-									<p class="price">Celo telo, 60 min  ..................................................................................................................................................................... 35€</p>
-								</div>
+								<img class="img-responsive-pricelist" src="images/icons/icon_sport.png" alt="">	
+									<div class="offer">
+										<h3 class="price_massage">Športna masaža</h3>
+										<p class="price">Delna (hrbet, noge, roke), 30 min  ........................................................................................................................................... 20€</p>
+										<p class="price">Celo telo, 60 min  ..................................................................................................................................................................... 35€</p>
+									</div>
 							</span> 
 							
 						
 
 							
 							<span class="d-inline d-sm-none">
+							<img class="img-responsive-pricelist" src="images/icons/icon_ref.png" alt="">	
 								<div class="offer ">
 									<h3 class="price_massage">Refleksna masaža stopal</h3>
 									<p class="price">30 min  ................................................. 35€</p>
@@ -212,6 +225,7 @@
 							</span> 
 
 							<span class="d-none d-sm-inline d-md-none">
+							<img class="img-responsive-pricelist" src="images/icons/icon_ref.png" alt="">	
 								<div class="offer ">
 									<h3 class="price_massage">Refleksna masaža stopal</h3>
 									<p class="price">30 min  ............................................................................. 35€</p>
@@ -219,6 +233,7 @@
 							</span> 
 
 							<span class="d-none d-md-inline d-lg-none">
+							<img class="img-responsive-pricelist" src="images/icons/icon_ref.png" alt="">	
 								<div class="offer">
 									<h3 class="price_massage">Refleksna masaža stopal</h3>
 									<p class="price">30 min  ..................................................................................................... 35€</p>
@@ -226,6 +241,7 @@
 							</span> 
 
 							<span class="d-none d-lg-inline d-xl-none">
+							<img class="img-responsive-pricelist" src="images/icons/icon_ref.png" alt="">	
 								<div class="offer">
 									<h3 class="price_massage">Refleksna masaža stopal</h3>
 									<p class="price">30 min  ................................................................................................................................................. 35€</p>
@@ -233,6 +249,7 @@
 							</span> 
 
 							<span class="d-none d-xl-inline">
+							<img class="img-responsive-pricelist" src="images/icons/icon_ref.png" alt="">	
 								<div class="offer">
 								<h3 class="price_massage">Refleksna masaža stopal</h3>
 									<p class="price">30 min  ...................................................................................................................................................................................... 35€</p>
@@ -245,6 +262,7 @@
 
 
 							<span class="d-inline d-sm-none">
+							<img class="img-responsive-pricelist" src="images/icons/resized_ikone1.png" alt="">	
 								<div class="offer ">
 									<h3 class="price_massage">Sprostitvena masaža obraza</h3>
 									<p class="price">20 min  ................................................. 10€</p>
@@ -252,6 +270,7 @@
 							</span> 
 
 							<span class="d-none d-sm-inline d-md-none">
+							<img class="img-responsive-pricelist" src="images/icons/resized_ikone1.png" alt="">	
 								<div class="offer ">
 									<h3 class="price_massage">Sprostitvena masaža obraza</h3>
 									<p class="price">20 min  ............................................................................. 10€</p>
@@ -259,6 +278,7 @@
 							</span> 
 
 							<span class="d-none d-md-inline d-lg-none">
+							<img class="img-responsive-pricelist" src="images/icons/resized_ikone1.png" alt="">	
 								<div class="offer">
 									<h3 class="price_massage">Sprostitvena masaža obraza</h3>
 									<p class="price">20 min  ..................................................................................................... 10€</p>
@@ -266,6 +286,7 @@
 							</span> 
 
 							<span class="d-none d-lg-inline d-xl-none">
+							<img class="img-responsive-pricelist" src="images/icons/resized_ikone1.png" alt="">	
 								<div class="offer">
 									<h3 class="price_massage">Sprostitvena masaža obraza</h3>
 									<p class="price">20 min  ................................................................................................................................................. 10€</p>
@@ -273,6 +294,7 @@
 							</span> 
 
 							<span class="d-none d-xl-inline">
+							<img class="img-responsive-pricelist" src="images/icons/resized_ikone1.png" alt="">	
 								<div class="offer">
 									<h3 class="price_massage">Sprostitvena masaža obraza</h3>
 									<p class="price">20 min  ....................................................................................................................................................................................... 10€</p>
@@ -285,43 +307,48 @@
 
 
 							<span class="d-inline d-sm-none">
-								<div class="offer ">
-									<h3 class="price_massage">Access Bars Terapija</h3>
-									<p class="price">30 min  ................................................. 20€</p>
-									<p class="price">60 min  ................................................. 30€</p>
-								</div>
+								<img class="img-responsive-pricelist" src="images/icons/icon_bars.png" alt="">	
+									<div class="offer ">
+										<h3 class="price_massage">Access Bars Terapija</h3>
+										<p class="price">30 min  ................................................. 20€</p>
+										<p class="price">60 min  ................................................. 30€</p>
+									</div>
 							</span> 
 
 							<span class="d-none d-sm-inline d-md-none">
-								<div class="offer ">
-									<h3 class="price_massage">Access Bars Terapija</h3>
-									<p class="price">30 min  ............................................................................. 20€</p>
-									<p class="price">60 min  ............................................................................. 30€</p>
-								</div>
+								<img class="img-responsive-pricelist" src="images/icons/icon_bars.png" alt="">	
+									<div class="offer ">
+										<h3 class="price_massage">Access Bars Terapija</h3>
+										<p class="price">30 min  ............................................................................. 20€</p>
+										<p class="price">60 min  ............................................................................. 30€</p>
+									</div>
 							</span> 
 
 							<span class="d-none d-md-inline d-lg-none">
-								<div class="offer">
-									<h3 class="price_massage">Access Bars Terapija</h3>
-									<p class="price">30 min  ..................................................................................................... 20€</p>
-									<p class="price">60 min  ..................................................................................................... 30€</p>
-								</div>
+								<img class="img-responsive-pricelist" src="images/icons/icon_bars.png" alt="">	
+									<div class="offer">
+										<h3 class="price_massage">Access Bars Terapija</h3>
+										<p class="price">30 min  ..................................................................................................... 20€</p>
+										<p class="price">60 min  ..................................................................................................... 30€</p>
+									</div>
 							</span> 
 
 							<span class="d-none d-lg-inline d-xl-none">
-								<div class="offer">
-									<h3 class="price_massage">Access Bars Terapija</h3>
-									<p class="price">30 min  ................................................................................................................................................. 20€</p>
-									<p class="price">60 min  ................................................................................................................................................. 30€</p>
-								</div>
+								<img class="img-responsive-pricelist" src="images/icons/icon_bars.png" alt="">	
+									<div class="offer">
+										<h3 class="price_massage">Access Bars Terapija</h3>
+										<p class="price">30 min  ................................................................................................................................................. 20€</p>
+										<p class="price">60 min  ................................................................................................................................................. 30€</p>
+									</div>
 							</span> 
 
 							<span class="d-none d-xl-inline">
-								<div class="offer">
-									<h3 class="price_massage">Access Bars Terapija</h3>
-									<p class="price">30 min  ....................................................................................................................................................................................... 20€</p>
-									<p class="price">60 min  ....................................................................................................................................................................................... 30€</p>
-								</div>
+								<img class="img-responsive-pricelist" src="images/icons/icon_bars.png" alt="">	
+									<div class="offer">
+										<h3 class="price_massage">Access Bars Terapija</h3>
+										<p class="price">30 min  ....................................................................................................................................................................................... 20€</p>
+										<p class="price">60 min  ....................................................................................................................................................................................... 30€</p>
+									</div>
 							</span> 
 							
 
