@@ -116,11 +116,11 @@
                             <div class="fh5co-blog animate-box">
                                 <a href="{{ route('RouteController.blog_open')}}"><img class="img-responsive" src="images/blog_img1.jpg" alt=""></a>
                                 <div class="blog-text">
-                                    <h3><a href="">45 Minimal Workspace Rooms for Web Savvys</a></h3>
+                                    <h3><a href="{{ route('RouteController.blog_open')}}">45 Minimal Workspace Rooms for Web Savvys</a></h3>
                                     <span class="posted_on">Nov. 15th</span>
                                 
                                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                    <a href="#" class="btn btn-primary">Preberi več...</a>
+                                    <a href="{{ route('RouteController.blog_open')}}" class="btn btn-primary">Preberi več...</a>
                                 </div> 
                             </div>
                         </div>
@@ -128,11 +128,11 @@
                             <div class="fh5co-blog animate-box">
                                 <a href="{{ route('RouteController.blog_open')}}"><img class="img-responsive" src="images/blog_img5.jpg" alt=""></a>
                                 <div class="blog-text">
-                                    <h3><a href=""#>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
+                                    <h3><a href="{{ route('RouteController.blog_open')}}">45 Minimal Worksspace Rooms for Web Savvys</a></h3>
                                     <span class="posted_on">Nov. 15th</span>
                      
                                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                    <a href="#" class="btn btn-primary">Preberi več...</a>
+                                    <a href="{{ route('RouteController.blog_open')}}" class="btn btn-primary">Preberi več...</a>
                                 </div> 
                             </div>
                         </div>
@@ -140,11 +140,11 @@
                             <div class="fh5co-blog animate-box">
                                 <a href="{{ route('RouteController.blog_open')}}"><img class="img-responsive" src="images/blog_img3.jpg" alt=""></a>
                                 <div class="blog-text">
-                                    <h3><a href=""#>45 Minimal Workspace Rooms for Web Savvys</a></h3>
+                                    <h3><a href="{{ route('RouteController.blog_open')}}">45 Minimal Workspace Rooms for Web Savvys</a></h3>
                                     <span class="posted_on">Nov. 15th</span>
                                  
                                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                    <a href="#" class="btn btn-primary">Preberi več...</a>
+                                    <a href="{{ route('RouteController.blog_open')}}" class="btn btn-primary">Preberi več...</a>
                                 </div> 
                             </div>
                         </div>
@@ -152,11 +152,11 @@
                             <div class="fh5co-blog animate-box">
                                 <a href="{{ route('RouteController.blog_open')}}"><img class="img-responsive" src="images/blog_img4.jpg" alt=""></a>
                                 <div class="blog-text">
-                                    <h3><a href=""#>45 Minimal Workspace Rooms for Web Savvys</a></h3>
+                                    <h3><a href="{{ route('RouteController.blog_open')}}">45 Minimal Workspace Rooms for Web Savvys</a></h3>
                                     <span class="posted_on">Nov. 15th</span>
                               
                                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                    <a href="#" class="btn btn-primary">Preberi več...</a>
+                                    <a href="{{ route('RouteController.blog_open')}}" class="btn btn-primary">Preberi več...</a>
                                 </div> 
                             </div>
                         </div>
@@ -164,11 +164,11 @@
                             <div class="fh5co-blog animate-box">
                                 <a href="{{ route('RouteController.blog_open')}}"><img class="img-responsive" src="images/blog_img2.jpg" alt=""></a>
                                 <div class="blog-text">
-                                    <h3><a href=""#>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
+                                    <h3><a href="{{ route('RouteController.blog_open')}}">45 Minimal Worksspace Rooms for Web Savvys</a></h3>
                                     <span class="posted_on">Nov. 15th</span>
                            
                                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                    <a href="#" class="btn btn-primary">Preberi več...</a>
+                                    <a href="{{ route('RouteController.blog_open')}}" class="btn btn-primary">Preberi več...</a>
                                 </div> 
                             </div>
                         </div>
@@ -176,11 +176,11 @@
                             <div class="fh5co-blog animate-box">
                                 <a href="{{ route('RouteController.blog_open')}}"><img class="img-responsive" src="images/blog_img6.jpg" alt=""></a>
                                 <div class="blog-text">
-                                    <h3><a href=""#>45 Minimal Workspace Rooms for Web Savvys</a></h3>
+                                    <h3><a href="{{ route('RouteController.blog_open')}}">45 Minimal Workspace Rooms for Web Savvys</a></h3>
                                     <span class="posted_on">Nov. 15th</span>
                      
                                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                    <a href="#" class="btn btn-primary">Preberi več...</a>
+                                    <a href="{{ route('RouteController.blog_open')}}" class="btn btn-primary">Preberi več...</a>
                                 </div> 
                             </div>
                         </div>
