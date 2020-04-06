@@ -44,7 +44,6 @@
         
         @endif
         <div class="my-4 w-100">
-            
             <hr data-content="Zaključeno" class="hr-text " >
         </div>
         @if(count($answered))

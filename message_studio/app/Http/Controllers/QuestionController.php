@@ -69,7 +69,12 @@ class QuestionController extends Controller
      */
     public function edit($id)
     {
+        
         $question = Question::find($id);
+        if($question->seen == 0){
+            $question->seen = 1;
+            $question->save();
+        }
         return view("ControlPanel.Views.Questions.edit")->with('question',$question);
     }
 

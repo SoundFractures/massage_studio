@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Blog;
 class BlogController extends Controller
 {
     /**
@@ -13,7 +13,8 @@ class BlogController extends Controller
      */
     public function index()
     {
-        return view('ControlPanel.Views.Blogs.index');
+        $blogs = Blog::all();
+        return view('ControlPanel.Views.Blogs.index', ["blogs"=>$blogs]);
     }
 
     /**
@@ -23,6 +24,7 @@ class BlogController extends Controller
      */
     public function create()
     {
+
         return view('ControlPanel.Views.Blogs.create');
         
     }
@@ -46,7 +48,8 @@ class BlogController extends Controller
      */
     public function show($id)
     {
-        //
+        $blog = Blog::find($id);
+        return view('ControlPanel.Views.Blogs.show',["blog"=>$blog]);
     }
 
     /**
@@ -57,7 +60,7 @@ class BlogController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('ControlPanel.Views.Blogs.edit');
     }
 
     /**

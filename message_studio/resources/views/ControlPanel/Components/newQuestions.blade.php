@@ -21,7 +21,7 @@
         @foreach($lastNewQuestions as $item)
             <a class="dropdown-item d-flex align-items-left" href="/questions/{{$item->id}}/edit">
                 <div class="dropdown-list-image mr-3">
-                    <img class="rounded-circle" src="https://source.unsplash.com/fn_BT9fwg_E/60x60" alt="">
+                  <i class="fas fa-fw fa-comment fa-2x"></i>
                   </div>
                 <div class="font-weight-bold">
                   <div class="text-truncate w-100">{{$item->body}}</div>

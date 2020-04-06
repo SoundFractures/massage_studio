@@ -38,7 +38,11 @@
       <!-- Sidebar - Brand -->
       <div class="sidebar-brand d-flex align-items-center justify-content-center">
         
-        <div class="sidebar-brand-text mx-3">PALLAS </div>
+        <div class="sidebar-brand-text mx-3">
+          <a href="{{url("/")}}">
+            PALLAS
+          </a>
+        </div>
     </div>
 
       <!-- Divider -->
@@ -59,26 +63,16 @@
         Akcije
       </div>
 
-      <!-- Nav Item - Blog Collapse Menu -->
+      <!-- Nav Item - Blogi -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBlog" aria-expanded="true" aria-controls="collapseBlog">
-          <i class="fas fa-fw fa-cog"></i>
-          <span>Blog</span>
-        </a>
-        <div id="collapseBlog" class="collapse" aria-labelledby="headingBlog" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <a class="collapse-item " href="{{ url('blogs/create') }}"><i class="fas fa-fw fa-plus"></i>
-                <span class="right-align">Ustvari</span></a>
-            <a class="collapse-item " href="{{ url('blogs') }}"><i class="fas fa-fw fa-list-alt"></i>
-                <span class="right-align">Pregled</span></a>
-          </div>
-        </div>
+        <a class="nav-link" href="{{ url('blogs') }}">
+          <i class="fas fa-fw fa-blog"></i>
+          <span>Blogi</span></a>
       </li>
-
-      <!-- Nav Item - Povprasevanja Collapse Menu -->
+      <!-- Nav Item - Povprasevanja -->
       <li class="nav-item">
         <a class="nav-link" href="{{ url('questions') }}">
-          <i class="fas fa-fw fa-user-friends"></i>
+          <i class="fas fa-fw fa-comment"></i>
           <span>Povpraševanja</span></a>
       </li>
       <!-- Nav Item - Subscription Item -->
