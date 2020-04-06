@@ -178,21 +178,21 @@
             </div>
                 -->
 
-                <input type="checkbox" id="pic-1"/>
+                <input type="checkbox" id="pic-1" class="hidden-checkbox"/>
                 <label for="pic-1" class="lightbox"><img src="images/blog_img1.jpg"/></label>
-                <input type="checkbox" id="pic-2"/>
+                <input type="checkbox" id="pic-2" class="hidden-checkbox"/>
                 <label for="pic-2" class="lightbox"><img src="images/blog_img2.jpg"/></label>
-                <input type="checkbox" id="pic-3"/>
+                <input type="checkbox" id="pic-3" class="hidden-checkbox"/>
                 <label for="pic-3" class="lightbox"><img src="images/blog_img3.jpg"/></label>
-                <input type="checkbox" id="pic-4"/>
+                <input type="checkbox" id="pic-4" class="hidden-checkbox"/>
                 <label for="pic-4" class="lightbox"><img src="images/blog_img4.jpg"/></label>
-                <input type="checkbox" id="pic-5"/>
+                <input type="checkbox" id="pic-5" class="hidden-checkbox"/>
                 <label for="pic-5" class="lightbox"><img src="images/blog_img5.jpg"/></label>
-                <input type="checkbox" id="pic-6"/>
+                <input type="checkbox" id="pic-6" class="hidden-checkbox"/>
                 <label for="pic-6" class="lightbox"><img src="images/blog_img6.jpg"/></label>
-                <input type="checkbox" id="pic-7"/>
+                <input type="checkbox" id="pic-7" class="hidden-checkbox"/>
                 <label for="pic-7" class="lightbox"><img src="images/blog_img1.jpg"/></label>
-                <input type="checkbox" id="pic-8"/>
+                <input type="checkbox" id="pic-8" class="hidden-checkbox"/>
                 <label for="pic-8" class="lightbox"><img src="images/blog_img2.jpg"/></label>
 
                 <div class="grid">
