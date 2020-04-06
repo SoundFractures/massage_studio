@@ -22,7 +22,7 @@
         
         @endforeach
         @else
-        <h2>NI NOVIH</h2>
+        
         @endif
         
         @if(count($questions))
@@ -41,7 +41,7 @@
         </div>
         @endforeach
         @else
-        <h2>NI SPOROČIL</h2>
+        
         @endif
         <div class="my-4 w-100">
             
@@ -61,41 +61,14 @@
                 </div>
                 
             </div>
-            <div class="row d-flex flex-grow justify-content-end">
-                <div class="col-12 ">
-                    <a href="#deleteModal" class="btn btn-danger btn-icon-split p-0 mx-1 float-right modal-trigger" >
-                        <span class="icon text-white">
-                          <i class="fas fa-trash"></i>
-                        </span>
-                        <span class="text">Odstrani</span>
-                      </a>
-                </div>
-              </div>
+            @include('ControlPanel.Components.deleteModal',['name'=>$item->name,'id'=>$item->id])
         </div>
         @endforeach
         @else
         <h2>NI ODGOVORJENIH</h2>
         @endif
 
-        <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModal" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  ...
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-              </div>
-            </div>
-          </div>
+        
     </div>
 </div>
 

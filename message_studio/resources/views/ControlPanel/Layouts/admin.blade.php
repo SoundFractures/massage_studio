@@ -22,7 +22,7 @@
   <link href="{{ asset('css/override.css') }}" rel="stylesheet">
   
   <link href="{{ asset('css/dataTables.bootstrap4.min.css') }}" rel="stylesheet">
- 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
   
 
 </head>
@@ -176,7 +176,7 @@
 
   <!-- Bootstrap core JavaScript-->
   
-  <script src="{{ asset('js/jquery.min.js') }}" defer></script>
+  
   
   <script src="{{ asset('js/bootstrap.bundle.min.js') }}" defer></script>
 
@@ -184,7 +184,7 @@
 
   <script src="{{ asset('js/jquery.easing.min.js') }}" defer></script>
   <!-- Custom scripts for all pages-->
-
+ 
   <script src="{{ asset('js/sb-admin-2.min.js') }}" defer></script>
 
   <script src="{{ asset('js/jquery.dataTables.min.js') }}" defer></script>
@@ -195,7 +195,6 @@
   $('#deleteModal').trigger('focus')
 })
 </script>
-  
 
 </body>
 
