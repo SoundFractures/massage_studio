@@ -178,33 +178,64 @@
             </div>
                 -->
 
-                <input type="checkbox" id="pic-1" class="hidden-checkbox"/>
-                <label for="pic-1" class="lightbox"><img src="images/blog_img1.jpg"/></label>
-                <input type="checkbox" id="pic-2" class="hidden-checkbox"/>
-                <label for="pic-2" class="lightbox"><img src="images/blog_img2.jpg"/></label>
-                <input type="checkbox" id="pic-3" class="hidden-checkbox"/>
-                <label for="pic-3" class="lightbox"><img src="images/blog_img3.jpg"/></label>
-                <input type="checkbox" id="pic-4" class="hidden-checkbox"/>
-                <label for="pic-4" class="lightbox"><img src="images/blog_img4.jpg"/></label>
-                <input type="checkbox" id="pic-5" class="hidden-checkbox"/>
-                <label for="pic-5" class="lightbox"><img src="images/blog_img5.jpg"/></label>
-                <input type="checkbox" id="pic-6" class="hidden-checkbox"/>
-                <label for="pic-6" class="lightbox"><img src="images/blog_img6.jpg"/></label>
-                <input type="checkbox" id="pic-7" class="hidden-checkbox"/>
-                <label for="pic-7" class="lightbox"><img src="images/blog_img1.jpg"/></label>
-                <input type="checkbox" id="pic-8" class="hidden-checkbox"/>
-                <label for="pic-8" class="lightbox"><img src="images/blog_img2.jpg"/></label>
+                <article class='gallery'>
+                <a class='gallery-link' href='https://unsplash.it/1600/1200?image=1081'>
+                    <figure class='gallery-image'>
+                    <img height='1200' src='https://unsplash.it/1600/1200?image=1081' width='1600'>
+                    <figcaption>Photo caption</figcaption>
+                    </figure>
+                </a>
+                <a class='gallery-link' href='https://unsplash.it/1600/1000?image=1014'>
+                    <figure class='gallery-image'>
+                    <img height='1000' src='https://unsplash.it/1600/1000?image=1014' width='1600'>
+                    <figcaption>Photo caption</figcaption>
+                    </figure>
+                </a>
+                <a class='gallery-link' href='https://unsplash.it/1200/1600?image=267'>
+                    <figure class='gallery-image'>
+                    <img height='1600' src='https://unsplash.it/1200/1600?image=267' width='1200'>
+                    <figcaption>Photo caption</figcaption>
+                    </figure>
+                </a>
+                <a class='gallery-link' href='https://unsplash.it/1400/1200?image=266'>
+                    <figure class='gallery-image'>
+                    <img height='1200' src='https://unsplash.it/1400/1200?image=266' width='1400'>
+                    <figcaption>Photo caption</figcaption>
+                    </figure>
+                </a>
+                <a class='gallery-link' href='https://unsplash.it/1200/1600?image=634'>
+                    <figure class='gallery-image'>
+                    <img height='1600' src='https://unsplash.it/1200/1600?image=634' width='1200'>
+                    <figcaption>Photo caption</figcaption>
+                    </figure>
+                </a>
+                <a class='gallery-link' href='https://unsplash.it/1400/1600?image=923'>
+                    <figure class='gallery-image'>
+                    <img height='1600' src='https://unsplash.it/1400/1600?image=923' width='1400'>
+                    <figcaption>Photo caption</figcaption>
+                    </figure>
+                </a>
+                <a class='gallery-link' href='https://unsplash.it/1000/1600?image=682'>
+                    <figure class='gallery-image'>
+                    <img height='1600' src='https://unsplash.it/1000/1600?image=682' width='1000'>
+                    <figcaption>Photo caption</figcaption>
+                    </figure>
+                </a>
+                <a class='gallery-link' href='https://unsplash.it/1400/1200?image=173'>
+                    <figure class='gallery-image'>
+                    <img height='1200' src='https://unsplash.it/1400/1200?image=173' width='1400'>
+                    <figcaption>Photo caption</figcaption>
+                    </figure>
+                </a>
+                <a class='gallery-link' href='https://unsplash.it/1000/1600?image=943'>
+                    <figure class='gallery-image'>
+                    <img height='1600' src='https://unsplash.it/1000/1600?image=943' width='1000'>
+                    <figcaption>Photo caption</figcaption>
+                    </figure>
+                </a>
+                </article>
 
-                <div class="grid">
-                    <label for="pic-1" class="grid-item"><img src="images/blog_img1.jpg"/></label>
-                    <label for="pic-2" class="grid-item"><img src="images/blog_img2.jpg"/></label>
-                    <label for="pic-3" class="grid-item"><img src="images/blog_img3.jpg"/></label>
-                    <label for="pic-4" class="grid-item"><img src="images/blog_img4.jpg"/></label>
-                    <label for="pic-5" class="grid-item"><img src="images/blog_img5.jpg"/></label>
-                    <label for="pic-6" class="grid-item"><img src="images/blog_img6.jpg"/></label>
-                    <label for="pic-7" class="grid-item"><img src="images/blog_img1.jpg"/></label>
-                    <label for="pic-8" class="grid-item"><img src="images/blog_img2.jpg"/></label>
-                </div>
+
 
                 <footer id="fh5co-footer" role="contentinfo">
                     <div class="container">
