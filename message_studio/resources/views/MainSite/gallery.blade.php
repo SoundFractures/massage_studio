@@ -12,7 +12,7 @@
 
         <!-- Scripts -->
         <script type="text/javascript" src="js/app.js" defer></script>
-
+        <script type="text/javascript" src="js/gallery.js" defer></script>
         <!-- jQuery -->
         <script src="js/jquery.min.js"></script>
         
@@ -113,7 +113,7 @@
             <div id="fh5co-project">
             <!-- Pride še mogoče kaki tekst sem? -->
             </div>
-
+            <!-- 
             <div class="gallery">
                 <div class="container-fluid p-md-0 ">
                     <div class="row portfolios-area">
@@ -176,6 +176,35 @@
                     </div>
                 </div>
             </div>
+                -->
+
+                <input type="checkbox" id="pic-1"/>
+                <label for="pic-1" class="lightbox"><img src="images/blog_img1.jpg"/></label>
+                <input type="checkbox" id="pic-2"/>
+                <label for="pic-2" class="lightbox"><img src="images/blog_img2.jpg"/></label>
+                <input type="checkbox" id="pic-3"/>
+                <label for="pic-3" class="lightbox"><img src="images/blog_img3.jpg"/></label>
+                <input type="checkbox" id="pic-4"/>
+                <label for="pic-4" class="lightbox"><img src="images/blog_img4.jpg"/></label>
+                <input type="checkbox" id="pic-5"/>
+                <label for="pic-5" class="lightbox"><img src="images/blog_img5.jpg"/></label>
+                <input type="checkbox" id="pic-6"/>
+                <label for="pic-6" class="lightbox"><img src="images/blog_img6.jpg"/></label>
+                <input type="checkbox" id="pic-7"/>
+                <label for="pic-7" class="lightbox"><img src="images/blog_img1.jpg"/></label>
+                <input type="checkbox" id="pic-8"/>
+                <label for="pic-8" class="lightbox"><img src="images/blog_img2.jpg"/></label>
+
+                <div class="grid">
+                    <label for="pic-1" class="grid-item"><img src="images/blog_img1.jpg"/></label>
+                    <label for="pic-2" class="grid-item"><img src="images/blog_img2.jpg"/></label>
+                    <label for="pic-3" class="grid-item"><img src="images/blog_img3.jpg"/></label>
+                    <label for="pic-4" class="grid-item"><img src="images/blog_img4.jpg"/></label>
+                    <label for="pic-5" class="grid-item"><img src="images/blog_img5.jpg"/></label>
+                    <label for="pic-6" class="grid-item"><img src="images/blog_img6.jpg"/></label>
+                    <label for="pic-7" class="grid-item"><img src="images/blog_img1.jpg"/></label>
+                    <label for="pic-8" class="grid-item"><img src="images/blog_img2.jpg"/></label>
+                </div>
 
                 <footer id="fh5co-footer" role="contentinfo">
                     <div class="container">
@@ -225,7 +254,3 @@
             </footer>
         
         
-        </div>
-    </body>
-</html>
-
