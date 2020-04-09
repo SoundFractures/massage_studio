@@ -5,11 +5,25 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <!--SEO time -->
+        <title>Masazni salon Pallas | Vzemite si trenutek zase!</title>
+        <meta name="description" content="Salon Pallas se lahko pohvali z odličnimi terapevtskimi masažami, privoščite si čas zase in za svoje počutje">
+        <meta name="keywords" content="masaža,klasična masaža,športna masaža,refleksna masaža stopal, masaža obraza, access bars terapija,zdravljenje,zdravje,sprostitev">
+ 
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154513897-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-154513897-1');
+        </script>
+
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
-
-        <title>{{ config('app.name', 'Laravel') }}</title>
-
+      
         <!-- Scripts -->
         <script type="text/javascript" src="js/app.js" defer></script>
 

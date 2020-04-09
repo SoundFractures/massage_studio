@@ -7,7 +7,20 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
+        <title>Masazni salon Pallas | Blog</title>
+ 
+        <meta name="description" content="V mojem blogu si lahko preberete več o raznih masažah, in drugih izdelkov s katerimi lahko izboljšate svoje zdravje in počutje">
+        <meta name="keywords" content="masaža,klasična masaža,športna masaža,refleksna masaža stopal, masaža obraza, access bars terapija,zdravljenje,zdravje,sprostitev">
+       
+       <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154513897-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-154513897-1');
+        </script>
 
         <!-- Scripts -->
         <script type="text/javascript" src="js/app.js" defer></script>
@@ -116,10 +129,10 @@
                             <div class="fh5co-blog animate-box">
                                 <a href="{{ route('RouteController.blog_open')}}"><img class="img-responsive" src="images/blog_img1.jpg" alt=""></a>
                                 <div class="blog-text">
-                                    <h3><a href="{{ route('RouteController.blog_open')}}">45 Minimal Workspace Rooms for Web Savvys</a></h3>
+                                    <h3><a href="{{ route('RouteController.blog_open')}}">Katero masažo izbrati?</a></h3>
                                     <span class="posted_on">Nov. 15th</span>
                                 
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                    <p>Katera masaža je prava zame?</p><br>
                                     <a href="{{ route('RouteController.blog_open')}}" class="btn btn-primary">Preberi več...</a>
                                 </div> 
                             </div>
@@ -128,10 +141,10 @@
                             <div class="fh5co-blog animate-box">
                                 <a href="{{ route('RouteController.blog_open')}}"><img class="img-responsive" src="images/blog_img5.jpg" alt=""></a>
                                 <div class="blog-text">
-                                    <h3><a href="{{ route('RouteController.blog_open')}}">45 Minimal Worksspace Rooms for Web Savvys</a></h3>
+                                    <h3><a href="{{ route('RouteController.blog_open')}}">Prednosti masaže.</a></h3>
                                     <span class="posted_on">Nov. 15th</span>
                      
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                    <p>Spoznajte vse prednosti, ki jih masaža prinaša</p>
                                     <a href="{{ route('RouteController.blog_open')}}" class="btn btn-primary">Preberi več...</a>
                                 </div> 
                             </div>
@@ -140,10 +153,10 @@
                             <div class="fh5co-blog animate-box">
                                 <a href="{{ route('RouteController.blog_open')}}"><img class="img-responsive" src="images/blog_img3.jpg" alt=""></a>
                                 <div class="blog-text">
-                                    <h3><a href="{{ route('RouteController.blog_open')}}">45 Minimal Workspace Rooms for Web Savvys</a></h3>
+                                    <h3><a href="{{ route('RouteController.blog_open')}}">Kako pogosto na masažo?</a></h3>
                                     <span class="posted_on">Nov. 15th</span>
                                  
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                    <p>Se tudi vi sprašujete kolikšna je prava mera masaže </p>
                                     <a href="{{ route('RouteController.blog_open')}}" class="btn btn-primary">Preberi več...</a>
                                 </div> 
                             </div>

@@ -8,7 +8,20 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
+        <title>Masazni salon Pallas | Kontakt</title>
+
+        <meta name="description" content="Če imate vprašanja ali vas zanima več o posameznih masažah me kontaktirajte in z veseljem bom odgovorila na vaša vprašanja">
+        <meta name="keywords" content="masaža,klasična masaža,športna masaža,refleksna masaža stopal, masaža obraza, access bars terapija,zdravljenje,zdravje,sprostitev">
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154513897-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-154513897-1');
+        </script>
 
         <!-- Scripts -->
         <script type="text/javascript" src="js/app.js" defer></script>
