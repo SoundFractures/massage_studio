@@ -76,12 +76,12 @@
     <body>
 
         <div id="page">
-
+        @include('cookieConsent::index')
             <nav class="fh5co-nav" role="navigation">
                 <div class="container">
                     <div class="row navbar">
                         <div class="col-xs-2 logo">
-                            <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="images/logos/lotus_mini_logoo.png" alt=""></a>
+                            <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="images/logos/lotus_mini_logoo.png" alt="lotus logo"></a>
                         </div>
                         <div class="col-xs-10 menu-1 text-right">
                             <ul>
@@ -109,7 +109,7 @@
             </nav>
         
         
-            <header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/header_home2.jpg);">
+            <header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/header_home2.jpg);" alt="header lamps" >
                 <div class="overlay">
                     <div class="container">
                         <div class="row">
@@ -136,19 +136,19 @@
                     </div>
                     <div class="row">
                         <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-                            <a href="{{ route('RouteController.gallery')}}"><img src="images/salon.jpg" alt="" class="img-responsive">
+                            <a href="{{ route('RouteController.gallery')}}"><img src="images/salon.jpg" alt="galerija" class="img-responsive">
                                 <h3>Pallas</h3>
                                 <span>Galerija</span>
                             </a>
                         </div>
                         <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-                            <a href="{{ route('RouteController.about')}}"><img src="images/aboutme.jpg" alt="" class="img-responsive">
+                            <a href="{{ route('RouteController.about')}}"><img src="images/aboutme.jpg" alt="o meni" class="img-responsive">
                                 <h3>O meni</h3>
                                 <span>Predstavitev</span>
                             </a>
                         </div>
                         <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-                            <a href="{{ route('RouteController.offer')}}"><img src="images/services.jpg" alt="" class="img-responsive">
+                            <a href="{{ route('RouteController.offer')}}"><img src="images/services.jpg" alt="ponudba" class="img-responsive">
                                 <h3>Ponudba</h3>
                                 <span>Opis storitev</span>
                             </a>
@@ -180,7 +180,7 @@
                         </div>
                         <div class="col-lg-4 col-md-4">
                             <div class="fh5co-blog animate-box">
-                                <a href="{{ route('RouteController.blog_open')}}"><img class="img-responsive" src="images/blog_img5.jpg" alt=""></a>
+                                <a href="{{ route('RouteController.blog_open')}}"><img class="img-responsive" src="images/blog_img5.jpg" alt="blog"></a>
                                 <div class="blog-text">
                                     <h3><a href=""#>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
                                     <span class="posted_on">Nov. 15th</span>
@@ -192,7 +192,7 @@
                         </div>
                         <div class="col-lg-4 col-md-4">
                             <div class="fh5co-blog animate-box">
-                                <a href="{{ route('RouteController.blog_open')}}"><img class="img-responsive" src="images/blog_img3.jpg" alt=""></a>
+                                <a href="{{ route('RouteController.blog_open')}}"><img class="img-responsive" src="images/blog_img3.jpg" alt="blog"></a>
                                 <div class="blog-text">
                                     <h3><a href=""#>45 Minimal Workspace Rooms for Web Savvys</a></h3>
                                     <span class="posted_on">Nov. 15th</span>
@@ -208,11 +208,11 @@
 
         
             <footer id="fh5co-footer" role="contentinfo">
-                <div class="container">
+                <div class="container footer-container">
                     <div class="row row-pb-md">              
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-1">
                             <div class="col-xs-2 logo">
-                                <a href="{{ route('RouteController.home')}}"><img class="img-responsive-footer" src="images/resized_logo_beli.png" alt=""></a>
+                                <a href="{{ route('RouteController.home')}}"><img class="img-responsive-footer" src="images/resized_logo_beli.png" alt="pallas logo beli"></a>
                             </div>
 						</div>
 						
@@ -227,32 +227,74 @@
 						</div>
 						
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
-                        	<h3>Naročite se na E-novice</h3>                        
+                            <h3>Naročite se na E-novice</h3>     
+                                               
 								<div class="row form-group">
 									<div class="col-md-12">
 										<input type="text" id="email" class="form-control mail-footer" placeholder="E-naslov*">
 									</div>
-								</div>
+                                </div>
+                                
                                 <div class="form-group">
-									<input type="submit" value="Naroči se" class="btn btn-primary submit-footer">
-								</div>
+									<input type="submit" value="Naroči se" class="btn btn-primary submit-footer" data-toggle="modal" data-target="#exampleModal">
+                                    
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                   
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Naročanje na E-novice</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                S klikom na gumb "Strinjam se" se strinjate, da lahko obdelujemo podatke (vaš e-poštni naslov), ki ste ga navedli v vpisnem okencu za namen pošiljanja ponudb, novic, obvestil itd. Prav tako pa klikom na gumb soglašate s pogoji pristopne izjave.
+
+                                                pravico imate, da se od e-novic kadarkoli odjavite.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary e-mail" data-dismiss="modal">Zapri</button>
+                                                <button type="button" class="btn btn-primary">Strinjam se</button>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
                         </div>
+
+                        
                     </div>
+             
+                    
+                    
 					<hr class="hr-footer">
 					
-                    <div class="row row-pb-md-footer">              
-                        <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-1">
-                            
-                        </div>
-                        
-                    
-                        <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-1">
-                            <p class="p-footer">2020 Pallas©. Vse pravice pridržane</p>
-                        </div>
-                    </div>           
+                             
                 </div>
-            </footer>
+                <div class="container">
+                    <div class="row row-pb-md-footer">
+                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-1">
+                            <p class="p-footer">2020 Pallas©. Vse pravice pridržane</p>
+						</div>
+						
+						
+                        <div class="col-md-6 col-sm-12 col-xs-12 fh5co-widget-footer col-md-push-3">
+                            <a href="https://www.facebook.com/lovrencicksenijaterapevtskimaser"><img class="img-icon" src="images/icons/icons_social/facebook-24.png" alt="facebook"></a>
+                            <a href="https://www.instagram.com/pallas_masazni_salon/"><img class="img-icon" src="images/icons/icons_social/instagram-24-2.png" alt="instagram"></a>
+                        </div> 
+                        
+                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
+                            <a href="{{ route('RouteController.cookies')}}" class="cookies-hover-footer">piškotki in zasebnost</a>
+						</div>   
+                      
+                    </div>
+                </div>
         
+            </footer>
+
+       
         </div>
     </body>
 </html>

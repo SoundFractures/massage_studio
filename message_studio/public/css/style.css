@@ -573,8 +573,8 @@ iframe {
   #fh5co-testimonial,
   #fh5co-footer {
   
-    padding-top: 3em;
-    padding-bottom: 2em;
+    padding-top: 2em;
+    padding-bottom: 0.5em;
     clear: both;
   }
 
@@ -1139,6 +1139,10 @@ iframe {
   #fh5co-footer .fh5co-widget {
     margin-bottom: 10px;
   }
+
+  #fh5co-footer .fh5co-widget-footer {
+    text-align: center;
+  }
   @media screen and (max-width: 768px) {
     #fh5co-footer .fh5co-widget {
       text-align: left;
@@ -1574,6 +1578,8 @@ iframe {
 
   .row-pb-md-footer {
     margin-bottom: 1px;
+    text-align: right;
+    align-items: right;
   }
   
   
@@ -1650,10 +1656,6 @@ iframe {
 
 
 
-  .gallery{
-
-  }
-
 
 
 
@@ -1668,20 +1670,29 @@ iframe {
     background-color: white;
   }
 
+  .footer-container{
+
+  }
+
   .submit-footer{
     background-color:black;
   }
 
+  .e-mail{
+    background-color:black;
+    border: 0px;
+  }
   .img-icon{
     margin-right: 10px;
   }
   
-  .copyright{
-    padding-right: 50px;
-  } 
+  .row-pb-md-footer.p-footer{
+    text-align:right;
+  }
+
   .p-footer{
     font-size: 15px;
-    margin-left: 100px;
+    
   }
 
   .offer-image{
@@ -2034,4 +2045,72 @@ iframe {
     text-decoration: none;
     color: inherit;
   }
+
+  /****** Cookies *******/
+  .js-cookie-consent{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 9999;
+    text-align: center;
+    background-color: #F7931E;
+    font-family: "Nunito", sans-serif;
+    font-size: medium;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+  }
+
+  .cookies-hover{
+    text-decoration: underline;
+  }
   
+  .cookies-hover:hover{
+    color: white;
+  }
+  
+  .cookies-hover-footer{
+    
+  }
+
+  .cookies-hover-footer:hover{
+    color: white;
+  }
+
+
+  
+  .cookie-consent__agree{
+    background-color:black;
+    color: white;
+    display: inline-block;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+   
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    padding-top: 5px;
+    margin-left: 5px;
+
+
+  }
+  
+  .cookie-consent__agree:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+ 

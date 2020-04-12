@@ -78,7 +78,7 @@
 				<div class="container">
 					<div class="row navbar">
 						<div class="col-xs-2 logo">
-                            <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="images/logos/lotus_mini_logoo.png" alt=""></a>
+                            <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="images/logos/lotus_mini_logoo.png" alt="lotus logo"></a>
                         </div>
 						<div class="col-xs-10 menu-1 text-right">
 							<ul>
@@ -137,11 +137,11 @@
 			</div>
 
 			<nav id="spyscroll">
-				<a href="#one" class="stickyBar">	 <img class="img-responsive-offer-icon" src="images/icons/small_icons/small_icon_sport.png" alt="">Klasična masaža</a>
-				<a href="#two" class="stickyBar">    <img class="img-responsive-offer-icon" src="images/icons/small_icons/small_ikone4.png" alt="">Športna masaža</a>
-				<a href="#three" class="stickyBar">  <img class="img-responsive-offer-icon" src="images/icons/small_icons/small_icon_ref.png" alt="">Refleksna masaža stopal</a>
-				<a href="#four" class="stickyBar"> 	 <img class="img-responsive-offer-icon" src="images/icons/small_icons/small_icon_face.png" alt="">Masaža obraza</a>
-				<a href="#five" class="stickyBar">   <img class="img-responsive-offer-icon" src="images/icons/small_icons/small_icon_bars.png" alt="">Access Bars terapija</a>
+				<a href="#one" class="stickyBar">	 <img class="img-responsive-offer-icon" src="images/icons/small_icons/small_icon_sport.png" alt="classis massage">Klasična masaža</a>
+				<a href="#two" class="stickyBar">    <img class="img-responsive-offer-icon" src="images/icons/small_icons/small_ikone4.png" alt="sport massage">Športna masaža</a>
+				<a href="#three" class="stickyBar">  <img class="img-responsive-offer-icon" src="images/icons/small_icons/small_icon_ref.png" alt="feet massage">Refleksna masaža stopal</a>
+				<a href="#four" class="stickyBar"> 	 <img class="img-responsive-offer-icon" src="images/icons/small_icons/small_icon_face.png" alt="face massage">Masaža obraza</a>
+				<a href="#five" class="stickyBar">   <img class="img-responsive-offer-icon" src="images/icons/small_icons/small_icon_bars.png" alt="access bars massage">Access Bars terapija</a>
 			</nav>
 
 			<header id="fh5co-header" class="fh5co-cover-offer" role="banner" style="background-image:url(images/klasicna.jpg);"></header>
@@ -152,7 +152,7 @@
 						<section id="one">
 						
 							<div id="fh5co-project-offer">					
-							<img class="img-responsive-offer" src="images/icons/icon_class.png" alt="">
+							<img class="img-responsive-offer" src="images/icons/icon_class.png" alt="classic massage">
 									<h2>KLASIČNA MASAŽA</h2>
 									<h4>Masaža je naravna, učinkovita metoda za lajšanje raznih zdravstvenih težav, z njo ohranjamo zdravje
 										in predvsem skrbimo za boljše počutje. Maser z masažnimi tehnikami ne prodira samo v kožo,
@@ -176,7 +176,7 @@
 					<div class="col-md-10 col-md-offset-2 text-center fh5co-heading-offer">
 						<section id="two">
 							<div id="fh5co-project-offer">
-								<img class="img-responsive-offer" src="images/icons/icon_sport.png" alt="">
+								<img class="img-responsive-offer" src="images/icons/icon_sport.png" alt="sport massage">
 								<h2>ŠPORTNA MASAŽA</h2>
 								<h4>Je masaža, pri kateri se maser osredotoča na posamezne skupine mišic, aktivne v posameznem
 										športu. Masaža je močna do zelo močna. Pri športnih aktivnostih v mišicah nastaja mišična kislina, ki
@@ -196,7 +196,7 @@
 					<div class="col-md-10 text-center fh5co-heading-offer">
 						<section id="three">
 							<div id="fh5co-project-offer">
-								<img class="img-responsive-offer" src="images/icons/icon_ref.png" alt="">
+								<img class="img-responsive-offer" src="images/icons/icon_ref.png" alt="feet masage">
 								<h2>REFLEKSNA MASAŽA STOPAL</h2>
 									<h4>Je najstarejša metoda zdravljenja. Pri tej masaži maser na področju stopal in gležnjev masira
 									refleksne cone, ki so povezane z našim akustičnim sistemom v telesu. To pomeni, da maser stimulira
@@ -217,7 +217,7 @@
 					<div class="col-md-10 text-center fh5co-heading-offer">
 						<section id="four">
 							<div id="fh5co-project-offer">
-								<img class="img-responsive-offer" src="images/icons/icon_face.png" alt="">
+								<img class="img-responsive-offer" src="images/icons/icon_face.png" alt="face massage">
 								<h2>MASAŽA OBRAZA</h2>
 									<h4>Masaža obraza ima veliko pozitivnih učinkov na vašo kožo in psihično počutje. Je prijeten, sproščejoč
 										občutek, zaradi katerega se počutite sveže in pomirjeno. Masaža pomaga pri: napetostih, izboljša tonus kože, zmanjša zabuhlost in izboljša cirkulacijo
@@ -236,7 +236,7 @@
 					<div class="col-md-10 text-center fh5co-heading-offer">
 						<section id="five">
 							<div id="fh5co-project-offer">
-								<img class="img-responsive-offer" src="images/icons/icon_bars.png" alt="">
+								<img class="img-responsive-offer" src="images/icons/icon_bars.png" alt="access bars">
 								<h2>ACCESS BARS TERAPIJA</h2>
 									<h4>Je nežna tehnika s katero lahko spremenite vse v svojem življenju in telesu. Z nežnim dotikanjem aktiviramo 32 točk na glavi. Posledično po 15 min telo preide v theta stanje, ki je stanje globoke relaksacije. To aktivira samozdravljenje telesa in odpira prostor zavedanja v vašem življenju.</h4>
 							</div>
@@ -246,25 +246,7 @@
 			</div>
 	 
 	
-			<!--
-			
-
-			<div id="fh5co-project">
-                <div class="container">
-                    <div class="row animate-box">
-                        <div class="col-md-8 col-md-offset-4 text-center fh5co-heading-offer">
-							<img class="img-responsive-footer" src="images/icons/resized_ikone1.png" alt="">
-                            <h2>KLASIČNA MASAŽA</h2>
-                            <p>Masaža je naravna, učinkovita metoda za lajšanje raznih zdravstvenih težav, z njo ohranjamo zdravje
-								in predvsem skrbimo za boljše počutje. Maser z masažnimi tehnikami ne prodira samo v kožo,
-								vendar z dobro masažo prodre globje v mišice in kosti. Masaža lahko spodbuja ali miri odvisno od
-								hitrosti in globine masiranja.
-							</p>
-                        </div>
-                    </div>
-                </div>  
-			</div> -->
-
+		
 
 
 
@@ -273,12 +255,12 @@
 	
 
             
-            <footer id="fh5co-footer" role="contentinfo">
-                <div class="container">
+			<footer id="fh5co-footer" role="contentinfo">
+                <div class="container footer-container">
                     <div class="row row-pb-md">              
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-1">
                             <div class="col-xs-2 logo">
-                                <a href="{{ route('RouteController.home')}}"><img class="img-responsive-footer" src="images/resized_logo_beli.png" alt=""></a>
+                                <a href="{{ route('RouteController.home')}}"><img class="img-responsive-footer" src="images/resized_logo_beli.png" alt="pallas logo beli"></a>
                             </div>
 						</div>
 						
@@ -293,32 +275,72 @@
 						</div>
 						
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
-                        	<h3>Naročite se na E-novice</h3>                        
+                            <h3>Naročite se na E-novice</h3>     
+                                               
 								<div class="row form-group">
 									<div class="col-md-12">
 										<input type="text" id="email" class="form-control mail-footer" placeholder="E-naslov*">
 									</div>
-								</div>
+                                </div>
+                                
                                 <div class="form-group">
-									<input type="submit" value="Naroči se" class="btn btn-primary submit-footer">
-								</div>
+									<input type="submit" value="Naroči se" class="btn btn-primary submit-footer" data-toggle="modal" data-target="#exampleModal">
+                                    
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                   
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Naročanje na E-novice</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                S klikom na gumb "Strinjam se" se strinjate, da lahko obdelujemo podatke (vaš e-poštni naslov), ki ste ga navedli v vpisnem okencu za namen pošiljanja ponudb, novic, obvestil itd. Prav tako pa klikom na gumb soglašate s pogoji pristopne izjave.
+
+                                                pravico imate, da se od e-novic kadarkoli odjavite.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary e-mail" data-dismiss="modal">Zapri</button>
+                                                <button type="button" class="btn btn-primary">Strinjam se</button>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
                         </div>
+
+                        
                     </div>
+             
+                    
+                    
 					<hr class="hr-footer">
 					
-                    <div class="row row-pb-md-footer">              
-                        <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-1">
-                            
-                        </div>
-                        
-                    
-                        <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-3">
-                            <p class="p-footer">2020 Pallas©. Vse pravice pridržane</p>
-                        </div>
-                    </div>           
+                             
                 </div>
-            </footer>
+                <div class="container">
+                    <div class="row row-pb-md-footer">
+                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-1">
+                            <p class="p-footer">2020 Pallas©. Vse pravice pridržane</p>
+						</div>
+						
+						
+                        <div class="col-md-6 col-sm-12 col-xs-12 fh5co-widget-footer col-md-push-3">
+                            <a href="https://www.facebook.com/lovrencicksenijaterapevtskimaser"><img class="img-icon" src="images/icons/icons_social/facebook-24.png" alt="facebook"></a>
+                            <a href="https://www.instagram.com/pallas_masazni_salon/"><img class="img-icon" src="images/icons/icons_social/instagram-24-2.png" alt="instagram"></a>
+                        </div> 
+                        
+                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
+                            <a href="{{ route('RouteController.cookies')}}" class="cookies-hover-footer">piškotki in zasebnost</a>
+						</div>   
+                      
+                    </div>
+                </div>
         
+            </footer>
         </div>
     </body>
 </html>

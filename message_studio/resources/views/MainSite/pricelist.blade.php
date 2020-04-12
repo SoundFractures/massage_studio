@@ -59,8 +59,7 @@
 		<!-- Animate.css -->
 		<link rel="stylesheet" href="css/animate.css">
 		
-		<!-- Icomoon Icon Fonts-->
-		<link rel="stylesheet" href="css/icomoon.css">
+
 
 		
 		<!-- FOR IE9 below -->
@@ -77,7 +76,7 @@
 				<div class="container">
 					<div class="row navbar">
 						<div class="col-xs-2 logo">
-                            <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="images/logos/lotus_mini_logoo.png" alt=""></a>
+                            <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="images/logos/lotus_mini_logoo.png" alt="lotus logo"></a>
                         </div>
 						<div class="col-xs-10 menu-1 text-right">
 							<ul>
@@ -131,7 +130,7 @@
 						<div class="col-10 pricelist">
 			
 							<span class="d-inline d-sm-none">
-							<img class="img-responsive-pricelist" src="images/icons/icon_class.png" alt="">
+							<img class="img-responsive-pricelist" src="images/icons/icon_class.png" alt="classic massage">
 								<div class="offer ">
 							
 									<h3 class="price_massage">Klasična masaža</h3>
@@ -141,7 +140,7 @@
 							</span> 
 
 							<span class="d-none d-sm-inline d-md-none">
-							<img class="img-responsive-pricelist" src="images/icons/icon_class.png" alt="">
+							<img class="img-responsive-pricelist" src="images/icons/icon_class.png" alt="classic massage">
 								<div class="offer ">
 									<h3 class="price_massage">Klasična masaža</h3>
 									<p class="price">Delna (hrbet, noge, roke), 30 min  ................................... 15€</p>
@@ -150,7 +149,7 @@
 							</span> 
 
 							<span class="d-none d-md-inline d-lg-none">
-							<img class="img-responsive-pricelist" src="images/icons/icon_class.png" alt="">
+							<img class="img-responsive-pricelist" src="images/icons/icon_class.png" alt="classic massage">
 								<div class="offer">
 									<h3 class="price_massage">Klasična masaža</h3>
 									<p class="price">Delna (hrbet, noge, roke), 30 min  ........................................................... 15€</p>
@@ -159,7 +158,7 @@
 							</span> 
 
 							<span class="d-none d-lg-inline d-xl-none">
-							<img class="img-responsive-pricelist" src="images/icons/icon_class.png" alt="">
+							<img class="img-responsive-pricelist" src="images/icons/icon_class.png" alt="classic massage">
 								<div class="offer">
 									<h3 class="price_massage">Klasična masaža</h3>
 									<p class="price">Delna (hrbet, noge, roke), 30 min  ...................................................................................................... 15€</p>
@@ -168,7 +167,7 @@
 							</span> 
 
 							<span class="d-none d-xl-inline">
-								<img class="img-responsive-pricelist" src="images/icons/icon_class.png" alt="">
+								<img class="img-responsive-pricelist" src="images/icons/icon_class.png" alt="classic massage">
 								<div class="offer">
 							
 									<h3 class="price_massage">Klasična masaža</h3>
@@ -181,7 +180,7 @@
 
 
 							<span class="d-inline d-sm-none">
-								<img class="img-responsive-pricelist" src="images/icons/icon_sport.png" alt="">
+								<img class="img-responsive-pricelist" src="images/icons/icon_sport.png" alt="sport massage">
 									<div class="offer ">
 										<h3 class="price_massage">Športna masaža</h3>
 										<p class="price">Delna (hrbet, noge, roke), 30 min  ...... 20€</p>
@@ -190,7 +189,7 @@
 							</span> 
 
 							<span class="d-none d-sm-inline d-md-none">
-								<img class="img-responsive-pricelist" src="images/icons/icon_sport.png" alt="">
+								<img class="img-responsive-pricelist" src="images/icons/icon_sport.png" alt="sport massage">
 									<div class="offer ">
 										<h3 class="price_massage">Športna masaža</h3>
 										<p class="price">Delna (hrbet, noge, roke), 30 min  ................................... 20€</p>
@@ -199,7 +198,7 @@
 							</span> 
 
 							<span class="d-none d-md-inline d-lg-none">
-								<img class="img-responsive-pricelist" src="images/icons/icon_sport.png" alt="">
+								<img class="img-responsive-pricelist" src="images/icons/icon_sport.png" alt="sport massage">
 									<div class="offer">
 										<h3 class="price_massage">Športna masaža</h3>
 										<p class="price">Delna (hrbet, noge, roke), 30 min  ........................................................... 20€</p>
@@ -208,7 +207,7 @@
 							</span> 
 
 							<span class="d-none d-lg-inline d-xl-none">
-								<img class="img-responsive-pricelist" src="images/icons/icon_sport.png" alt="">
+								<img class="img-responsive-pricelist" src="images/icons/icon_sport.png" alt="sport massage">
 									<div class="offer">
 										<h3 class="price_massage">Športna masaža</h3>
 										<p class="price">Delna (hrbet, noge, roke), 30 min  ...................................................................................................... 20€</p>
@@ -217,7 +216,7 @@
 							</span> 
 
 							<span class="d-none d-xl-inline">
-								<img class="img-responsive-pricelist" src="images/icons/icon_sport.png" alt="">	
+								<img class="img-responsive-pricelist" src="images/icons/icon_sport.png" alt="sport massage">	
 									<div class="offer">
 										<h3 class="price_massage">Športna masaža</h3>
 										<p class="price">Delna (hrbet, noge, roke), 30 min  ........................................................................................................................................... 20€</p>
@@ -229,7 +228,7 @@
 
 							
 							<span class="d-inline d-sm-none">
-							<img class="img-responsive-pricelist" src="images/icons/icon_ref.png" alt="">	
+							<img class="img-responsive-pricelist" src="images/icons/icon_ref.png" alt="feet massage">	
 								<div class="offer ">
 									<h3 class="price_massage">Refleksna masaža stopal</h3>
 									<p class="price">30 min  ................................................. 35€</p>
@@ -237,7 +236,7 @@
 							</span> 
 
 							<span class="d-none d-sm-inline d-md-none">
-							<img class="img-responsive-pricelist" src="images/icons/icon_ref.png" alt="">	
+							<img class="img-responsive-pricelist" src="images/icons/icon_ref.png" alt="feet massage">	
 								<div class="offer ">
 									<h3 class="price_massage">Refleksna masaža stopal</h3>
 									<p class="price">30 min  ............................................................................. 35€</p>
@@ -245,7 +244,7 @@
 							</span> 
 
 							<span class="d-none d-md-inline d-lg-none">
-							<img class="img-responsive-pricelist" src="images/icons/icon_ref.png" alt="">	
+							<img class="img-responsive-pricelist" src="images/icons/icon_ref.png" alt="feet massage">	
 								<div class="offer">
 									<h3 class="price_massage">Refleksna masaža stopal</h3>
 									<p class="price">30 min  ..................................................................................................... 35€</p>
@@ -253,7 +252,7 @@
 							</span> 
 
 							<span class="d-none d-lg-inline d-xl-none">
-							<img class="img-responsive-pricelist" src="images/icons/icon_ref.png" alt="">	
+							<img class="img-responsive-pricelist" src="images/icons/icon_ref.png" alt="feet massage">	
 								<div class="offer">
 									<h3 class="price_massage">Refleksna masaža stopal</h3>
 									<p class="price">30 min  ................................................................................................................................................. 35€</p>
@@ -261,7 +260,7 @@
 							</span> 
 
 							<span class="d-none d-xl-inline">
-							<img class="img-responsive-pricelist" src="images/icons/icon_ref.png" alt="">	
+							<img class="img-responsive-pricelist" src="images/icons/icon_ref.png" alt="feet massage">	
 								<div class="offer">
 								<h3 class="price_massage">Refleksna masaža stopal</h3>
 									<p class="price">30 min  ...................................................................................................................................................................................... 35€</p>
@@ -274,7 +273,7 @@
 
 
 							<span class="d-inline d-sm-none">
-							<img class="img-responsive-pricelist" src="images/icons/resized_ikone1.png" alt="">	
+							<img class="img-responsive-pricelist" src="images/icons/resized_ikone1.png" alt="face massage">	
 								<div class="offer ">
 									<h3 class="price_massage">Sprostitvena masaža obraza</h3>
 									<p class="price">20 min  ................................................. 10€</p>
@@ -282,7 +281,7 @@
 							</span> 
 
 							<span class="d-none d-sm-inline d-md-none">
-							<img class="img-responsive-pricelist" src="images/icons/resized_ikone1.png" alt="">	
+							<img class="img-responsive-pricelist" src="images/icons/resized_ikone1.png" alt="face massage">	
 								<div class="offer ">
 									<h3 class="price_massage">Sprostitvena masaža obraza</h3>
 									<p class="price">20 min  ............................................................................. 10€</p>
@@ -290,7 +289,7 @@
 							</span> 
 
 							<span class="d-none d-md-inline d-lg-none">
-							<img class="img-responsive-pricelist" src="images/icons/resized_ikone1.png" alt="">	
+							<img class="img-responsive-pricelist" src="images/icons/resized_ikone1.png" alt="face massage">	
 								<div class="offer">
 									<h3 class="price_massage">Sprostitvena masaža obraza</h3>
 									<p class="price">20 min  ..................................................................................................... 10€</p>
@@ -298,7 +297,7 @@
 							</span> 
 
 							<span class="d-none d-lg-inline d-xl-none">
-							<img class="img-responsive-pricelist" src="images/icons/resized_ikone1.png" alt="">	
+							<img class="img-responsive-pricelist" src="images/icons/resized_ikone1.png" alt="face massage">	
 								<div class="offer">
 									<h3 class="price_massage">Sprostitvena masaža obraza</h3>
 									<p class="price">20 min  ................................................................................................................................................. 10€</p>
@@ -306,7 +305,7 @@
 							</span> 
 
 							<span class="d-none d-xl-inline">
-							<img class="img-responsive-pricelist" src="images/icons/resized_ikone1.png" alt="">	
+							<img class="img-responsive-pricelist" src="images/icons/resized_ikone1.png" alt="face massage">	
 								<div class="offer">
 									<h3 class="price_massage">Sprostitvena masaža obraza</h3>
 									<p class="price">20 min  ....................................................................................................................................................................................... 10€</p>
@@ -319,7 +318,7 @@
 
 
 							<span class="d-inline d-sm-none">
-								<img class="img-responsive-pricelist" src="images/icons/icon_bars.png" alt="">	
+								<img class="img-responsive-pricelist" src="images/icons/icon_bars.png" alt="access bars massage">	
 									<div class="offer ">
 										<h3 class="price_massage">Access Bars Terapija</h3>
 										<p class="price">30 min  ................................................. 20€</p>
@@ -328,7 +327,7 @@
 							</span> 
 
 							<span class="d-none d-sm-inline d-md-none">
-								<img class="img-responsive-pricelist" src="images/icons/icon_bars.png" alt="">	
+								<img class="img-responsive-pricelist" src="images/icons/icon_bars.png" alt="access bars massage">	
 									<div class="offer ">
 										<h3 class="price_massage">Access Bars Terapija</h3>
 										<p class="price">30 min  ............................................................................. 20€</p>
@@ -337,7 +336,7 @@
 							</span> 
 
 							<span class="d-none d-md-inline d-lg-none">
-								<img class="img-responsive-pricelist" src="images/icons/icon_bars.png" alt="">	
+								<img class="img-responsive-pricelist" src="images/icons/icon_bars.png" alt="access bars massage">	
 									<div class="offer">
 										<h3 class="price_massage">Access Bars Terapija</h3>
 										<p class="price">30 min  ..................................................................................................... 20€</p>
@@ -346,7 +345,7 @@
 							</span> 
 
 							<span class="d-none d-lg-inline d-xl-none">
-								<img class="img-responsive-pricelist" src="images/icons/icon_bars.png" alt="">	
+								<img class="img-responsive-pricelist" src="images/icons/icon_bars.png" alt="access bars massage">	
 									<div class="offer">
 										<h3 class="price_massage">Access Bars Terapija</h3>
 										<p class="price">30 min  ................................................................................................................................................. 20€</p>
@@ -355,7 +354,7 @@
 							</span> 
 
 							<span class="d-none d-xl-inline">
-								<img class="img-responsive-pricelist" src="images/icons/icon_bars.png" alt="">	
+								<img class="img-responsive-pricelist" src="images/icons/icon_bars.png" alt="access bars massage">	
 									<div class="offer">
 										<h3 class="price_massage">Access Bars Terapija</h3>
 										<p class="price">30 min  ....................................................................................................................................................................................... 20€</p>
@@ -372,11 +371,11 @@
 			</div>
 	
 			<footer id="fh5co-footer" role="contentinfo">
-                <div class="container">
+                <div class="container footer-container">
                     <div class="row row-pb-md">              
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-1">
                             <div class="col-xs-2 logo">
-                                <a href="{{ route('RouteController.home')}}"><img class="img-responsive-footer" src="images/resized_logo_beli.png" alt=""></a>
+                                <a href="{{ route('RouteController.home')}}"><img class="img-responsive-footer" src="images/resized_logo_beli.png" alt="pallas logo beli"></a>
                             </div>
 						</div>
 						
@@ -391,32 +390,72 @@
 						</div>
 						
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
-                        	<h3>Naročite se na E-novice</h3>                        
+                            <h3>Naročite se na E-novice</h3>     
+                                               
 								<div class="row form-group">
 									<div class="col-md-12">
 										<input type="text" id="email" class="form-control mail-footer" placeholder="E-naslov*">
 									</div>
-								</div>
+                                </div>
+                                
                                 <div class="form-group">
-									<input type="submit" value="Naroči se" class="btn btn-primary submit-footer">
-								</div>
+									<input type="submit" value="Naroči se" class="btn btn-primary submit-footer" data-toggle="modal" data-target="#exampleModal">
+                                    
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                   
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Naročanje na E-novice</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                S klikom na gumb "Strinjam se" se strinjate, da lahko obdelujemo podatke (vaš e-poštni naslov), ki ste ga navedli v vpisnem okencu za namen pošiljanja ponudb, novic, obvestil itd. Prav tako pa klikom na gumb soglašate s pogoji pristopne izjave.
+
+                                                pravico imate, da se od e-novic kadarkoli odjavite.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary e-mail" data-dismiss="modal">Zapri</button>
+                                                <button type="button" class="btn btn-primary">Strinjam se</button>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
                         </div>
+
+                        
                     </div>
+             
+                    
+                    
 					<hr class="hr-footer">
 					
-                    <div class="row row-pb-md-footer">              
-                        <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-1">
-                            
-                        </div>
-                        
-                    
-                        <div class="col-md-4 col-sm-12 col-xs-12 col-md-push-3">
-                            <p class="p-footer">2020 Pallas©. Vse pravice pridržane</p>
-                        </div>
-                    </div>           
+                             
                 </div>
+                <div class="container">
+                    <div class="row row-pb-md-footer">
+                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-1">
+                            <p class="p-footer">2020 Pallas©. Vse pravice pridržane</p>
+						</div>
+						
+						
+                        <div class="col-md-6 col-sm-12 col-xs-12 fh5co-widget-footer col-md-push-3">
+                            <a href="https://www.facebook.com/lovrencicksenijaterapevtskimaser"><img class="img-icon" src="images/icons/icons_social/facebook-24.png" alt="facebook"></a>
+                            <a href="https://www.instagram.com/pallas_masazni_salon/"><img class="img-icon" src="images/icons/icons_social/instagram-24-2.png" alt="instagram"></a>
+                        </div> 
+                        
+                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
+                            <a href="{{ route('RouteController.cookies')}}" class="cookies-hover-footer">piškotki in zasebnost</a>
+						</div>   
+                      
+                    </div>
+                </div>
+        
             </footer>
-    
         </div>
     </body>
 </html>

@@ -41,3 +41,4 @@ Route::get('/gallery', 'RouteController@gallery')->name('RouteController.gallery
 Route::get('/blog', 'RouteController@blog')->name('RouteController.blog');
 Route::get('/contact', 'RouteController@contact')->name('RouteController.contact');
 Route::get('/blog_open', 'RouteController@blog_open')->name('RouteController.blog_open');
+Route::get('/cookies', 'RouteController@cookies')->name('RouteController.cookies');

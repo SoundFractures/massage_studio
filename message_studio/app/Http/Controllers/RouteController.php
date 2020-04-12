@@ -48,6 +48,12 @@ class RouteController extends Controller
         return view('MainSite.blog_open');
     }
 
+    public function cookies()
+    {
+        return view('MainSite.cookies');
+    }
+
+    
     
     
     
