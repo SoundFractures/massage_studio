@@ -142,32 +142,48 @@
                             <th scope="col">oznaka</th>
                             <th scope="col">Namen uporabe</th>
                             <th scope="col">Življenska doba</th>
+                            <th scope="col">Vklop / izklop</th>
                             </tr>
                         </thead>
+               
                         <tbody>
                             <tr>
                                 <th scope="row">1</th>
                                 <td>XSRF-TOKEN</td>
                                 <td>XSRF-TOKEN oziroma Cross Site Request Forgery token je žeton, ki preprečuje ugrabitev seje</td>
-                                <td>enako dolgo kot "laravel_session"</td>
+                                <td>2 uri</td>
+                                <td>Obvezen piškot</td>
                             </tr>
                             <tr>
                                 <th scope="row">2</th>
                                 <td>laravel_session</td>
                                 <td>laravel_session sledi dejavnosti uporabnika na spletni strani</td>
                                 <td>2 uri</td>
+                                <td>Obvezen piškot</td>
                             </tr>
                             <tr>
                                 <th scope="row">3</th>
                                 <td>_ga</td>
                                 <td>Piškotek se uporablja za analitiko dostopa do spletne strani</td>
                                 <td>2 leti</td>
+                                <td>         
+                                    <label class="switch">
+                                        <input type="checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                                </td>
                             </tr>
                             <tr>
                                 <th scope="row">4</th>
                                 <td>_gid</td>
                                 <td>Piškotek se uporablja za razlikovanje med uporabniki. Piškotek ne vsebuje informacij o uporabniku.</td>
                                 <td>24 ur</td>
+                                <td>         
+                                    <label class="switch">
+                                        <input type="checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                                </td>
                             </tr>
                       
                           
