@@ -109,7 +109,7 @@
             </nav>
         
         
-            <header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/header_home2.jpg);">
+            <header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/klasicna2.jpg);">
                 <div class="overlay">
                     <div class="container">
                         <div class="row">
@@ -239,6 +239,7 @@
                             <br></br>
                             <hr/>
 
+<!--
                             <h3>Pravica do izbrisa (pravica do pozabe)</h3>
 
                             Pravico imate doseči, da brez nepotrebnega odlašanja izbrišemo osebne podatke v zvezi z vami, mi pa imamo kot upravljavec obveznost vaše osebne podatke brez nepotrebnega odlašanja izbrisati v naslednjih primerih:
@@ -254,17 +255,10 @@
                             - za uveljavljanje, izvajanje ali obrambo pravnih zahtevkov.
                             - Če kot posameznik želite, da vaše osebne podatke izbrišemo, lahko to pisno zahtevate po elektronski pošti: pallasmasaznisalon@gmail.com Pravico do izbrisa lahko uveljavljate samo v omejenih primerih, ki so našteti zgoraj.
 
+                           
                             <br></br>
-                            <hr/>
+                            <hr/>-->
 
-                            <h3>Pravica do popravka</h3>
-
-                            Pravico imate doseči, da brez nepotrebnega odlašanja popravimo netočne osebne podatke v zvezi z vami.
-
-                            Ob upoštevanju namenov obdelave imate pravico do dopolnitve nepopolnih osebnih podatkov, vključno s predložitvijo dopolnilne izjave.
-
-                            <br></br>
-                            <hr/>
 
                             <h3>Pravica do ugovora</h3>
                             Pri obdelavi podatkov za namene neposrednega trženja, imate pravico, da kadar koli ugovarjate obdelavi osebnih podatkov v zvezi z vami za namene takega trženja, vključno z oblikovanjem profilov, kolikor je povezano s takim neposrednim trženjem.
@@ -272,6 +266,7 @@
                             <br></br>
                             <hr/>
 
+                            <!--
                             <h3>Pravica do omejitve obdelave </h3>
                             Pravico imate doseči, da omejimo obdelavo vaših osebnih podatkov v primeru:
 
@@ -292,7 +287,7 @@
                             <b>Če smo zavrnili vašo zahtevo po izbrisu podatkov ali pa želite le omejiti obdelavo vaših osebnih podatkov, lahko pisno po elektronski pošti (pallasmasaznisalon@gmail.com) zahtevate, da omejimo obdelavo vaših osebnih podatkov. Pravico do omejitve lahko uveljavljate samo v omejenih primerih, ki so našteti zgoraj.</b>
 
                             <br></br>
-                            <hr/>
+                            <hr/>-->
 
                             <h3>Pravica do pritožbe nadzornemu organu </h3>
 
@@ -386,6 +381,35 @@
                             - za uveljavljanje, izvajanje ali obrambo pravnih zahtevkov.
                             - Če kot posameznik želite, da vaše osebne podatke izbrišemo, lahko to pisno zahtevate po elektronski pošti: pallasmasaznisalon@gmail.com Pravico do izbrisa lahko uveljavljate samo v omejenih primerih, ki so našteti zgoraj.
                             
+                            <div class="form-group">
+									<input type="submit" value="Zbriši moje podatke" class="btn btn-primary submit-footer-cookies" data-toggle="modal" data-target="#exampleModal">
+                                    
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                   
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Zbriši moje podatke</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                            <div class="row form-group">
+                                            S tem ko boste vpisali vaš E-naslov preko katerega ste naročeni na naše E-novie, bomo vaš E-naslov izbrisali iz naše baze podatkov ter vas prenehali obveščati.
+                                                <div class="col-md-12">
+                                                    <input type="text" id="email" class="form-control mail-footer" placeholder="E-naslov*">
+                                                </div>
+                                            </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary e-mail" data-dismiss="modal">Zapri</button>
+                                                <button type="button" class="btn btn-primary">Zbriši</button>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             <br></br>
                             <hr/>
                             
