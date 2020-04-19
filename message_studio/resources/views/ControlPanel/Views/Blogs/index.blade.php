@@ -19,7 +19,7 @@
             @include('ControlPanel.Components.indexBlog',[
                 'title'=>$item->title,
                 'url'=> $item->id,
-                'background'=>'background-image: url(http://massagestudio.test/images/blog_img5.jpg);',
+                'background'=>$item->file,
                 ])
             
             @endforeach

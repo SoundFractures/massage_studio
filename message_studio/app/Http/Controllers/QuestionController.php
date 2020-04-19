@@ -71,6 +71,10 @@ class QuestionController extends Controller
     {
         
         $question = Question::find($id);
+        if($question->answered == 1){
+            return redirect()->back();
+        }
+
         if($question->seen == 0){
             $question->seen = 1;
             $question->save();
