@@ -130,11 +130,11 @@
                     <div class="row animate-box">
                         <div class="col-md-10 col-md-offset-2 text-center fh5co-heading-offer">
                             <h1>Masažni salon Pallas</h1>
-                            <h4>Salon Pallas se lahko pohvali z odličnimi terapevtskimi masažami, s katerimi izboljša oziroma olajša stanje vašega psihofizičnega zdravja in vam tako omogoči kvalitetnejše in polnejše življenje. <br/> Pri nas lahko izbirate izmed več različnih vrst masaž:</h4>
+                            <p>Salon Pallas se lahko pohvali z odličnimi terapevtskimi masažami, s katerimi izboljša oziroma olajša stanje vašega psihofizičnega zdravja in vam tako omogoči kvalitetnejše in polnejše življenje. <br/> Pri nas lahko izbirate izmed več različnih vrst masaž:</p>
                         </div>
                     </div>
                 </div>  
-			</div>
+			</div><br/><br/>
 
 			<nav id="spyscroll">
 				<a href="#one" class="stickyBar">	 <img class="img-responsive-offer-icon" src="images/icons/small_icons/small_icon_sport.png" alt="classis massage">Klasična masaža</a>
