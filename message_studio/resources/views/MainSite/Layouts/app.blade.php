@@ -58,103 +58,51 @@
 
  
 </head>
-<body>
+    <body>
 
-    <div id="page">
-
-    <nav class="fh5co-nav" role="navigation">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-2">
-					<div id="fh5co-logo"><a href="index.html">Pallas</a></div>
-				</div>
-				<div class="col-xs-10 menu-1 text-right">
-					<ul>
-						<li id=""><a href="{{URL::to('/')}}">Domov</a></li>
-						<li id="omeni"><a href="{{URL::to('/omeni')}}">O meni</a></li>
-						<li id="ponudba" class="has-dropdown">
-							<a href="{{ route('RouteController.ponudba')}}">Ponudba</a>
-							<ul class="dropdown">
-								<li><a href="#">Klasična masaža</a></li>
-								<li><a href="#">Športna masaža</a></li>
-								<li><a href="#">Refleksna masaža stopal</a></li>
-								<li><a href="#">Sprostitvena masaža obraza</a></li>
-								<li><a href="#">Acces Bars terapija</a></li>
-							</ul>
-						</li>
-					
-						<li id="cenik"><a href="{{ route('RouteController.cenik')}}">Cenik</a></li>
-						<li id="galerija"><a href="{{ route('RouteController.galerija')}}">Galerija</a></li>
-						<li id="blog"><a href="{{ route('RouteController.blog')}}">Blog</a></li>
-						<li id="povprasevanje"><a href="{{ route('RouteController.povprasevanje')}}">Povpraševanje</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</nav>
+        <div id="page">
+            <nav class="fh5co-nav" role="navigation">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-2">
+                            <div id="fh5co-logo"><a href="index.html">Pallas</a></div>
+                        </div>
+                        <div class="col-xs-10 menu-1 text-right">
+                            <ul>
+                                <li id=""><a href="{{URL::to('/')}}">Domov</a></li>
+                                <li id="omeni"><a href="{{URL::to('/omeni')}}">O meni</a></li>
+                                <li id="ponudba" class="has-dropdown">
+                                    <a href="{{ route('RouteController.ponudba')}}">Ponudba</a>
+                                    <ul class="dropdown">
+                                        <li><a href="#">Klasična masaža</a></li>
+                                        <li><a href="#">Športna masaža</a></li>
+                                        <li><a href="#">Refleksna masaža stopal</a></li>
+                                        <li><a href="#">Sprostitvena masaža obraza</a></li>
+                                        <li><a href="#">Acces Bars terapija</a></li>
+                                    </ul>
+                                </li>
+                            
+                                <li id="cenik"><a href="{{ route('RouteController.cenik')}}">Cenik</a></li>
+                                <li id="galerija"><a href="{{ route('RouteController.galerija')}}">Galerija</a></li>
+                                <li id="blog"><a href="{{ route('RouteController.blog')}}">Blog</a></li>
+                                <li id="povprasevanje"><a href="{{ route('RouteController.povprasevanje')}}">Povpraševanje</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
 
         
 
-    @yield('cover')
-	
-
-        <!--
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-            <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                     Left Side Of Navbar 
-                    <ul class="navbar-nav mr-auto">
-
-                    </ul>
-
-                     Right Side Of Navbar 
-                    <ul class="navbar-nav ml-auto">
-                        Authentication Links 
-                        @guest
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                            </li>
-                            @if (Route::has('register'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                                </li>
-                            @endif
-                        @else
-                            <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{ Auth::user()->name }} <span class="caret"></span>
-                                </a>
-
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="{{ route('logout') }}"
-                                       onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                        {{ __('Logout') }}
-                                    </a>
-
-                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                        @csrf
-                                    </form>
-                                </div>
-                            </li>
-                        @endguest
-                    </ul>
-                </div>
-            </div>
-        </nav>
--->
+            @yield('cover')
+            
 
 
- 
-        @yield('content')
-    
+
+        
+            @yield('content')
+            
+
 
             
             <footer id="fh5co-footer" role="contentinfo">

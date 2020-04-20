@@ -77,7 +77,7 @@
 
         <div id="page"> 
 
-            @include('cookieConsent::index')
+        @include('cookieConsent::index')
 
             <nav class="fh5co-nav" role="navigation">
                 <div class="container">

@@ -123,83 +123,41 @@
 
 
             <div id="fh5co-blog" class="fh5co-bg-section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4">
-                            <div class="fh5co-blog animate-box">
-                                <a href="{{ route('RouteController.blog_open')}}"><img class="img-responsive" src="images/blog_img1.jpg" alt="blog1"></a>
-                                <div class="blog-text">
-                                    <h3><a href="{{ route('RouteController.blog_open')}}"><b>Katero masažo izbrati?</b></a></h3>
-                                    <span class="posted_on">Nov. 15th</span>
-                                
-                                    <p>Katera masaža je prava zame?</p><br>
-                                    <a href="{{ route('RouteController.blog_open')}}"lass="btn btn-primary">Preberi več...</a>
-                                </div> 
+
+                <div class="row justify-content-left">
+                    <div class="container">
+                        <div class="row">
+                 
+                            @foreach($blogs as $blog)
+                            <div class="col-lg-4 col-md-4">
+                                <div class="fh5co-blog animate-box">
+                                    <a href="/blog_article/{{$blog->id}}"><img class="img-responsive" src="images/blog_img1.jpg" alt="blog1"></a>
+                                    <div class="blog-text">
+                                        <h3><a href="/blog_article/{{$blog->id}}"><b>{{$blog->title}}</b></a></h3>
+                                        <!--<span class="posted_on">Nov. 15th</span>-->
+                                    
+                                        <p>{{ substr(strip_tags($blog->body), 0, 100) }}...</p><br>
+                                        <a href="/blog_article/{{$blog->id}}" class="btn btn-primary">Preberi več...</a>
+                                      
+                                    </div> 
+                                </div>
                             </div>
+                            
+                            @endforeach
+                            
+                 
+                            
+                            
+                
                         </div>
-                        <div class="col-lg-4 col-md-4">
-                            <div class="fh5co-blog animate-box">
-                                <a href="{{ route('RouteController.blog_open')}}"><img class="img-responsive" src="images/blog_img5.jpg" alt="blog2"></a>
-                                <div class="blog-text">
-                                    <h3><a href="{{ route('RouteController.blog_open')}}"><b>Prednosti masaže.</b></a></h3>
-                                    <span class="posted_on">Nov. 15th</span>
-                     
-                                    <p>Spoznajte vse prednosti, ki jih masaža prinaša</p>
-                                    <a href="{{ route('RouteController.blog_open')}}" class="btn btn-primary">Preberi več...</a>
-                                </div> 
-                            </div>
+                        <div class="pagination-wrapper">
+                            {{$blogs->links()}}
                         </div>
-                        <div class="col-lg-4 col-md-4">
-                            <div class="fh5co-blog animate-box">
-                                <a href="{{ route('RouteController.blog_open')}}"><img class="img-responsive" src="images/blog_img3.jpg" alt="blog3"></a>
-                                <div class="blog-text">
-                                    <h3><a href="{{ route('RouteController.blog_open')}}"><b>Kako pogosto na masažo?</b></a></h3>
-                                    <span class="posted_on">Nov. 15th</span>
-                                 
-                                    <p>Se tudi vi sprašujete kolikšna je prava mera masaže </p>
-                                    <a href="{{ route('RouteController.blog_open')}}" class="btn btn-primary">Preberi več...</a>
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4">
-                            <div class="fh5co-blog animate-box">
-                                <a href="{{ route('RouteController.blog_open')}}"><img class="img-responsive" src="images/blog_img4.jpg" alt="blog4"></a>
-                                <div class="blog-text">
-                                    <h3><a href="{{ route('RouteController.blog_open')}}"><b>45 Minimal Workspace Rooms for Web Savvys</b></a></h3>
-                                    <span class="posted_on">Nov. 15th</span>
-                              
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                    <a href="{{ route('RouteController.blog_open')}}" class="btn btn-primary">Preberi več...</a>
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4">
-                            <div class="fh5co-blog animate-box">
-                                <a href="{{ route('RouteController.blog_open')}}"><img class="img-responsive" src="images/blog_img2.jpg" alt="blog5"></a>
-                                <div class="blog-text">
-                                    <h3><a href="{{ route('RouteController.blog_open')}}"><b>45 Minimal Worksspace Rooms for Web Savvys</b></a></h3>
-                                    <span class="posted_on">Nov. 15th</span>
-                           
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                    <a href="{{ route('RouteController.blog_open')}}" class="btn btn-primary">Preberi več...</a>
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4">
-                            <div class="fh5co-blog animate-box">
-                                <a href="{{ route('RouteController.blog_open')}}"><img class="img-responsive" src="images/blog_img6.jpg" alt="blog6"></a>
-                                <div class="blog-text">
-                                    <h3><a href="{{ route('RouteController.blog_open')}}"><b>45 Minimal Workspace Rooms for Web Savvys</b></a></h3>
-                                    <span class="posted_on">Nov. 15th</span>
-                     
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blidn texts.</p>
-                                    <a href="{{ route('RouteController.blog_open')}}" class="btn btn-primary">Preberi več...</a>
-                                </div> 
-                            </div>
-                        </div>
+                   
                     </div>
                 </div>
             </div>
+        
 
             <footer id="fh5co-footer" role="contentinfo">
                 <div class="container footer-container">

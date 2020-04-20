@@ -5,10 +5,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- CSRF Token -->
-		<meta name="csrf-token" content="{{ csrf_token() }}">
 
-		<title>Masazni salon Pallas | blog-Objava</title>
+		<title>Masazni salon Pallas | {{$blog->title}}</title>
 		<meta name="keywords" content="masaža,klasična masaža,športna masaža,refleksna masaža stopal, masaža obraza, access bars terapija,zdravljenje,zdravje,sprostitev">
+
 
   		 <!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154513897-1"></script>
@@ -60,6 +60,9 @@
 		
 		<!-- Icomoon Icon Fonts-->
 		<link rel="stylesheet" href="css/icomoon.css">
+		
+		
+		<link rel="stylesheet" href="css/style.css">
 
 		
 		<!-- FOR IE9 below -->
@@ -73,6 +76,7 @@
 
 		<div id="page">
 
+		@include('cookieConsent::index')
 			<nav class="fh5co-nav" role="navigation">
 				<div class="container">
 					<div class="row navbar">
@@ -137,9 +141,7 @@
 							<div class="col-md-9 col-md-offset-4 animate-box">
 								<h1>Lorem ipsum dolor sit amet, con</h1>
 									<div class="desc">
-										<p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in. </p> 
-										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+										{{$blog->body}}
 									</div>
 							</div>
 						

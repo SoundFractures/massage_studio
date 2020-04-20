@@ -2178,3 +2178,9 @@ iframe {
   .submit-footer-cookies{
     margin-top: 15px;
   }
+
+  .pagination-wrapper{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }

@@ -40,5 +40,5 @@ Route::get('/pricelist', 'RouteController@pricelist')->name('RouteController.pri
 Route::get('/gallery', 'RouteController@gallery')->name('RouteController.gallery');
 Route::get('/blog', 'RouteController@blog')->name('RouteController.blog');
 Route::get('/contact', 'RouteController@contact')->name('RouteController.contact');
-Route::get('/blog_open', 'RouteController@blog_open')->name('RouteController.blog_open');
+Route::get('/blog_article/{id}', 'RouteController@blog_article')->name('RouteController.blog_article');
 Route::get('/cookies', 'RouteController@cookies')->name('RouteController.cookies');

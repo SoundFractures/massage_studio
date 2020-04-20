@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Blog;
+use App\Category;
 
 class RouteController extends Controller
 {
@@ -35,18 +37,26 @@ class RouteController extends Controller
 
     public function blog()
     {
-        return view('MainSite.blog');
+        $blogs = Blog::paginate(6);
+        $categories = Category::all();
+        return view('MainSite.blog', ["blogs"=>$blogs,"categories"=>$categories]);
+      
     }
     
+
+    public function blog_article($id)
+    {
+        $blog = Blog::find($id);
+        $category = Category::find($blog->category_id);
+        return view('MainSite.blog_article',["blog"=>$blog,"category"=>$category]);
+    }
+
     public function contact()
     {
         return view('MainSite.contact');
     }
 
-    public function blog_open()
-    {
-        return view('MainSite.blog_open');
-    }
+
 
     public function cookies()
     {
