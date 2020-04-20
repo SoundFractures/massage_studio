@@ -142,22 +142,24 @@
 						</div>
 						<div class="col-md-6 animate-box">
 							<h2>Povpraševanje</h2>
-							<form action="#">
+							<form action="/questions" method="POST" type="hidden" name="_token"  enctype="multipart/form-data">
+                                {{ csrf_field() }}
+                                {{ method_field('POST') }}
 								<div class="row form-group">
 									<div class="col-md-6">
 										<!-- <label for="fname">Ime*</label> -->
-										<input type="text" id="fname" class="form-control" placeholder="Ime*">
+										<input type="text" id="fname" class="form-control" placeholder="Ime*" name="firstName">
 									</div>
 									<div class="col-md-6">
 										<!-- <label for="lname">Priimek*</label> -->
-										<input type="text" id="lname" class="form-control" placeholder="Priimek*">
+										<input type="text" id="lname" class="form-control" placeholder="Priimek*" name="lastName">
 									</div>
 								</div>
 
 								<div class="row form-group">
 									<div class="col-md-12">
 										<!-- <label for="email">Email*</label> -->
-										<input type="text" id="email" class="form-control" placeholder="E-mail*">
+										<input type="text" id="email" class="form-control" placeholder="E-mail*" name="email">
 									</div>
 								</div>
 

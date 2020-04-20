@@ -12,7 +12,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <a href="/questions/{{$item->id}}/edit">
-                                <h5 class="m-0">{{$item->name}}<span class="badge badge-danger mx-3">Novo</span> </h5>
+                                <h5 class="m-0">{{$item->firstName}} {{$item->lastName}}<span class="badge badge-danger mx-3">Novo</span> </h5>
                                 <p class="text-truncate">{{$item->body}}</p>
                             </a>
                         </div>
@@ -32,7 +32,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <a href="/questions/{{$item->id}}/edit">
-                            <h5 class="m-0">{{$item->name}}  </h5>
+                            <h5 class="m-0">{{$item->firstName}} {{$item->lastName}}   </h5>
                             <p class="text-truncate">{{$item->body}}</p>
                         </a>
                     </div>
@@ -53,7 +53,7 @@
                 <div class="row">
                     <div class="col-12">
                         <a href="/questions/{{$item->id}}">
-                            <h5 class="m-0">{{$item->name}} </h5>
+                            <h5 class="m-0">{{$item->firstName}} {{$item->lastName}} </h5>
                             <p class="text-truncate"><b>Odgovor:</b> {{$item->answer}} </p>
                         </a>
                     </div>

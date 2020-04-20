@@ -15,6 +15,6 @@
             </button>
         </div>
       </div>
-    @include('ControlPanel.Components.deleteModal',['name'=>$question->name,'id'=>$question->id, 'body'=>"Izbrano povpraševanje bo izbrisano:  ",'route'=>"questions"])
+    @include('ControlPanel.Components.deleteModal',['name'=>$question->firstName,'id'=>$question->id, 'body'=>"Izbrano povpraševanje osebe bo izbrisano:  ",'route'=>"questions"])
 </div>
 @endsection

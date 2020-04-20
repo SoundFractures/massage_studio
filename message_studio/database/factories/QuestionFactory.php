@@ -19,7 +19,8 @@ $factory->define(App\Question::class, function (Faker $faker) {
     }
     
     return [
-        'name' => $faker->firstName,
+        'firstName' => $faker->firstName,
+        'lastName' => $faker->lastName,
         'body' => $faker->paragraph($nbSentences = 5, $variableNbSentences = true),
         'answer' =>$answer,
         'email' => $faker->email,

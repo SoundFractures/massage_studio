@@ -15,12 +15,13 @@ class CreateQuestionsTable extends Migration
     {
         Schema::create('questions', function (Blueprint $table) {
             $table->bigInteger('id')->autoIncrement();
-            $table->string('name');
+            $table->string('firstName');
+            $table->string('lastName');
             $table->boolean('answered')->default(false);
             $table->boolean('seen')->default(false);
             $table->string('email');
             $table->longText('body');
-            $table->longText('answer');
+            $table->longText('answer')->default("");
             $table->timestamps();
         });
     }
