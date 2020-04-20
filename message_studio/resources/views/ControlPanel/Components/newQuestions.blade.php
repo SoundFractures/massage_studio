@@ -25,7 +25,7 @@
                   </div>
                 <div class="font-weight-bold">
                   <div class="text-truncate w-100">{{$item->body}}</div>
-                  <div class="small text-gray-500"><b>{{$item->name}}</b> · {{$item->created_at}}</div>
+                  <div class="small text-gray-500"><b>{{$item->firstName}} {{$item->lastName}}</b> · {{$item->created_at}}</div>
                 </div>
               </a>
         @endforeach

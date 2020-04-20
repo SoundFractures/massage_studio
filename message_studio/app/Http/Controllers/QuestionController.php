@@ -35,7 +35,7 @@ class QuestionController extends Controller
      */
     public function create()
     {
-        //
+        
     }
 
     /**
@@ -46,7 +46,15 @@ class QuestionController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $question = new Question;
+        $question->firstName = $request->firstName;
+        $question->lastName = $request->lastName;
+        $question->body =$request->message;
+        $question->email =$request->email;
+        $question->category =$request->category;
+
+        $question->save();
+        return redirect('/contact');  //With message that the question was sent
     }
 
     /**

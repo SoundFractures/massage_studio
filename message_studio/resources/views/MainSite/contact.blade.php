@@ -142,35 +142,37 @@
 						</div>
 						<div class="col-md-6 animate-box">
 							<h2>Povpraševanje</h2>
-							<form action="#">
+							<form action="/questions" method="POST" type="hidden" name="_token"  enctype="multipart/form-data">
+                                {{ csrf_field() }}
+                                {{ method_field('POST') }}
 								<div class="row form-group">
 									<div class="col-md-6">
 										<!-- <label for="fname">Ime*</label> -->
-										<input type="text" id="fname" class="form-control" placeholder="Ime*">
+										<input type="text" id="fname" class="form-control" placeholder="Ime*" name="firstName">
 									</div>
 									<div class="col-md-6">
 										<!-- <label for="lname">Priimek*</label> -->
-										<input type="text" id="lname" class="form-control" placeholder="Priimek*">
+										<input type="text" id="lname" class="form-control" placeholder="Priimek*" name="lastName">
 									</div>
 								</div>
 
 								<div class="row form-group">
 									<div class="col-md-12">
 										<!-- <label for="email">Email*</label> -->
-										<input type="text" id="email" class="form-control" placeholder="E-mail*">
+										<input type="text" id="email" class="form-control" placeholder="E-mail*" name="email">
 									</div>
 								</div>
 
 								<div class="row form-group">
 									<div class="col-md-12">
 										<!-- <label for="subject">Zadeva*</label> -->
-										<select id="subject" class="form-control" placeholder="Zadeva*">
-                                            <option value="klasicna">Klasična masaža</option>
-                                            <option value="sportna">Športna masaža</option>
-                                            <option value="refleksna">Refleksna masaža stopal</option>
-                                            <option value="obraz">Masaža obraza</option>
-                                            <option value="accessbars">Access Bars Terapija</option>
-                                            <option value="accessbars">Drugo</option>
+										<select id="subject" class="form-control" name="category" placeholder="Zadeva*">
+                                            <option value="Klasična masaža">Klasična masaža</option>
+                                            <option value="Športna masaža">Športna masaža</option>
+                                            <option value="Refleksna masaža stopal">Refleksna masaža stopal</option>
+                                            <option value="oMasaža obraza">Masaža obraza</option>
+                                            <option value="Access Bars Terapija">Access Bars Terapija</option>
+                                            <option value="Drugo">Drugo</option>
                                           </select>
                                     </div>
                                     
