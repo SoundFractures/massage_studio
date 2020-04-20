@@ -166,13 +166,13 @@
 								<div class="row form-group">
 									<div class="col-md-12">
 										<!-- <label for="subject">Zadeva*</label> -->
-										<select id="subject" class="form-control" placeholder="Zadeva*">
-                                            <option value="klasicna">Klasična masaža</option>
-                                            <option value="sportna">Športna masaža</option>
-                                            <option value="refleksna">Refleksna masaža stopal</option>
-                                            <option value="obraz">Masaža obraza</option>
-                                            <option value="accessbars">Access Bars Terapija</option>
-                                            <option value="accessbars">Drugo</option>
+										<select id="subject" class="form-control" name="category" placeholder="Zadeva*">
+                                            <option value="Klasična masaža">Klasična masaža</option>
+                                            <option value="Športna masaža">Športna masaža</option>
+                                            <option value="Refleksna masaža stopal">Refleksna masaža stopal</option>
+                                            <option value="oMasaža obraza">Masaža obraza</option>
+                                            <option value="Access Bars Terapija">Access Bars Terapija</option>
+                                            <option value="Drugo">Drugo</option>
                                           </select>
                                     </div>
                                     

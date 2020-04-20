@@ -21,6 +21,7 @@ class CreateQuestionsTable extends Migration
             $table->boolean('seen')->default(false);
             $table->string('email');
             $table->longText('body');
+            $table->longText('category');
             $table->longText('answer')->default("");
             $table->timestamps();
         });

@@ -51,9 +51,10 @@ class QuestionController extends Controller
         $question->lastName = $request->lastName;
         $question->body =$request->message;
         $question->email =$request->email;
+        $question->category =$request->category;
 
         $question->save();
-        return redirect('/contect');  //With message that the question was sent
+        return redirect('/contact');  //With message that the question was sent
     }
 
     /**
