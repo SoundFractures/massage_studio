@@ -60,7 +60,6 @@
                 </div>
                 
             </div>
-            @include('ControlPanel.Components.deleteModal',['name'=>$item->name,'id'=>$item->id])
         </div>
         @endforeach
         @else

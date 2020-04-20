@@ -4,7 +4,7 @@
 <div class="container">
     
     @include('ControlPanel.Components.formQuestion')
-    <form action="/questions/{{$question->id}}" method="POST" type="hidden" name="_token" class="form-group mx-5"  enctype="multipart/form-data">
+    <form action="/questions/{{$question->id}}" method="POST" type="hidden" name="_token" class="form-group mx-3"  enctype="multipart/form-data">
         {{ csrf_field() }}
         {{ method_field('PATCH') }}
         <div class="form-group">
