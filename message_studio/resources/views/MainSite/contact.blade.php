@@ -61,7 +61,7 @@
 						<div class="col-md-5 col-md-push-1 animate-box">
 							
 							<div class="fh5co-contact-info">
-								<h2>Kontakt</h2>
+								<h2 class="naslovor">Kontakt</h2>
 								
 									<p class="o_meni"><img class="img-icon" src="images/icons/resized_location.png" alt="address">Bistriška cesta 60a, 2319 Poljčane</p>
 									<p class="o_meni"><img class="img-icon" src="images/icons/resized_phone.png" alt="phone">040 853 650 </p>
@@ -72,7 +72,7 @@
 		
 						</div>
 						<div class="col-md-6 animate-box">
-							<h2>Povpraševanje</h2>
+							<h2 class="naslovor">Povpraševanje</h2>
 							<form action="/questions" method="POST" type="hidden" name="_token"  enctype="multipart/form-data">
                                 {{ csrf_field() }}
                                 {{ method_field('POST') }}

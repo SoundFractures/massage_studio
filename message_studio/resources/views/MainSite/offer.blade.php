@@ -58,7 +58,7 @@
                     <div class="row animate-box">
                         <div class="col-md-10 col-md-offset-2 text-center fh5co-heading-offer">
                             <h1>Masažni salon Pallas</h1>
-                            <p>Salon Pallas se lahko pohvali z odličnimi terapevtskimi masažami, s katerimi izboljša oziroma olajša stanje vašega psihofizičnega zdravja in vam tako omogoči kvalitetnejše in polnejše življenje. <br/> Pri nas lahko izbirate izmed več različnih vrst masaž:</p>
+                            <p class="ponudba">Salon Pallas se lahko pohvali z odličnimi terapevtskimi masažami, s katerimi izboljša oziroma olajša stanje vašega psihofizičnega zdravja in vam tako omogoči kvalitetnejše in polnejše življenje. <br/> Pri nas lahko izbirate izmed več različnih vrst masaž:</p>
                         </div>
                     </div>
                 </div>  
@@ -82,11 +82,11 @@
 							<div id="fh5co-project-offer">					
 							<img class="img-responsive-offer" src="images/icons/icon_class.png" alt="classic massage">
 									<h2>KLASIČNA MASAŽA</h2>
-									<h4>Masaža je naravna, učinkovita metoda za lajšanje raznih zdravstvenih težav, z njo ohranjamo zdravje
+									<p class="ponudba">Masaža je naravna, učinkovita metoda za lajšanje raznih zdravstvenih težav, z njo ohranjamo zdravje
 										in predvsem skrbimo za boljše počutje. Maser z masažnimi tehnikami ne prodira samo v kožo,
 										vendar z dobro masažo prodre globje v mišice in kosti. Masaža lahko spodbuja ali miri odvisno od
 										hitrosti in globine masiranja.
-									</h4>
+									</p>
 							</div>
 						</section>
 					</div>
@@ -106,10 +106,10 @@
 							<div id="fh5co-project-offer">
 								<img class="img-responsive-offer" src="images/icons/icon_sport.png" alt="sport massage">
 								<h2>ŠPORTNA MASAŽA</h2>
-								<h4>Je masaža, pri kateri se maser osredotoča na posamezne skupine mišic, aktivne v posameznem
+								<p class="ponudba">Je masaža, pri kateri se maser osredotoča na posamezne skupine mišic, aktivne v posameznem
 										športu. Masaža je močna do zelo močna. Pri športnih aktivnostih v mišicah nastaja mišična kislina, ki
 										povzroča, da se mišica utrdi in se posledično ne krči več. Pomeni, da je mišica utrujena in to občutite
-										kot bolečino. Zato je ta masaža namenjena hitrejšemu pretoku krvi ter pospešuje obnovo mišic.</h4>
+										kot bolečino. Zato je ta masaža namenjena hitrejšemu pretoku krvi ter pospešuje obnovo mišic.</p>
 
 							</div>
 						</section>
@@ -126,11 +126,11 @@
 							<div id="fh5co-project-offer">
 								<img class="img-responsive-offer" src="images/icons/icon_ref.png" alt="feet masage">
 								<h2>REFLEKSNA MASAŽA STOPAL</h2>
-									<h4>Je najstarejša metoda zdravljenja. Pri tej masaži maser na področju stopal in gležnjev masira
+									<p class="ponudba">Je najstarejša metoda zdravljenja. Pri tej masaži maser na področju stopal in gležnjev masira
 									refleksne cone, ki so povezane z našim akustičnim sistemom v telesu. To pomeni, da maser stimulira
 									refleksne cone na stopalih in s tem povzroči odziv v organih. Organi se tako prekrvavijo, sprosti se
 									tok življenjske energije in posledično se določeno stanje izboljša.
-								</h4>
+									</p>
 							</div>
 						</section>
 					</div>
@@ -147,9 +147,9 @@
 							<div id="fh5co-project-offer">
 								<img class="img-responsive-offer" src="images/icons/icon_face.png" alt="face massage">
 								<h2>MASAŽA OBRAZA</h2>
-									<h4>Masaža obraza ima veliko pozitivnih učinkov na vašo kožo in psihično počutje. Je prijeten, sproščejoč
+									<p class="ponudba">Masaža obraza ima veliko pozitivnih učinkov na vašo kožo in psihično počutje. Je prijeten, sproščujoč
 										občutek, zaradi katerega se počutite sveže in pomirjeno. Masaža pomaga pri: napetostih, izboljša tonus kože, zmanjša zabuhlost in izboljša cirkulacijo
-									</h4>
+									</p>
 							</div>
 						</section>
 					</div>
@@ -166,7 +166,7 @@
 							<div id="fh5co-project-offer">
 								<img class="img-responsive-offer" src="images/icons/icon_bars.png" alt="access bars">
 								<h2>ACCESS BARS TERAPIJA</h2>
-									<h4>Je nežna tehnika s katero lahko spremenite vse v svojem življenju in telesu. Z nežnim dotikanjem aktiviramo 32 točk na glavi. Posledično po 15 min telo preide v theta stanje, ki je stanje globoke relaksacije. To aktivira samozdravljenje telesa in odpira prostor zavedanja v vašem življenju.</h4>
+									<p class="ponudba">Je nežna tehnika s katero lahko spremenite vse v svojem življenju in telesu. Z nežnim dotikanjem aktiviramo 32 točk na glavi. Posledično po 15 min telo preide v theta stanje, ki je stanje globoke relaksacije. To aktivira samozdravljenje telesa in odpira prostor zavedanja v vašem življenju.</p>
 							</div>
 						</section>
 					</div>
