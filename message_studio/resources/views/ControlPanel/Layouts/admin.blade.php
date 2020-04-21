@@ -77,7 +77,7 @@
       </li>
       <!-- Nav Item - Subscription Item -->
       <li class="nav-item">
-        <a class="nav-link" href="{{ url('subscribers') }}">
+        <a class="nav-link" href="{{ url('subscriptions') }}">
           <i class="fas fa-fw fa-user-friends"></i>
           <span>Naročniki</span></a>
       </li>

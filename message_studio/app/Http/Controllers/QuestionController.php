@@ -5,6 +5,7 @@ use App\Question;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
+
 class QuestionController extends Controller
 {
     /**

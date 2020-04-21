@@ -12,10 +12,6 @@ class AdminController extends Controller
         return view('ControlPanel.index');
     }
     
-    public function subscribers()
-    {
-        return view('ControlPanel.Views.Subscribers.index');
-    }
 
     public function settings()
     {

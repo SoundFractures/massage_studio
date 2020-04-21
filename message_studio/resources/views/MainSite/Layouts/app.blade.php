@@ -110,16 +110,19 @@
 						</div>
 						
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
+                            <form action="/subscriptions" method="POST" type="hidden" name="_token"  enctype="multipart/form-data">
+                                {{ csrf_field() }}
+                                {{ method_field('POST') }}
                             <h3>Naročite se na E-novice</h3>     
                                                
 								<div class="row form-group">
 									<div class="col-md-12">
-										<input type="text" id="email" class="form-control mail-footer" placeholder="E-naslov*">
+										<input type="text" id="email" class="form-control mail-footer" name="email" placeholder="E-naslov*">
 									</div>
                                 </div>
                                 
                                 <div class="form-group">
-									<input type="submit" value="Naroči se" class="btn btn-primary submit-footer" data-toggle="modal" data-target="#exampleModal">
+									<input type="button" value="Naroči se" class="btn btn-primary submit-footer" data-toggle="modal" data-target="#exampleModal">
                                     
                                     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                    
@@ -138,13 +141,13 @@
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-primary e-mail" data-dismiss="modal">Zapri</button>
-                                                <button type="button" class="btn btn-primary">Strinjam se</button>
+                                                <button type="submit" class="btn btn-primary">Strinjam se</button>
                                             </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                
+                            </form>	 
                         </div>
 
                         

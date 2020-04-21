@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Mail\WelcomeMail;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,11 +19,9 @@ Route::middleware(['auth',])->group(function () {
 
 Route::resource('/blogs', 'BlogController');
 Route::resource('/questions', 'QuestionController');
-
-Route::get('/subscribers', 'AdminController@subscribers');
+Route::resource('/subscriptions', 'SubscriberController');
 Route::get('/settings', 'AdminController@settings');
 });
-
 
 
 //Main Site 
@@ -42,3 +40,7 @@ Route::get('/blog', 'RouteController@blog')->name('RouteController.blog');
 Route::get('/contact', 'RouteController@contact')->name('RouteController.contact');
 Route::get('/blog_article/{id}', 'RouteController@blog_article')->name('RouteController.blog_article');
 Route::get('/cookies', 'RouteController@cookies')->name('RouteController.cookies');
+
+Route::get('/email',function(){
+    return new WelcomeMail();
+});

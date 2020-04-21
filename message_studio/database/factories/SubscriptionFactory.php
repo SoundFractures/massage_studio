@@ -7,8 +7,6 @@ use Faker\Generator as Faker;
 
 $factory->define(App\Subscription::class, function (Faker $faker) {
     return [
-        'name' => $faker->firstName,
-        'surname' => $faker->lastName,
         'email' => $faker->email,
 
     ];
