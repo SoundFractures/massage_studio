@@ -101,7 +101,11 @@ class BlogController extends Controller
        $blog->category_id = $request->category_id;
        
        if($request->hasFile('file')){
-        unlink(storage_path('app/public/images/'.$blog->file));
+        try {
+            unlink(storage_path('app/public/images/'.$blog->file));
+        } catch (\Throwable $th) {
+            
+        }
         $filename = $request->file->getClientOriginalName();
         $request->file->storeAs('public/images',$filename);
         $blog->file=$filename;
