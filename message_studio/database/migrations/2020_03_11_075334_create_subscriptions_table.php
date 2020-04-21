@@ -15,8 +15,6 @@ class CreateSubscriptionsTable extends Migration
     {
         Schema::create('subscriptions', function (Blueprint $table) {
             $table->bigInteger('id')->autoIncrement();
-            $table->string('name');
-            $table->string('surname');
             $table->string('email');
             $table->timestamps();
         });

@@ -5,6 +5,8 @@ use App\Question;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
+use App\Mail\AnswerMail;
+use Illuminate\Support\Facades\Mail;
 class QuestionController extends Controller
 {
     /**
@@ -87,6 +89,7 @@ class QuestionController extends Controller
             $question->seen = 1;
             $question->save();
         }
+       
         return view("ControlPanel.Views.Questions.edit")->with('question',$question);
     }
 
@@ -105,7 +108,7 @@ class QuestionController extends Controller
         $question->answer= $request->answer;
         $question->answered =1;
         $question->save();
-
+        Mail::to($question->email)->send(new AnswerMail($question));
         return redirect('/questions/'.$id);
     }
 
