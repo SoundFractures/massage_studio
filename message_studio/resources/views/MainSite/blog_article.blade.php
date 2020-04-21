@@ -33,7 +33,7 @@
 
 			@section('cover')
 				<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="{{ asset('images/.$blog->file);') }}">
-				<img src="{{ url('images/'.$blog->file) }}" alt="aaa" class="fh5co-cover fh5co-cover-sm" />
+				
 					<div class="overlay"></div>
 					<div class="container">
 						<div class="row">
@@ -55,9 +55,9 @@
 		
 		
 
-			<!--<img src="{{ url('images/'.$blog->file) }}" alt="aaa" title="" />
+			<img src="{{ url('images/'.$blog->file) }}" alt="aaa" title="" />
 
-			<img src="{{ asset('images/'.$blog->file) }}" alt="wwww" title="">-->
+			<img src="{{ asset('images/'.$blog->file) }}" alt="wwww" title="">
 
 			@section('content')
 				<div id="fh5co-about">
