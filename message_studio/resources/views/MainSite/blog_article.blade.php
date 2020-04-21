@@ -53,7 +53,6 @@
 			@endsection
 			
 		
-		
 
 			<img src="{{ url('images/'.$blog->file) }}" alt="aaa" title="" />
 
@@ -72,6 +71,7 @@
 									<p class="manjse">Terapevtska maserka</p>
 									<p class="manjse">31. 3. 2019</p>
 								</div>
+
 
 								<div class="col-md-9 col-md-offset-4 animate-box">
 									<h1>{{$blog->title}}</h1>
