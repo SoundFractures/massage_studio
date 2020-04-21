@@ -57,8 +57,8 @@
 
 			<img src="{{ url('images/'.$blog->file) }}" alt="aaa" title="" />
 
-			<img src="{{ asset('/images/'.$blog->file) }}" alt="wwww" title="">
-			<img src="{{ asset('images/'.$blog->file) }}" alt="wwww" title="">
+			<img src="{{ asset('storage/images/'.$blog->file) }}" alt="wwww" title="">
+			<img src="{{ asset('storage/app/public/storage/images/'.$blog->file) }}" alt="wwww" title="">
 
 			@section('content')
 				<div id="fh5co-about">
