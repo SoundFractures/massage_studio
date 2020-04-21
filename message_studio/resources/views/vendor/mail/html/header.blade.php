@@ -2,7 +2,7 @@
 <td class="header">
 <a href="{{ $url }}" style="display: inline-block;">
 
-Salon Pallas
+Masažni Salon Pallas
 
 </a>
 </td>

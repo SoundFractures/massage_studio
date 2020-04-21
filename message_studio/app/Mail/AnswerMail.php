@@ -18,7 +18,7 @@ class AnswerMail extends Mailable
      */
     public $question;
 
-    
+
     public function __construct(Question $question )
     {
         $this->question = $question;
@@ -31,6 +31,7 @@ class AnswerMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.answer');
+        return $this->subject("Odgovor na vprašanje")
+        ->markdown('emails.answer');
     }
 }

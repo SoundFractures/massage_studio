@@ -6,7 +6,7 @@
 Mater ti jebem
 
 @component('mail::subcopy')
-Ksenja nevemkaksepise
+Ksenija Lovrenčič
 @endcomponent
 @endcomponent
 

@@ -1,5 +1,5 @@
 @component('mail::message')
-# Pozdravljena {{$question->firstName}}  {{$question->lastName}}
+# Spoštovani/a {{$question->firstName}}  {{$question->lastName}}
 
 @component('mail::subcopy')
 {{$question->body}}
@@ -8,5 +8,5 @@
 @component('mail::panel')
 {{$question->answer}}
 @endcomponent
-Ksenja nevemkaksepise
+Ksenija Lovrenčič
 @endcomponent
