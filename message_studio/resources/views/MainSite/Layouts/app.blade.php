@@ -106,23 +106,90 @@
 
             
             <footer id="fh5co-footer" role="contentinfo">
-                <div class="container">
+                <div class="container footer-container">
                     <div class="row row-pb-md">              
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-1">
-                            <h3>Delovni čas</h3>
-                            <p>Po dogovoru</p>
-                        </div>
+                            <div class="col-xs-2 logo">
+                                <a href="{{ route('RouteController.home')}}"><img class="img-responsive-footer" src="images/resized_logo_beli.png" alt="pallas logo beli"></a>
+                            </div>
+						</div>
+						
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-2">
                             <h3>Kontakt</h3>
                             <p>Bistriška cesta 60a <br> 2319 Poljčane <br> 040 853 650 <br> pallasmasaznisalon@gmail.com</p>
-                        </div>
+						</div>
+						
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
-                            <h3>Novo v blogu</h3>
-                            <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-                            <p><a href="#">Več objav</a></p>
+                        	<h3 class="footer-text">Delovni čas</h3>
+                            <p>Po dogovoru</p>
+						</div>
+						
+                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
+                            <h3>Naročite se na E-novice</h3>     
+                                               
+								<div class="row form-group">
+									<div class="col-md-12">
+										<input type="text" id="email" class="form-control mail-footer" placeholder="E-naslov*">
+									</div>
+                                </div>
+                                
+                                <div class="form-group">
+									<input type="submit" value="Naroči se" class="btn btn-primary submit-footer" data-toggle="modal" data-target="#exampleModal">
+                                    
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                   
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Naročanje na E-novice</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                S klikom na gumb "Strinjam se" se strinjate, da lahko obdelujemo podatke (vaš e-poštni naslov), ki ste ga navedli v vpisnem okencu za namen pošiljanja ponudb, novic, obvestil itd. Prav tako pa klikom na gumb soglašate s pogoji pristopne izjave.
+
+                                                pravico imate, da se od e-novic kadarkoli odjavite.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary e-mail" data-dismiss="modal">Zapri</button>
+                                                <button type="button" class="btn btn-primary">Strinjam se</button>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
                         </div>
+
+                        
+                    </div>
+             
+                    
+                    
+					<hr class="hr-footer">
+					
+                             
+                </div>
+                <div class="container">
+                    <div class="row row-pb-md-footer">
+                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-1">
+                            <p class="p-footer">2020 Pallas©. Vse pravice pridržane</p>
+						</div>
+						
+						
+                        <div class="col-md-6 col-sm-12 col-xs-12 fh5co-widget-footer col-md-push-3">
+                            <a href="https://www.facebook.com/lovrencicksenijaterapevtskimaser"><img class="img-icon" src="images/icons/icons_social/facebook-24.png" alt="facebook"></a>
+                            <a href="https://www.instagram.com/pallas_masazni_salon/"><img class="img-icon" src="images/icons/icons_social/instagram-24-2.png" alt="instagram"></a>
+                        </div> 
+                        
+                        <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">
+                            <a href="{{ route('RouteController.cookies')}}" class="cookies-hover-footer">piškotki in zasebnost</a>
+						</div>   
+                      
                     </div>
                 </div>
+        
             </footer>
 
 
