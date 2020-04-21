@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
+    @yield('SEO')
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -69,25 +71,8 @@
                             <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="images/logos/lotus_mini_logoo.png" alt="lotus logo"></a>
                         </div>
                         <div class="col-xs-10 menu-1 text-right">
-                            <ul>
-								<li><a href="{{ route('RouteController.home')}}">Domov</a></li>
-                                <li><a href="{{ route('RouteController.about')}}">O meni</a></li>
-                                <li class="has-dropdown">
-                                    <a href="{{ route('RouteController.offer')}}">Ponudba</a>
-                                    <ul class="dropdown">
-                                        <li><a href="#">Klasična masaža</a></li>
-                                        <li><a href="#">Športna masaža</a></li>
-                                        <li><a href="#">Refleksna masaža stopal</a></li>
-                                        <li><a href="#">Sprostitvena masaža obraza</a></li>
-                                        <li><a href="#">Acces Bars terapija</a></li>
-                                    </ul>
-                                </li>
-                            
-                                <li><a href="{{ route('RouteController.pricelist')}}">Cenik</a></li>
-                                <li><a href="{{ route('RouteController.gallery')}}">Galerija</a></li>
-                                <li><a href="{{ route('RouteController.blog')}}">Blog</a></li>
-                                <li  class="active"><a href="{{ route('RouteController.contact')}}">Kontakt</a></li>
-                            </ul>
+                            @yield('navbar_active_link')
+                           
                         </div>
                     </div>
                 </div>
