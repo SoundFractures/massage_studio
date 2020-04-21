@@ -1,9 +1,7 @@
 @component('mail::message')
-# Introduction
+# Welcome
 
 The body of your message.
-
-
 
 Thanks,<br>
 Banana

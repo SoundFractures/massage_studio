@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Mail\WelcomeMail;
+use App\Mail\AnswerMail;
+use App\Mail\NewsMail;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -43,4 +45,10 @@ Route::get('/cookies', 'RouteController@cookies')->name('RouteController.cookies
 
 Route::get('/email',function(){
     return new WelcomeMail();
+});
+Route::get('/email2',function(){
+  return new AnswerMail();
+});
+Route::get('/email3',function(){
+  return new NewsMail();
 });
