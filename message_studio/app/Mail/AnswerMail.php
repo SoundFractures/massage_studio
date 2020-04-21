@@ -6,7 +6,7 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
-
+use App\Question;
 class AnswerMail extends Mailable
 {
     use Queueable, SerializesModels;
@@ -16,9 +16,10 @@ class AnswerMail extends Mailable
      *
      * @return void
      */
-    public function __construct()
+    public $question;
+    public function __construct(Question $question)
     {
-        //
+        $this->question = $question;
     }
 
     /**
