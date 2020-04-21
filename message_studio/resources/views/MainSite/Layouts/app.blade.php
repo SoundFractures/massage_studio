@@ -12,27 +12,27 @@
 
 
     <!-- Scripts -->
-    <script type="text/javascript" src="js/app.js" defer></script>
+    <script type="text/javascript" src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
     
     <!-- jQuery Easing -->
-    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="{{ asset('js/jquery.easing.1.3.js') }}"></script>
     
     <!-- Bootstrap -->
     <!--<script src="js/bootstrap.min.js"></script>-->
     
     <!-- Waypoints -->
-    <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="{{ asset('js/jquery.waypoints.min.js') }}"></script>
 	
 	<!-- Main -->
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="{{ asset('js/main.js') }}"></script>
 
 
 
     <!-- Modernizr JS -->
-    <script src="js/modernizr-2.6.2.min.js" defer></script>
+    <script src="{{ asset('js/modernizr-2.6.2.min.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -43,14 +43,14 @@
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="css/app.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="{{ asset('css/animate.css') }}">
     
     <!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="{{ asset('css/icomoon.css') }}">
 
 	
 	<!-- FOR IE9 below -->
@@ -68,7 +68,7 @@
                 <div class="container">
                     <div class="row navbar">
 						<div class="col-xs-2 logo">
-                            <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="images/logos/lotus_mini_logoo.png" alt="lotus logo"></a>
+                            <a href="{{ route('RouteController.home')}}"><img class="img-responsive" src="{{ asset('images/logos/lotus_mini_logoo.png') }}" alt="lotus logo"></a>
                         </div>
                         <div class="col-xs-10 menu-1 text-right">
                             @yield('navbar_active_link')
@@ -95,7 +95,7 @@
                     <div class="row row-pb-md">              
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-1">
                             <div class="col-xs-2 logo">
-                                <a href="{{ route('RouteController.home')}}"><img class="img-responsive-footer" src="images/resized_logo_beli.png" alt="pallas logo beli"></a>
+                                <a href="{{ route('RouteController.home')}}"><img class="img-responsive-footer" src="{{ asset('images/resized_logo_beli.png') }}" alt="pallas logo beli"></a>
                             </div>
 						</div>
 						
@@ -164,8 +164,8 @@
 						
 						
                         <div class="col-md-6 col-sm-12 col-xs-12 fh5co-widget-footer col-md-push-3">
-                            <a href="https://www.facebook.com/lovrencicksenijaterapevtskimaser"><img class="img-icon" src="images/icons/icons_social/facebook-24.png" alt="facebook"></a>
-                            <a href="https://www.instagram.com/pallas_masazni_salon/"><img class="img-icon" src="images/icons/icons_social/instagram-24-2.png" alt="instagram"></a>
+                            <a href="https://www.facebook.com/lovrencicksenijaterapevtskimaser"><img class="img-icon" src="{{ asset('images/icons/icons_social/facebook-24.png') }}" alt="facebook"></a>
+                            <a href="https://www.instagram.com/pallas_masazni_salon/"><img class="img-icon" src="{{ asset('images/icons/icons_social/instagram-24-2.png') }}" alt="instagram"></a>
                         </div> 
                         
                         <div class="col-md-3 col-sm-12 col-xs-12 fh5co-widget col-md-push-3">

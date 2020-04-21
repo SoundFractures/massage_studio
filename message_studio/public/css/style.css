@@ -457,7 +457,7 @@ iframe {
     }
   }
   .fh5co-cover.fh5co-cover-sm {
-    height: 600px;
+    height: 650px;
   }
   @media screen and (max-width: 768px) {
     .fh5co-cover.fh5co-cover-sm {
@@ -1803,6 +1803,8 @@ iframe {
     text-align: center;
     box-sizing: border-box;
   }
+
+  /*
   html:not(.touch) .gallery-image figcaption:before, .touch .gallery-image figcaption:before, .mfp-with-zoom .mfp-title:before, html:not(.touch) .gallery-image figcaption:after, .touch .gallery-image figcaption:after, .mfp-with-zoom .mfp-title:after {
     content: "";
     position: absolute;
@@ -1814,7 +1816,8 @@ iframe {
     transition: all 0.3s ease-in-out;
     opacity: 0;
     z-index: -1;
-  }
+  }*/
+
   html:not(.touch) .gallery-image figcaption:before, .touch .gallery-image figcaption:before, .mfp-with-zoom .mfp-title:before, html:not(.touch) .gallery-image figcaption:after, .touch .gallery-image figcaption:after, .mfp-with-zoom .mfp-title:after {
     right: 100%;
     bottom: 100%;
@@ -1823,12 +1826,13 @@ iframe {
     left: 100%;
     top: 100%;
   }
+  /*
   html:not(.touch) .gallery-image figcaption.visible, html:not(.touch) .gallery-image:hover figcaption, .touch .gallery-image figcaption, .mfp-with-zoom .visible.mfp-title, .mfp-with-zoom.mfp-ready .mfp-title {
     color: white;
     text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
     -webkit-transition: all 0.2s ease 0.3s;
     transition: all 0.2s ease 0.3s;
-  }
+  }*/
   html:not(.touch) .gallery-image figcaption.visible:before, html:not(.touch) .gallery-image:hover figcaption:before, .touch .gallery-image figcaption:before, .mfp-with-zoom .visible.mfp-title:before, .mfp-with-zoom.mfp-ready .mfp-title:before, html:not(.touch) .gallery-image figcaption.visible:after, html:not(.touch) .gallery-image:hover figcaption:after, .touch .gallery-image figcaption:after, .mfp-with-zoom .visible.mfp-title:after, .mfp-with-zoom.mfp-ready .mfp-title:after {
     opacity: 1;
   }
@@ -1951,6 +1955,7 @@ iframe {
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
   }
+  
   .mfp-arrow:before, .mfp-arrow:after {
     margin: 0;
     border: none;

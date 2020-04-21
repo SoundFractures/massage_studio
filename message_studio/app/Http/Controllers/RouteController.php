@@ -12,7 +12,10 @@ class RouteController extends Controller
     
     public function home()
     {
-        return view('MainSite.index');
+
+        $blogs = Blog::orderBy('id', 'desc')->take(3)->get();
+        return view('MainSite.index', ["blogs"=>$blogs]);
+
     }
 
     public function about()
