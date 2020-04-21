@@ -3,7 +3,7 @@
 # Naročanje uspelo!
 
 
-Mater ti jebem
+Uspešno ste se naročili na E-Novice
 
 @component('mail::subcopy')
 Ksenija Lovrenčič
