@@ -24,9 +24,9 @@ class DatabaseSeeder extends Seeder
             'name' => 'Postava',
         ]);
 
-        factory(App\Blog::class,5)->create();
-        factory(App\Question::class,5)->create();
-        factory(App\Subscription::class,5)->create();
+        //factory(App\Blog::class,5)->create();
+        //factory(App\Question::class,5)->create();
+        //factory(App\Subscription::class,5)->create();
 
         DB::table('users')->insert([
             'name' => 'Admin',
