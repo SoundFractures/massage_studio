@@ -40,7 +40,7 @@ class RouteController extends Controller
 
     public function blog()
     {
-        $blogs = Blog::paginate(6);
+        $blogs = Blog::orderBy('created_at', 'desc')->paginate(6);
         $categories = Category::all();
         return view('MainSite.blog', ["blogs"=>$blogs,"categories"=>$categories]);
       
