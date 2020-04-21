@@ -13,7 +13,7 @@ class RouteController extends Controller
     public function home()
     {
 
-        $blogs = Blog::orderBy('id', 'desc')->take(3)->get();
+        $blogs = Blog::orderBy('created_at')->take(3)->get();
         return view('MainSite.index', ["blogs"=>$blogs]);
 
     }

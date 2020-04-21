@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Pallas - Nadzorna Plošča</title>
+  <title>Pallas | Nadzorna Plošča</title>
 
   
   
