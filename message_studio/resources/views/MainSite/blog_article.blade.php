@@ -57,6 +57,7 @@
 
 			<img src="{{ url('images/'.$blog->file) }}" alt="aaa" title="" />
 
+			<img src="{{ asset('/images/'.$blog->file) }}" alt="wwww" title="">
 			<img src="{{ asset('images/'.$blog->file) }}" alt="wwww" title="">
 
 			@section('content')

@@ -96,7 +96,7 @@
                         @foreach($blogs as $blog)
                             <div class="col-lg-4 col-md-4">
                                 <div class="fh5co-blog animate-box">
-                                    <a href="/blog_article/{{$blog->id}}"><img class="img-responsive" src="{{ asset('images/'.$blog->file) }}" alt="blog1"></a>
+                                    <a href="/blog_article/{{$blog->id}}"><img class="img-responsive" src="{{ asset('images/'.$blog->file) }}" alt=""></a>
                                     
                                     <div class="blog-text">
                                         <h3><a href="/blog_article/{{$blog->id}}"><b>{{$blog->title}}</b></a></h3>
