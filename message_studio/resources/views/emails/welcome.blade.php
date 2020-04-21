@@ -1,8 +1,12 @@
 @component('mail::message')
-# Welcome
 
-The body of your message.
+# Naročanje uspelo!
 
-Thanks,<br>
-Banana
+
+Mater ti jebem
+
+@component('mail::subcopy')
+Ksenja nevemkaksepise
 @endcomponent
+@endcomponent
+

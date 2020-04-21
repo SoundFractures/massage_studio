@@ -108,6 +108,7 @@ class QuestionController extends Controller
         $question->answer= $request->answer;
         $question->answered =1;
         $question->save();
+        
         Mail::to($question->email)->send(new AnswerMail($question));
         return redirect('/questions/'.$id);
     }

@@ -17,7 +17,9 @@ class AnswerMail extends Mailable
      * @return void
      */
     public $question;
-    public function __construct(Question $question)
+
+    
+    public function __construct(Question $question )
     {
         $this->question = $question;
     }
