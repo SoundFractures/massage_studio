@@ -32,7 +32,8 @@
 			@endsection
 
 			@section('cover')
-				<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/blog3.jpg);">
+				<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="{{ asset('images/.$blog->file);') }}">
+				<img src="{{ url('images/'.$blog->file) }}" alt="aaa" class="fh5co-cover fh5co-cover-sm" />
 					<div class="overlay"></div>
 					<div class="container">
 						<div class="row">
@@ -47,9 +48,17 @@
 						</div>
 					</div>
 				</header>
+
+				
 			@endsection
 			
-			
+		
+		
+
+			<!--<img src="{{ url('images/'.$blog->file) }}" alt="aaa" title="" />
+
+			<img src="{{ asset('images/'.$blog->file) }}" alt="wwww" title="">-->
+
 			@section('content')
 				<div id="fh5co-about">
 					<div class="container">
@@ -57,7 +66,7 @@
 							
 							<div class="row animate-box">
 								<div class="col-md-2 col-md-offset-1 animate-box razmik">
-									<img class="img-responsive" src="images/ksenija.jpg" alt="about">
+									<img class="img-responsive" src="{{ asset('images/ksenija.jpg') }}" alt="about">
 									<h5>Ksenija Lovrenčič</h5>
 									<p class="manjse">Terapevtska maserka</p>
 									<p class="manjse">31. 3. 2019</p>

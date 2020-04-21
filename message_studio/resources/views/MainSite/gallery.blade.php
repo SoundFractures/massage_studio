@@ -3,9 +3,9 @@
 	    @extends('MainSite.Layouts.app')
 
         @section('Seo')
-            <title>Masazni salon Pallas | Galerija</title>
-            <meta name="description" content="Vas zanima kako izgleda masažni salon Pallas, oglejte si našo Galerijo ">
-            <meta name="keywords" content="masaža,klasična masaža,športna masaža,refleksna masaža stopal, masaža obraza, access bars terapija,zdravljenje,zdravje,sprostitev">
+        <title>Masazni salon Pallas | Galerija</title>
+        <meta name="description" content="Vas zanima kako izgleda masažni salon Pallas, oglejte si našo Galerijo ">
+        <meta name="keywords" content="masaža,klasična masaža,športna masaža,refleksna masaža stopal, masaža obraza, access bars terapija,zdravljenje,zdravje,sprostitev">
 		@endsection
 
         @section('navbar_active_link')
@@ -73,9 +73,9 @@
                     <figcaption>Photo caption</figcaption>
                     </figure>
                 </a>
-                <a class="gallery-link" href="https://unsplash.it/1200/1600?image=267">
+                <a class="gallery-link" href="https://unsplash.it/1200/2007?image=267">
                     <figure class="gallery-image">
-                    <img height="1600" src="https://unsplash.it/1200/1600?image=267" width="1200">
+                    <img height="2007" src="https://unsplash.it/1200/2007?image=267" width="1200">
                     <figcaption>Photo caption</figcaption>
                     </figure>
                 </a>
@@ -91,21 +91,21 @@
                     <figcaption>Photo caption</figcaption>
                     </figure>
                 </a>
-                <a class="gallery-link" href="https://unsplash.it/1400/1600?image=923">
+                <a class="gallery-link" href="https://unsplash.it/1400/1200?image=923">
                     <figure class="gallery-image">
-                    <img height="1600" src="https://unsplash.it/1400/1600?image=923" width="1400">
+                    <img height="1200" src="https://unsplash.it/1400/1200?image=923" width="1400">
                     <figcaption>Photo caption</figcaption>
                     </figure>
                 </a>
-                <a class="gallery-link" href="https://unsplash.it/1000/1600?image=682">
+                <a class="gallery-link" href="https://unsplash.it/1000/1620?image=682">
                     <figure class="gallery-image">
-                    <img height="1600" src="https://unsplash.it/1000/1600?image=682" width="1000">
+                    <img height="1600" src="https://unsplash.it/1000/1620?image=682" width="1000">
                     <figcaption>Photo caption</figcaption>
                     </figure>
                 </a>
-                <a class="gallery-link" href="https://unsplash.it/1400/1200?image=173">
+                <a class="gallery-link" href="https://unsplash.it/700/1000?image=173">
                     <figure class="gallery-image">
-                    <img height="500" src="https://unsplash.it/1400/1200?image=173" width="1400">
+                    <img height="1000" src="https://unsplash.it/700/1000?image=173" width="1400">
                     <figcaption>Photo caption</figcaption>
                     </figure>
                 </a>

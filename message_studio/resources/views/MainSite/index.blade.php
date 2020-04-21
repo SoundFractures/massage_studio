@@ -10,7 +10,6 @@
             
             @section('navbar_active_link')
                 <ul>
-                            
                     <li class="active"><a href="{{ route('RouteController.home')}}">Domov</a></li>
                     <li><a href="{{ route('RouteController.about')}}">O meni</a></li>
                     <li class="has-dropdown">
@@ -83,6 +82,8 @@
                 </div>  
             </div>
 
+      
+                            
 
             <div id="fh5co-blog" class="fh5co-bg-section">
                 <div class="container">
@@ -92,42 +93,23 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-4 col-md-4">
-                            <div class="fh5co-blog animate-box">
-                                <a href="/blog_article/1"><img class="img-responsive" src="images/blog_img1.jpg" alt="masaza"></a>
-                                <div class="blog-text">
-                                    <h3><a href=""#>45 Minimal Workspace Rooms for Web Savvys</a></h3>
-                                    <span class="posted_on">Nov. 15th</span>
-                                
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                    <a href="/blog_article/1" class="btn btn-primary">Preberi več...</a>
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4">
-                            <div class="fh5co-blog animate-box">
-                                <a href="/blog_article/2"><img class="img-responsive" src="images/blog_img5.jpg" alt="blog"></a>
-                                <div class="blog-text">
-                                    <h3><a href=""#>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
-                                    <span class="posted_on">Nov. 15th</span>
-                
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                    <a href="/blog_article/2" class="btn btn-primary">Preberi več...</a>
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4">
-                            <div class="fh5co-blog animate-box">
-                                <a href="/blog_article/3"><img class="img-responsive" src="images/blog_img3.jpg" alt="masaza obraza"></a>
-                                <div class="blog-text">
-                                    <h3><a href=""#>45 Minimal Workspace Rooms for Web Savvys</a></h3>
-                                    <span class="posted_on">Nov. 15th</span>
+                        @foreach($blogs as $blog)
+                            <div class="col-lg-4 col-md-4">
+                                <div class="fh5co-blog animate-box">
+                                    <a href="/blog_article/{{$blog->id}}"><img class="img-responsive" src="{{ asset('images/'.$blog->file) }}" alt="blog1"></a>
                                     
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                    <a href="/blog_article/3" class="btn btn-primary">Preberi več...</a>
-                                </div> 
+                                    <div class="blog-text">
+                                        <h3><a href="/blog_article/{{$blog->id}}"><b>{{$blog->title}}</b></a></h3>
+                                        <!--<span class="posted_on">Nov. 15th</span>-->
+                                    
+                                        <p>{{ substr(strip_tags($blog->body), 0, 100) }}...</p><br>
+                                        <a href="/blog_article/{{$blog->id}}" class="btn btn-primary">Preberi več...</a>
+                                      
+                                    </div> 
+                                </div>
                             </div>
-                        </div>
+                            
+                        @endforeach
                     </div>
                 </div>
             </div>

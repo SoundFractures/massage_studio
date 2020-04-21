@@ -11,6 +11,7 @@
        
 		@endsection
 
+
         @section('navbar_active_link')
 			<ul>
                            
@@ -55,7 +56,7 @@
 			
         @section('content')
             <div id="fh5co-blog" class="fh5co-bg-section">
-
+          
                 <div class="row justify-content-left">
                     <div class="container">
                         <div class="row">
@@ -63,7 +64,7 @@
                             @foreach($blogs as $blog)
                             <div class="col-lg-4 col-md-4">
                                 <div class="fh5co-blog animate-box">
-                                    <a href="/blog_article/{{$blog->id}}"><img class="img-responsive" src="images/blog_img1.jpg" alt="blog1"></a>
+                                    <a href="/blog_article/{{$blog->id}}"><img class="img-responsive" src="{{ asset('images/'.$blog->file) }}" alt="blog1"></a>
                                     <div class="blog-text">
                                         <h3><a href="/blog_article/{{$blog->id}}"><b>{{$blog->title}}</b></a></h3>
                                         <!--<span class="posted_on">Nov. 15th</span>-->
