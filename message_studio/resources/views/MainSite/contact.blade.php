@@ -1,6 +1,15 @@
 
 	    @extends('MainSite.Layouts.app')
 
+        @section('Seo')
+            <title>Masazni salon Pallas | Kontakt</title>
+
+            <meta name="description" content="Če imate vprašanja ali vas zanima več o posameznih masažah me kontaktirajte in z veseljem bom odgovorila na vaša vprašanja">
+            <meta name="keywords" content="masaža,klasična masaža,športna masaža,refleksna masaža stopal, masaža obraza, access bars terapija,zdravljenje,zdravje,sprostitev">
+		@endsection
+      
+
+
         @section('navbar_active_link')
 			<ul>
                            

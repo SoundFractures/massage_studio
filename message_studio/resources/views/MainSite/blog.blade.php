@@ -1,6 +1,16 @@
 
 	    @extends('MainSite.Layouts.app')
 
+
+        @section('Seo')
+			
+            <title>Masazni salon Pallas | Blog</title>
+    
+            <meta name="description" content="V mojem blogu si lahko preberete več o raznih masažah, in drugih izdelkov s katerimi lahko izboljšate svoje zdravje in počutje">
+            <meta name="keywords" content="masaža,klasična masaža,športna masaža,refleksna masaža stopal, masaža obraza, access bars terapija,zdravljenje,zdravje,sprostitev">
+       
+		@endsection
+
         @section('navbar_active_link')
 			<ul>
                            

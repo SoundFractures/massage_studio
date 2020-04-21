@@ -3,6 +3,12 @@
 
  @extends('MainSite.Layouts.app')
 
+			@section('Seo')
+				<title>Masazni salon Pallas | O meni </title>
+				<meta name="description" content="Pozdravljeni v moj masažni salon Pallas, sem Ksenija Lovrenčič in sem certificarana maserka, tukaj si lahko preberete več o meni">
+				<meta name="keywords" content="masaža,klasična masaža,športna masaža,refleksna masaža stopal, masaža obraza, access bars terapija,zdravljenje,zdravje,sprostitev">
+			@endsection
+
 			@section('navbar_active_link')
 			<ul>
                            

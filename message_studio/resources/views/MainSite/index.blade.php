@@ -1,8 +1,13 @@
 
 
             @extends('MainSite.Layouts.app')
-     
-        
+
+            @section('Seo')
+            <title>Masazni salon Pallas | Vzemite si trenutek zase!</title>
+            <meta name="description" content="Salon Pallas se lahko pohvali z odličnimi terapevtskimi masažami, privoščite si čas zase in za svoje počutje">
+            <meta name="keywords" content="masaža,klasična masaža,športna masaža,refleksna masaža stopal, masaža obraza, access bars terapija,zdravljenje,zdravje,sprostitev">
+            @endsection
+            
             @section('navbar_active_link')
                 <ul>
                             

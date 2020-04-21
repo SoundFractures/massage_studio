@@ -1,16 +1,18 @@
 
 		@extends('MainSite.Layouts.app')
 
-		@section('SE0')
-
+		@section('Seo')
+			<title>Masazni salon Pallas | Cenik</title>
+			<meta name="description" content="oglejte si naš cenik, vse cene vsebujejo DDV">
+			<meta name="keywords" content="masaža,klasična masaža,športna masaža,refleksna masaža stopal, masaža obraza, access bars terapija,zdravljenje,zdravje,sprostitev">
 		@endsection
-		
+
 		@section('navbar_active_link')
 				<ul>
 							
 					<li><a href="{{ route('RouteController.home')}}">Domov</a></li>
 					<li><a href="{{ route('RouteController.about')}}">O meni</a></li>
-					<li class="has-dropdown active">
+					<li class="has-dropdown">
 						<a href="{{ route('RouteController.offer')}}">Ponudba</a>
 						<ul class="dropdown">
 							<li><a href="#">Klasična masaža</a></li>

@@ -2,6 +2,11 @@
 
 		@extends('MainSite.Layouts.app')
 
+		@section('Seo')
+			<title>Masazni salon Pallas | Ponudba</title>
+			<meta name="description" content="Pri nas lahko izbirate med več različnimi masažami, če pa niste prepričami pa vam z veseljem svetujemo">
+			<meta name="keywords" content="masaža,klasična masaža,športna masaža,refleksna masaža stopal, masaža obraza, access bars terapija,zdravljenje,zdravje,sprostitev">
+        @endsection
 
 		@section('navbar_active_link')
                 <ul>
