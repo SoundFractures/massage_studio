@@ -20,11 +20,13 @@ Route::middleware(['auth',])->group(function () {
     Route::get('/admin', 'AdminController@admin');
 
 Route::resource('/blogs', 'BlogController');
-Route::resource('/questions', 'QuestionController');
-Route::resource('/subscriptions', 'SubscriberController');
+Route::resource('/questions', 'QuestionController')->except(['store']);
+Route::resource('/subscriptions', 'SubscriberController')->except(['store']);
 Route::get('/settings', 'AdminController@settings');
 });
 
+Route::resource('/questions', 'QuestionController')->only(['store']);
+Route::resource('/subscriptions', 'SubscriberController')->only(['store']);
 
 //Main Site 
 Auth::routes([
